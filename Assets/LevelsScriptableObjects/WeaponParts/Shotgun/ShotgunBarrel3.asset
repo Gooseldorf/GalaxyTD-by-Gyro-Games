@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402096c320dc4995bf173f266beb467e, type: 3}
+  m_Name: ShotgunBarrel3
+  m_EditorClassIdentifier: 
+  Bonuses:
+  - {fileID: 11400000, guid: 54897d2b1d49f2642b68e4c706b84228, type: 2}
+  - {fileID: 11400000, guid: 08cfe19cf2e27e44cb220333ac158cee, type: 2}
+  <PartType>k__BackingField: 1
+  <TowerId>k__BackingField: 4
+  SoftCost: 0
+  HardCost: 0
+  ScrapCost: 1100
+  TowerCostIncrease: 0.5
+  BulletCostIncrease: 0
+  <Sprite>k__BackingField: {fileID: 21300000, guid: ad1c006131684f944817553e44793408,
+    type: 3}

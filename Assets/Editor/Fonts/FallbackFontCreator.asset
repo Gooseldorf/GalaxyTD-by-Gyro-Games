@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e409a2226bef54aa89b935bbf64654, type: 3}
+  m_Name: FallbackFontCreator
+  m_EditorClassIdentifier: 
+  mainFontAsset: {fileID: 11400000, guid: 66a2279dace82f343bcbd7e5546ebd3b, type: 2}
+  fallbackFont: {fileID: 12800000, guid: 2686167adb9971e4fbeb666e9e6895dd, type: 3}
+  textThatWillBeUsedInGame: "\u30EA\u30ED\u30FC\u30C9\u6642\u9593\r\n\u30EA\u30ED\u30FC\u30C9\u901F\u5EA6\r\n\u30EA\u30ED\u30FC\u30C9\u30B3\u30B9\u30C8\r\n\u5F3E\u85AC\u30B3\u30B9\u30C8\r\n\u5F3E\u901F\r\n\u30DE\u30AC\u30B8\u30F3\u30B5\u30A4\u30BA\r\n\u5C04\u7A0B\u8DDD\u96E2\r\n\u56DE\u8EE2\u901F\u5EA6\r\n\u653B\u6483\u89D2\u5EA6\r\n\u30D0\u30FC\u30B9\u30C8\u9045\u5EF6\r\n\u30D0\u30FC\u30B9\u30C8\u3042\u305F\u308A\u306E\u767A\u5C04\u6570\r\n\u767A\u5C04\u9045\u5EF6\r\n\u767A\u5C04\u5F3E\u6570\r\n\u30C1\u30E3\u30FC\u30B8\u6642\u9593\r\n\u8DF3\u5F3E\u504F\u5DEE\r\n\u8CAB\u901A\u30C0\u30E1\u30FC\u30B8\r\n\u8DF3\u5F3E\u30C0\u30E1\u30FC\u30B8\r\n\u504F\u5DEE\r\n\u53CD\u52D5\u5236\u5FA1\r\n\u53CD\u52D5\r\n\u7CBE\u5EA6\r\n\u5230\u7740\u6642\u9593\r\n\u5C04\u6483\u30E2\u30FC\u30C9\r\n\u30AA\u30FC\u30C8\r\n\u30D0\u30FC\u30B9\u30C8\r\n\u30B7\u30F3\u30B0\u30EB\r\n\u30AA\u30D5\r\n\u5EFA\u8A2D\u30B3\u30B9\u30C8\r\n\u58F2\u5374\u4FA1\u683C\r\n\u30B7\u30E7\u30C3\u30C8\u3042\u305F\u308A\u306E\u767A\u5C04\u4F53\u6570"
+  hexCodes: 930,940,932,94B,921,20,938,92E,92F,917,924,93F,93E,92C,942,926,92A,94D,915,937,947,948,91C,93C,928,906,902,91F,936,923,949,935,905,91A,920,90F,907,92B,911

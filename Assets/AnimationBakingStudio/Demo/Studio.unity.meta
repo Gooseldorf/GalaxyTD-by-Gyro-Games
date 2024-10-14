@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4fcfd33131844004f85607d1003f6c5d
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Studio.unity
+  uploadId: 602711

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402096c320dc4995bf173f266beb467e, type: 3}
+  m_Name: InstantReloadDirective
+  m_EditorClassIdentifier: 
+  Bonuses:
+  - {fileID: 11400000, guid: b56697bf27d87a047be295ad3c0f37a6, type: 2}
+  <PartType>k__BackingField: 32
+  <TowerId>k__BackingField: 3967
+  SoftCost: 0
+  HardCost: 60
+  ScrapCost: 0
+  TowerCostIncrease: 0.1
+  BulletCostIncrease: 0
+  <Sprite>k__BackingField: {fileID: 21300000, guid: c0a9988e3e36b5342982d1a76ce35193,
+    type: 3}

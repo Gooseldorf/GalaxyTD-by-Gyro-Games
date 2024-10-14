@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23fc8afbde0549af9c13d3e2f3f9701c, type: 3}
+  m_Name: IAPHelper
+  m_EditorClassIdentifier: 
+  products:
+  - PurchaseId: crystals_100
+    Data:
+    - Type: 1
+      Amount: 100
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: crystals_250
+    Data:
+    - Type: 1
+      Amount: 250
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: crystals_600
+    Data:
+    - Type: 1
+      Amount: 600
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: crystals_1300
+    Data:
+    - Type: 1
+      Amount: 1300
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: crystals_2100
+    Data:
+    - Type: 1
+      Amount: 2100
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: crystals_5000
+    Data:
+    - Type: 1
+      Amount: 5000
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: skip_ads
+    Data:
+    - Type: 5
+      Amount: 1
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: 1.direct.60cryst_5x.cash_60.cryst
+    Data:
+    - Type: 2
+      Amount: 1
+    - Type: 1
+      Amount: 60
+    - Type: 0
+      Amount: 5
+    OnePerDay: 1
+    CostType: 1
+  - PurchaseId: 1.direct.100cryst_10x.cash_90.cryst
+    Data:
+    - Type: 3
+      Amount: 1
+    - Type: 1
+      Amount: 90
+    - Type: 0
+      Amount: 10
+    OnePerDay: 1
+    CostType: 1
+  - PurchaseId: direct.random_1
+    Data:
+    - Type: 4
+      Amount: 1
+    OnePerDay: 1
+    CostType: 2
+  - PurchaseId: direct.random_3
+    Data:
+    - Type: 4
+      Amount: 3
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: direct.random_7
+    Data:
+    - Type: 4
+      Amount: 7
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: direct.random_15
+    Data:
+    - Type: 4
+      Amount: 15
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: 10x.cash_crystal_50
+    Data:
+    - Type: 1
+      Amount: 50
+    - Type: 0
+      Amount: 10
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: 20x.cash_crystal_100
+    Data:
+    - Type: 1
+      Amount: 100
+    - Type: 0
+      Amount: 20
+    OnePerDay: 0
+    CostType: 1
+  - PurchaseId: 30x.cash_crystal_200
+    Data:
+    - Type: 1
+      Amount: 200
+    - Type: 0
+      Amount: 30
+    OnePerDay: 0
+    CostType: 1
+  directivesForSmallCrystals:
+  - {fileID: 11400000, guid: e76a2b297063ef2449e6bd9309aa30ef, type: 2}
+  - {fileID: 11400000, guid: eac86a25a6f55d34a81d9a9113efe498, type: 2}
+  - {fileID: 11400000, guid: 2a2e7d6af5eda0944925f2e2d220dd5c, type: 2}
+  - {fileID: 11400000, guid: 918a96d840b5ecb43aa816744f8b75b6, type: 2}
+  - {fileID: 11400000, guid: a1e96abc65c3f1449b7b015521919f24, type: 2}
+  - {fileID: 11400000, guid: 2fe6da2b06fbc6f429ba47ce74aacc59, type: 2}
+  - {fileID: 11400000, guid: c8eb8b8963c83b240a2b5163d20632b6, type: 2}
+  - {fileID: 11400000, guid: 4633aff683a564a4da960af57acf4bd6, type: 2}
+  - {fileID: 11400000, guid: 36ba03254e6307a40bf1f2c9ea8482c2, type: 2}
+  - {fileID: 11400000, guid: c97b0f9e8fb736f4a9d0ca9a977fef73, type: 2}
+  directivesForBigCrystals:
+  - {fileID: 11400000, guid: 73a1ab509d85de34a82abd5efe421595, type: 2}
+  - {fileID: 11400000, guid: 3f8ac3e534ca1bd41b5bf5dfdb504c7d, type: 2}
+  - {fileID: 11400000, guid: 990f41465adf3e745a5d2cc2eeb7e231, type: 2}
+  - {fileID: 11400000, guid: b50f25ef2421381429e60c23daff7681, type: 2}
+  - {fileID: 11400000, guid: 134dce38171b1384d911a346cd6200f8, type: 2}
+  - {fileID: 11400000, guid: 42e98562c5f078e4fb12becbff0f5bef, type: 2}
+  - {fileID: 11400000, guid: 047d29204aaf0634b86d667d3d9290db, type: 2}
+  - {fileID: 11400000, guid: 6e7b225bd4c100349a2da78b03d84aee, type: 2}
+  - {fileID: 11400000, guid: 3fa0cc4d4bd018d4fa71321e695d3dd6, type: 2}
+  - {fileID: 11400000, guid: 7bef19d3a4b48634a9aaa945c6139a2e, type: 2}

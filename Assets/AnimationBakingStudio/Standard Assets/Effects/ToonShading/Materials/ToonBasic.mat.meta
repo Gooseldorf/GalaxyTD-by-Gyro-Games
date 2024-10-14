@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 84b9e1d19d11078d11005b9844295342
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat
+  uploadId: 602711

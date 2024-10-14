@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402096c320dc4995bf173f266beb467e, type: 3}
+  m_Name: PlasmaRecoil2
+  m_EditorClassIdentifier: 
+  Bonuses:
+  - {fileID: 11400000, guid: ed9bd8d0f7b7a794c907b7c0bcde2e1e, type: 2}
+  - {fileID: 11400000, guid: 7ff7262dd71e1e84cad52e98b0f2d52c, type: 2}
+  <PartType>k__BackingField: 8
+  <TowerId>k__BackingField: 64
+  SoftCost: 0
+  HardCost: 0
+  ScrapCost: 620
+  TowerCostIncrease: 0
+  BulletCostIncrease: 0
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 7aa84ea9dfd79814fb05b2af3c3696c7,
+    type: 3}

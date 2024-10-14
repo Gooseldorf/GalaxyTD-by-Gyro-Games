@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.CostDescriptionWidget name="CostDescriptionWidget" class="English" style="flex-direction: row; justify-content: center; height: 46px;">
+        <ui:VisualElement name="BuildCost" style="flex-grow: 1; height: 46px; background-color: rgba(31, 178, 222, 0.5); flex-direction: row; justify-content: center; align-items: center; margin-right: 1px; max-width: 50%; min-width: 50%;">
+            <ui:VisualElement name="Icon" style="flex-grow: 0; width: 42px; height: 42px; background-image: url(&apos;project://database/Assets/Visuals/UI/TowerStatsIcons/Additional/BuildCostIcon.png?fileID=2800000&amp;guid=e683c7d36979803479666a5512367723&amp;type=3#BuildCostIcon&apos;); margin-left: 10px;" />
+            <ui:Label tabindex="-1" text="+" display-tooltip-when-elided="true" name="PlusLabel" class="English" style="color: rgb(255, 255, 255); font-size: 40px; -unity-text-align: middle-left; margin-left: 10px; margin-right: 0; padding-right: 0;" />
+            <ui:Label tabindex="-1" text="150" display-tooltip-when-elided="true" name="BuildCostLabel" class="English" style="color: rgb(255, 255, 255); font-size: 40px; -unity-text-align: middle-left; margin-left: 0; margin-right: 0; padding-right: 0;" />
+            <ui:Label tabindex="-1" text="%" display-tooltip-when-elided="true" name="PercentLabel" class="English" style="color: rgb(255, 255, 255); font-size: 40px; -unity-text-align: middle-left; margin-left: 0; padding-left: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="AmmoCost" style="flex-grow: 1; height: 46px; background-color: rgba(208, 56, 56, 0.5); flex-direction: row; justify-content: center; align-items: center; margin-left: 1px; min-width: 50%; max-width: 50%;">
+            <ui:VisualElement name="Icon" style="flex-grow: 0; width: 36px; height: 42px; background-image: url(&apos;project://database/Assets/Visuals/UI/TowerStatsIcons/Additional/AmmoCostIcon.png?fileID=2800000&amp;guid=eb75c2cb0d987b7458f8164b8d71d6f9&amp;type=3#AmmoCostIcon&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+            <ui:Label tabindex="-1" text="+" display-tooltip-when-elided="true" name="PlusLabel" class="English" style="color: rgb(255, 255, 255); font-size: 40px; -unity-text-align: middle-left; margin-left: 10px; margin-right: 0; padding-right: 0;" />
+            <ui:Label tabindex="-1" text="150" display-tooltip-when-elided="true" name="AmmoCostLabel" class="English" style="color: rgb(255, 255, 255); font-size: 40px; -unity-text-align: middle-left; margin-left: 0; margin-right: 0; padding-right: 0;" />
+            <ui:Label tabindex="-1" text="%" display-tooltip-when-elided="true" name="PercentLabel" class="English" style="color: rgb(255, 255, 255); font-size: 40px; -unity-text-align: middle-left; margin-left: 0; padding-left: 0;" />
+        </ui:VisualElement>
+    </UI.CostDescriptionWidget>
+</ui:UXML>

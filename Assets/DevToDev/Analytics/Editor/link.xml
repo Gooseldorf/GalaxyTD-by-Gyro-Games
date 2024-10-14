@@ -1,0 +1,16 @@
+<linker>
+    <assembly fullname="DevToDev.Background" windowsruntime="true" preserve="all"/>
+    <assembly fullname="DevToDev.Analytics" preserve="all"/>
+    <assembly fullname="DevToDev.Core" preserve="all"/>
+    <assembly fullname="DevToDev.Messaging" preserve="all"/>
+    <assembly fullname="Microsoft.Data.Sqlite" preserve="all"/>
+    <assembly fullname="SQLitePCLRaw.batteries_v2" preserve="all"/>
+    <assembly fullname="SQLitePCLRaw.core" preserve="all"/>
+    <assembly fullname="SQLitePCLRaw.provider.e_sqlite3" preserve="all"/>
+    <assembly fullname="System.Buffers" preserve="all"/>
+    <assembly fullname="System.Memory" preserve="all"/>
+    <assembly fullname="System.Numerics.Vectors" preserve="all"/>
+    <assembly fullname="System.Runtime.CompilerServices.Unsafe" preserve="all"/>
+    <assembly fullname="e_sqlite3" preserve="all"/>
+    <assembly fullname="Windows.Foundation.UniversalApiContract" windowsruntime="true" preserve="all"/>
+</linker>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.SelectableElement name="SelectableElement" class="English" style="width: 130px; height: 130px; background-image: url(&apos;project://database/Assets/Visuals/UI/Parts/Directives/Directive_empty.png?fileID=2800000&amp;guid=bdee50cf7dcb0184d9094716b438f95f&amp;type=3#Directive_empty&apos;);">
+        <ui:VisualElement name="Frame" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionWidget/Mark.png?fileID=2800000&amp;guid=a128c66ae1444e74782ce8a459971f31&amp;type=3#Mark&apos;);" />
+    </UI.SelectableElement>
+</ui:UXML>

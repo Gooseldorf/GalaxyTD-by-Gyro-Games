@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402096c320dc4995bf173f266beb467e, type: 3}
+  m_Name: GatlingRecoil1
+  m_EditorClassIdentifier: 
+  Bonuses:
+  - {fileID: 11400000, guid: 6eaa3c1b9adaa134698e09130995a755, type: 2}
+  - {fileID: 11400000, guid: 8b6dab83bca18d94d8c992b524b659eb, type: 2}
+  <PartType>k__BackingField: 8
+  <TowerId>k__BackingField: 32
+  SoftCost: 0
+  HardCost: 0
+  ScrapCost: 0
+  TowerCostIncrease: 0
+  BulletCostIncrease: 0
+  <Sprite>k__BackingField: {fileID: 21300000, guid: e52ac6e4f05219b4d907c77202f814df,
+    type: 3}

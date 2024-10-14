@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.FPSCounterPanel name="FPSCounterPanel" class="English" style="width: 290px; height: 180px; right: auto; align-self: flex-end; margin-right: 380px; display: none;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; width: 290px; height: 150px; flex-direction: column; background-color: rgba(0, 0, 0, 0.68);">
+            <ui:VisualElement name="MissionName" style="flex-grow: 1; position: relative; width: 290px; flex-shrink: 0; align-self: flex-start; justify-content: flex-start; align-items: center;">
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="MissionNameLabel" picking-mode="Ignore" style="color: rgb(255, 255, 255); font-size: 15px;" />
+                <UI.ClickableVisualElement name="ResetFPS" style="width: 290px; height: 25px; position: absolute;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="FPSContainer" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement name="Left" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="ActualFpsLabel" style="color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="MinMaxLabel" style="color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="CashContainer" style="flex-grow: 1; flex-direction: row; display: flex;">
+                <ui:VisualElement name="WaveCashContainer" style="flex-grow: 1; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="WaveCash:" display-tooltip-when-elided="true" name="Wave" style="color: rgb(255, 255, 255);" />
+                    <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="WaveReward" style="color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="CreepCashContainer" style="flex-grow: 1; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="CreepCash:" display-tooltip-when-elided="true" name="Creep" style="color: rgb(255, 255, 255);" />
+                    <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="CreepReward" style="color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="CheatButtonContainer" style="flex-grow: 1; width: 290px; height: 30px;">
+            <UI.ClickableVisualElement name="CheatButton" style="justify-content: center; align-self: center; width: 290px; height: 30px; background-image: url(&apos;project://database/Assets/Visuals/AllIn1SpriteShader/Textures/GradientTextures/gradientTexture_2.png?fileID=21300000&amp;guid=2eb26501acf862843a55a2e79af0c3c8&amp;type=3#gradientTexture_2&apos;);" />
+        </ui:VisualElement>
+    </UI.FPSCounterPanel>
+</ui:UXML>

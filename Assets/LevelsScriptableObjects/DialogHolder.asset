@@ -1,0 +1,1087 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b3b5fab60534b4d80dc9678339ddf1, type: 3}
+  m_Name: DialogHolder
+  m_EditorClassIdentifier: 
+  dialogs:
+  - MissionIndex: 1
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission:
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+  - MissionIndex: 2
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission: []
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+  - MissionIndex: 3
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission:
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+  - MissionIndex: 4
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission:
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+  - MissionIndex: 5
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission:
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+  - MissionIndex: 6
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+  - MissionIndex: 7
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission:
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+  - MissionIndex: 8
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission:
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+  - MissionIndex: 9
+    BeforeBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    BeforeMission:
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: e141dc8138454854681b77b10549ad46, type: 3}
+    AfterMission:
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+  - MissionIndex: 10
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission:
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+  - MissionIndex: 11
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 12
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 13
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 14
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 15
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 16
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 17
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 18
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 19
+    BeforeBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 6
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 5659ed1a7431bb44ea8fdc72bc6eee27, type: 3}
+    AfterMission: []
+  - MissionIndex: 20
+    BeforeBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    AfterMission: []
+  - MissionIndex: 21
+    BeforeBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    BeforeMission:
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    AfterMission: []
+  - MissionIndex: 22
+    BeforeBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    BeforeMission:
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    AfterMission: []
+  - MissionIndex: 23
+    BeforeBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    AfterMission: []
+  - MissionIndex: 24
+    BeforeBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 8
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: afb56120972b52c4fa2a69f4d179e89c, type: 3}
+    AfterMission: []
+  - MissionIndex: 25
+    BeforeBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    AfterMission: []
+  - MissionIndex: 26
+    BeforeBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    AfterMission: []
+  - MissionIndex: 27
+    BeforeBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    BeforeMission:
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 3
+      CharacterPosition: 0
+    - CharacterKey: 11
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 2
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    AfterMission: []
+  - MissionIndex: 28
+    BeforeBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    BeforeMission:
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    AfterMission: []
+  - MissionIndex: 29
+    BeforeBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    BeforeMission:
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 9
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    AfterMission: []
+  - MissionIndex: 30
+    BeforeBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    BeforeMission:
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 7
+      CharacterPosition: 0
+    - CharacterKey: 1
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    - CharacterKey: 0
+      CharacterPosition: 0
+    - CharacterKey: 10
+      CharacterPosition: 0
+    - CharacterKey: 4
+      CharacterPosition: 0
+    - CharacterKey: 5
+      CharacterPosition: 0
+    AfterBg: {fileID: 21300000, guid: 91abb6428ee836d4087d84d976cd2b35, type: 3}
+    AfterMission: []

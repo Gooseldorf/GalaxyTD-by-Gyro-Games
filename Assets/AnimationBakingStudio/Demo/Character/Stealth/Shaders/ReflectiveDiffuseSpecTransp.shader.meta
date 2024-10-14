@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f6ae87e1501b419428612d78248fd0b2
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/Stealth/Shaders/ReflectiveDiffuseSpecTransp.shader
+  uploadId: 602711

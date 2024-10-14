@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e99df69e418aa246a61ba3c80d47f8f, type: 3}
+  m_Name: Egg
+  m_EditorClassIdentifier: 
+  CreepType: 12
+  CashReward: 20
+  Mass: 1.8
+  CollisionRange: 0.6
+  ObstacleType: 2
+  MaxHP: 312.5
+  Speed: 0
+  MaxForce: 3
+  NeighborRange: 1
+  ArmorType: 2
+  FleshType: 1
+  RenderStats: {fileID: 11400000, guid: 5ba88964f122aaf46bcd132955a101c3, type: 2}
+  UnitToSpawn: {fileID: 11400000, guid: e776d77068a66594a8d068d4437772ff, type: 2}
+  PecrentOfHpAndMass: 1.2
+  PercentOfReward: 1.2
+  Delay: 5

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 860e1d52d077a0e4ab97127814d97e9e
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Shader/Compute/Trim.compute
+  uploadId: 602711

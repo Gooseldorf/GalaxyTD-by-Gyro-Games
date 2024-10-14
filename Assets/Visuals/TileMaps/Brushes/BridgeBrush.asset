@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2430c858ba5984d91248995aa34fc3, type: 3}
+  m_Name: BridgeBrush
+  m_EditorClassIdentifier: 
+  m_Cells:
+  - m_Tile: {fileID: 0}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Pivot: {x: 0, y: 0, z: 0}
+  m_CanChangeZPosition: 0
+  m_FloodFillContiguousOnly: 1
+  m_LastPickedLayout: 0
+  m_LastPickedCellSwizzle: 0
+  m_LastPickedCellSize: {x: 1, y: 1, z: 0}
+  m_LastPickedCellGap: {x: 0, y: 0, z: 0}
+  bridgeVisualPrefab: {fileID: 2317552440851717899, guid: 7679631505debd84795b529fb9b353d1,
+    type: 3}
+  LeftTileSet:
+  - {fileID: 11400000, guid: bf0a30523ca84fa4986fbae0bb7e5ff3, type: 2}
+  - {fileID: 11400000, guid: 635f9024759ad7c4685385f436910a42, type: 2}
+  - {fileID: 11400000, guid: 0de4c5e3098b0774e8b67ec2a21e4e1e, type: 2}
+  - {fileID: 11400000, guid: 93f8fd7dfc412b442979d05e0603ffb2, type: 2}
+  - {fileID: 11400000, guid: defd264b9aef33a4ca101d2b6b1c41e1, type: 2}
+  - {fileID: 11400000, guid: de2aa9e38493caf4499a31be242458ad, type: 2}
+  - {fileID: 11400000, guid: d39819b4bc6646b47af72106925ed31b, type: 2}
+  - {fileID: 11400000, guid: 202339d5ad896d9479c88c4d773d2de4, type: 2}
+  - {fileID: 11400000, guid: f49dd590b3fcffd4c89cf9399b6adeb9, type: 2}
+  - {fileID: 11400000, guid: e71f9ab88d90cce47bb77876864d027e, type: 2}
+  - {fileID: 11400000, guid: 514f1e58707f76d459fc7e96337aed16, type: 2}
+  - {fileID: 11400000, guid: 6755b9bb62789544e97081cd759fce08, type: 2}
+  RightTileSet:
+  - {fileID: 11400000, guid: fd273f816372863499970b40266b97aa, type: 2}
+  - {fileID: 11400000, guid: 8d2f338b356f3c14da69ea0b96b144e9, type: 2}
+  - {fileID: 11400000, guid: 25eac74436212c5429ebd09a9f9c59f6, type: 2}
+  - {fileID: 11400000, guid: b41521ac513575a4b9ca04a8591d6f8b, type: 2}
+  - {fileID: 11400000, guid: 191bdbbde2a93144a922eeb0af516363, type: 2}
+  - {fileID: 11400000, guid: 7b6e8b16538ee974c96ecd430ed47496, type: 2}
+  - {fileID: 11400000, guid: 47875cfca46ae7a498a0b607e6333d50, type: 2}
+  - {fileID: 11400000, guid: 5a8ad2c866da0dd4595ec2aa52fcdbd0, type: 2}
+  - {fileID: 11400000, guid: 354b7d36da0b55843b91667c8ede825a, type: 2}
+  - {fileID: 11400000, guid: 6062deb0e889a99448678e6d6d6be99f, type: 2}
+  - {fileID: 11400000, guid: 71890ba70a5d2264980aefac3e55580a, type: 2}
+  - {fileID: 11400000, guid: 47c949a82e0030142b53843e42cb9a16, type: 2}
+  UpTileSet:
+  - {fileID: 11400000, guid: 7907851689ac7b449961fd1e8883ed84, type: 2}
+  - {fileID: 11400000, guid: 097410f11c78bc54caada6fc7c43618f, type: 2}
+  - {fileID: 11400000, guid: 9adefc9de18cd574eaaed0a19262a817, type: 2}
+  - {fileID: 11400000, guid: 09997d131cdef4045ba33b0386990581, type: 2}
+  - {fileID: 11400000, guid: 6b3bf7a4b63497e458216b68c462de30, type: 2}
+  - {fileID: 11400000, guid: c196ce741e903fc4398a2128c00e8641, type: 2}
+  - {fileID: 11400000, guid: 37934b9aaf64c454a8ce5f601fd7f71c, type: 2}
+  - {fileID: 11400000, guid: 3a2faeb06b4ac39478cf8515753648ec, type: 2}
+  - {fileID: 11400000, guid: 4b2de3976f8b8b947a29a23854332b4d, type: 2}
+  - {fileID: 11400000, guid: ae418ee4646eee74a946aa56956c2332, type: 2}
+  - {fileID: 11400000, guid: d82ccc84802122649bc9dae1ad3eeda4, type: 2}
+  - {fileID: 11400000, guid: c1aa693d37e56fa4abccc0b782321a18, type: 2}
+  DownTileSet:
+  - {fileID: 11400000, guid: 361cc425e050fbd41b7780fc4d38357e, type: 2}
+  - {fileID: 11400000, guid: 6451ce0afd22a6f4ab76872252ecd26f, type: 2}
+  - {fileID: 11400000, guid: a08bf76c36fb58948903da61b4f4b7ee, type: 2}
+  - {fileID: 11400000, guid: 014a079c8d2489c4d98ab820a5e626c8, type: 2}
+  - {fileID: 11400000, guid: 89cd4b5b331df9b4abc5c121d75abe32, type: 2}
+  - {fileID: 11400000, guid: a4406ed3507055e4e840912967a6a516, type: 2}
+  - {fileID: 11400000, guid: 89111d84146694f4dbeaa752c57fe57c, type: 2}
+  - {fileID: 11400000, guid: 69e3a7ca7d5e40f48b1d51441cfb8c12, type: 2}
+  - {fileID: 11400000, guid: 1e127b0622896a742993d5476794f2a5, type: 2}
+  - {fileID: 11400000, guid: 4aecfc20649187c46b2518be257c301e, type: 2}
+  - {fileID: 11400000, guid: a37de19def63d6445934e50c68d8f9e8, type: 2}
+  - {fileID: 11400000, guid: c1915ff45d0fe2347ba3d5e66641bef0, type: 2}
+  verticalTileSetSize: {x: 3, y: 4, z: 1}
+  horizontalTileSetSize: {x: 4, y: 3, z: 1}
+  StartPosition: {x: 17, y: 17, z: 0}
+  Direction: 3
+  IsDrawing: 0

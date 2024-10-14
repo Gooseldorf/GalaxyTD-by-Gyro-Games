@@ -1,0 +1,37 @@
+﻿#pragma kernel DefaultExtractFunction
+
+StructuredBuffer<float4> blackBuffer;
+StructuredBuffer<float4> whiteBuffer;
+
+uint width;
+
+RWStructuredBuffer<float4> resultBuffer;
+
+[numthreads(1024, 1, 1)]
+void DefaultExtractFunction (uint3 id : SV_DispatchThreadID)
+{
+    uint x = id.x % width;
+    uint y = id.x / width;
+    uint index = y * width + x;
+
+    float4 pixelOnBlack = blackBuffer[index];
+    float4 pixelOnWhite = whiteBuffer[index];
+
+    float redDiff = pixelOnWhite.r - pixelOnBlack.r;
+    float greenDiff = pixelOnWhite.g - pixelOnBlack.g;
+    float blueDiff = pixelOnWhite.b - pixelOnBlack.b;
+    
+    float r = pixelOnBlack.r;
+    float g = pixelOnBlack.g;
+    float b = pixelOnBlack.b;
+    float a = 1.0 - min(min(redDiff, greenDiff), blueDiff);
+    
+    if (a > 0)
+    {
+        r /= a;
+        g /= a;
+        b /= a;
+    }
+
+    resultBuffer[index] = float4(r, g, b, a);
+}

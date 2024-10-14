@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e90ad6fe0d1bf7478e22250314bd7fb
+timeCreated: 1551498800
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Prefab/SpriteHumanoid.prefab
+  uploadId: 602711

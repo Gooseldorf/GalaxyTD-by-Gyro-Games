@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0723fdd1d7ab0e447bf8a9f28e4a19a1
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/AngryBots/Materials/weapon.mat
+  uploadId: 602711

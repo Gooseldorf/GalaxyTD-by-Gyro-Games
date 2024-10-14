@@ -1,0 +1,2044 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3582d89d8d4d3f249ac2d6d2f27411f6, type: 3}
+  m_Name: ReplayInProgress
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 55a36bb7e3b1fce47b43a076fd48b9a9, type: 2}
+    - {fileID: 11400000, guid: 59c8af7edb8945a4f94736a41f8de79f, type: 2}
+    - {fileID: 11400000, guid: 6539f40f17a91ac48bfa845d24ef60db, type: 2}
+    - {fileID: 11400000, guid: 0ab0996cabd247f4091278811e8a667b, type: 2}
+    - {fileID: 11400000, guid: cbf53836b3ee1aa4a940ab26d5a867ce, type: 2}
+    - {fileID: 11400000, guid: 11d484fa3756d104981d2b94f9873fb6, type: 2}
+    - {fileID: 11400000, guid: 3e2c74278768e5d4cad6f5be027817ab, type: 2}
+    - {fileID: 11400000, guid: fe3ef4d5651b85048b77c0b6ab7f2876, type: 2}
+    - {fileID: 11400000, guid: 12d55dd2b18f1d446994170fc095c5e7, type: 2}
+    - {fileID: 11400000, guid: 3519a9d526decff4aa5e42052a26e2ff, type: 2}
+    - {fileID: 11400000, guid: 9fcc8dcb8ca78bc429da63bca6de38df, type: 2}
+    - {fileID: 11400000, guid: 527e0d787a643c441aedf5e356e9d88b, type: 2}
+    - {fileID: 11400000, guid: 09bd6e79c0bffa84c988aafc40ff3ae5, type: 2}
+    - {fileID: 11400000, guid: 66297dbd0bf33154d99254c4936f2ff6, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: TowerPrototypes
+      Entry: 7
+      Data: 0|Tower[], !CoreAssembly
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 1|GunTower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 3|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 7|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 8|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 35
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 33
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 4.5
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 9|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 30
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.044892
+    - Name: ReloadTime
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 10|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 9
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 11|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.2
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 5
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 12|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 0
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 0
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 13|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 10
+    - Name: Control
+      Entry: 4
+      Data: 0.96
+    - Name: Recoil
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 1.4
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 10
+    - Name: TowerId
+      Entry: 3
+      Data: 1
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|GunTower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 16|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 20|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 21|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 35
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 149.040009
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 19.44
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 22|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 10
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.252
+    - Name: ReloadTime
+      Entry: 4
+      Data: 5.9256
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 23|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 12
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 100
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 24|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.625
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 9
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 25|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 0
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 3
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 80
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 26|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 7
+    - Name: Control
+      Entry: 4
+      Data: 0.8
+    - Name: Recoil
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 1.5
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 40
+    - Name: TowerId
+      Entry: 3
+      Data: 2
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|GatlingTower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 29|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 33|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 34|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 30
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 705.5283
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 48.1042061
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 35|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 100
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.17028001
+    - Name: ReloadTime
+      Entry: 4
+      Data: 13.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 36|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 14
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 37|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.111111112
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 38|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 1
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 1
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 80
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 39|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 1
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 1.6
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 80
+    - Name: TowerId
+      Entry: 3
+      Data: 32
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|GunTower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 42|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 46|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 47|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 150
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 7740
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 645
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 48|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 1
+    - Name: BulletCost
+      Entry: 4
+      Data: 7.37999964
+    - Name: ReloadTime
+      Entry: 4
+      Data: 6.666667
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 49|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 18
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 120
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 50|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 1
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 9
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 51|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 2
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 5
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 52|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 0
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 1.6
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 60
+    - Name: TowerId
+      Entry: 3
+      Data: 2048
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|GunTower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 54|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 55|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 56|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 57|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 59|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 60|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 20
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 110
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 7.5
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 61|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 5
+    - Name: BulletCost
+      Entry: 4
+      Data: 1.053
+    - Name: ReloadTime
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 62|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 7
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 63|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 1
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 9
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 5
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 64|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 3
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 0
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 80
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 65|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 15
+    - Name: Control
+      Entry: 4
+      Data: 0.5
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 1.4
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 25
+    - Name: TowerId
+      Entry: 3
+      Data: 4
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|Tower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 67|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 68|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 69|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 70|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 71|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 72|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 73|RocketStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 10
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 4434.56
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 511.68
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 74|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 6
+    - Name: BulletCost
+      Entry: 4
+      Data: 1.6974
+    - Name: ReloadTime
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 75|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 16
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 60
+    - Name: AttackAngle
+      Entry: 4
+      Data: 90
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 76|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 6
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.428580016
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 5
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AOE
+      Entry: 4
+      Data: 1
+    - Name: ScatterDistance
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 0.9
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 85
+    - Name: TowerId
+      Entry: 3
+      Data: 1024
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 77|GunTower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 78|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 79|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 80|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 81|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 82|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 83|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 84|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 80
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 1297.5
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 193.76
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 85|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 6
+    - Name: BulletCost
+      Entry: 4
+      Data: 1.43664
+    - Name: ReloadTime
+      Entry: 4
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 86|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 14
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 87|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 1.8
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 9
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 88|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 2
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 2
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 89|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 3
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 1.2
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 103
+    - Name: TowerId
+      Entry: 3
+      Data: 16
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|GunTower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 91|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 92|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 93|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 94|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 95|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 96|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 97|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 25
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 7375.499
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 737.6979
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 98|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 50
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.477158
+    - Name: ReloadTime
+      Entry: 4
+      Data: 6.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 99|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 12
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 120
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 100|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.25
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 101|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 8
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 0
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 102|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 30
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 1.7
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 100
+    - Name: TowerId
+      Entry: 3
+      Data: 64
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 2.59210014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 103|TwinTower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 104|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 105|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 106|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 107|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 108|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 109|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 110|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 30
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 974.9477
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 145.706467
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 111|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 20
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.344
+    - Name: ReloadTime
+      Entry: 4
+      Data: 8.2758
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 112|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 9
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 113|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.714
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 2
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 114|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 1
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 1
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 115|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 5
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 1.2
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 75
+    - Name: TowerId
+      Entry: 3
+      Data: 8
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 116|Tower, !CoreAssembly
+    - Name: Directives
+      Entry: 7
+      Data: 117|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 118|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 119|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 120|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 121|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ammo
+      Entry: 7
+      Data: 122|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: 123|Systems.Attakers.MortarStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 0
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 2244.6
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 280.36
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 124|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 3
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.82
+    - Name: ReloadTime
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 125|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 24
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 60
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 126|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.25
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 5
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AOE
+      Entry: 4
+      Data: 1.2
+    - Name: ArrivalTime
+      Entry: 4
+      Data: 1
+    - Name: ScatterDistance
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartOffset
+      Entry: 4
+      Data: 0.9
+    - Name: AutoReload
+      Entry: 5
+      Data: true
+    - Name: buildCost
+      Entry: 3
+      Data: 65
+    - Name: TowerId
+      Entry: 3
+      Data: 512
+    - Name: CostMultiplier
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: commands
+      Entry: 7
+      Data: 127|System.Collections.Generic.Queue`1[[Replay+Command, !CoreAssembly]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 128|Replay+Command, !CoreAssembly
+    - Name: TimeStamp
+      Entry: 4
+      Data: 120.5887
+    - Name: CommandType
+      Entry: 3
+      Data: 2
+    - Name: Id
+      Entry: 3
+      Data: 130025
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: timelapseBytes
+      Entry: 7
+      Data: 129|System.Collections.Generic.List`1[[System.Byte[], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Mission_98
+  MissionIndex: 98
+  TimeStarted: 4.874636
+  screenshotBytes: 
+  screenshotSize:
+    x: 806
+    y: 453
+  timelapseSizes: []

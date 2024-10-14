@@ -1,0 +1,84 @@
+﻿{
+  "Dialogs": [
+    {
+      "DialogLines": [
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_1"
+        },
+        {
+          "CharacterKey": "MrFrodo",
+          "LineKey": "TestLine_2"
+        },
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_3"
+        },
+        {
+          "CharacterKey": "MrFrodo",
+          "LineKey": "TestLine_4"
+        },
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_5"
+        },
+        {
+          "CharacterKey": "MrFrodo",
+          "LineKey": "TestLine_6"
+        },
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_7"
+        },
+        {
+          "CharacterKey": "MrFrodo",
+          "LineKey": "TestLine_8"
+        },
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_9"
+        }
+      ]
+    },
+    {
+      "DialogLines": [
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_1"
+        },
+        {
+          "CharacterKey": "MrFrodo",
+          "LineKey": "TestLine_2"
+        },
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_3"
+        },
+        {
+          "CharacterKey": "MrFrodo",
+          "LineKey": "TestLine_4"
+        },
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_5"
+        },
+        {
+          "CharacterKey": "MrFrodo",
+          "LineKey": "TestLine_6"
+        },
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_7"
+        },
+        {
+          "CharacterKey": "MrFrodo",
+          "LineKey": "TestLine_8"
+        },
+        {
+          "CharacterKey": "MrPotter",
+          "LineKey": "TestLine_9"
+        }
+      ]
+    }
+  ]
+}

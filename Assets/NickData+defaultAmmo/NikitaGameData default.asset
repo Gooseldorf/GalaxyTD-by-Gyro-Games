@@ -1,0 +1,1786 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f23fc1fe4f6614fbea53f084e17c85, type: 3}
+  m_Name: NikitaGameData default
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: aa14f55e38a15b04ab94dc404ab8d73e, type: 2}
+    - {fileID: 11400000, guid: 8542f395eeb519b468ce8db5b93fad01, type: 2}
+    - {fileID: 11400000, guid: 699afc39a104ffc4391fde730ba97058, type: 2}
+    - {fileID: 11400000, guid: 5e3cf694bb7b1f942b8884db35d28b90, type: 2}
+    - {fileID: 11400000, guid: 55a36bb7e3b1fce47b43a076fd48b9a9, type: 2}
+    - {fileID: 11400000, guid: ebd6d8f99714ff546bc25a9812718e75, type: 2}
+    - {fileID: 11400000, guid: 4952d90c2b7e82a4a94926d4bd14b271, type: 2}
+    - {fileID: 11400000, guid: 5647f84281fc4534695ac611ddb59e1d, type: 2}
+    - {fileID: 11400000, guid: 9357411b33f318e4994d4b36c2a9afc1, type: 2}
+    - {fileID: 11400000, guid: 2247ae06bd82013498b4d8181ee8c478, type: 2}
+    - {fileID: 11400000, guid: c1523cfa98a0edf49a9162c16a9528de, type: 2}
+    - {fileID: 11400000, guid: f08f8aedf5bc86743b26fd0aba1da407, type: 2}
+    - {fileID: 11400000, guid: c4a87c388ef8e7f44951c9a91d438cf3, type: 2}
+    - {fileID: 11400000, guid: 9b584e9ed6b49814e985f5f262578514, type: 2}
+    - {fileID: 11400000, guid: 6539f40f17a91ac48bfa845d24ef60db, type: 2}
+    - {fileID: 11400000, guid: 4e642a1a386ac924590bdd341c3e9952, type: 2}
+    - {fileID: 11400000, guid: 4c700c726adb84f4192e3d7f14398a71, type: 2}
+    - {fileID: 11400000, guid: 5a0fb76ee3672a44090d2e68d119e550, type: 2}
+    - {fileID: 11400000, guid: d093263f0e652a542b8225aff3408f4c, type: 2}
+    - {fileID: 11400000, guid: 0ab0996cabd247f4091278811e8a667b, type: 2}
+    - {fileID: 11400000, guid: 9ebcf5ea2af1bb4488367504c9b83da0, type: 2}
+    - {fileID: 11400000, guid: 64162766357a4e546b4df1c58adf95f6, type: 2}
+    - {fileID: 11400000, guid: f04d418d0e5aa5f4497a356d0a1abc06, type: 2}
+    - {fileID: 11400000, guid: 2314ff9ef21419b43a2d84cb3a3d5b7b, type: 2}
+    - {fileID: 11400000, guid: d43d22306682f614f87e42c7e86796e7, type: 2}
+    - {fileID: 11400000, guid: 8076f17127fe6af40aced9b25a247df5, type: 2}
+    - {fileID: 11400000, guid: 2899e56010ee0294b865002b47b4cde2, type: 2}
+    - {fileID: 11400000, guid: bebda65f220d59d409ae2d1fbd11d638, type: 2}
+    - {fileID: 11400000, guid: 0e7ac9f424660934bb139d12eced9201, type: 2}
+    - {fileID: 11400000, guid: 11d484fa3756d104981d2b94f9873fb6, type: 2}
+    - {fileID: 11400000, guid: c19bb598605ab724aa64c44fdaab07b1, type: 2}
+    - {fileID: 11400000, guid: 5a00c558226acf4418e0049b36367f8e, type: 2}
+    - {fileID: 11400000, guid: 5723a36904b78ce408cf9525a1d23e93, type: 2}
+    - {fileID: 11400000, guid: 6a281df0e696e894b930e66b9f1c7dfb, type: 2}
+    - {fileID: 11400000, guid: 3e2c74278768e5d4cad6f5be027817ab, type: 2}
+    - {fileID: 11400000, guid: 092bdf8e59270c044b1ea978b90c3fb6, type: 2}
+    - {fileID: 11400000, guid: 2b7bfb5914aa34b49ad95e03491cc896, type: 2}
+    - {fileID: 11400000, guid: 8e596edec96c8d04eb5e61d991e0ada3, type: 2}
+    - {fileID: 11400000, guid: dea22cf4572003945a2dcab6c7c67e43, type: 2}
+    - {fileID: 11400000, guid: 01bae70b85c75304cbd4f8cad1f79f57, type: 2}
+    - {fileID: 11400000, guid: a958b1e75a110004b8cdb9ffbf357595, type: 2}
+    - {fileID: 11400000, guid: 579d2fbf6db86d8448f3480c3843ee50, type: 2}
+    - {fileID: 11400000, guid: 3d2025febac3e954499acd76a823f8c2, type: 2}
+    - {fileID: 11400000, guid: 3c66fb1dc3659df4199f860bbfa772a0, type: 2}
+    - {fileID: 11400000, guid: 09bd6e79c0bffa84c988aafc40ff3ae5, type: 2}
+    - {fileID: 11400000, guid: b5c666a90f8cecc48b7d77160dd26152, type: 2}
+    - {fileID: 11400000, guid: 41807112c44fc1048a0b985f2829d81f, type: 2}
+    - {fileID: 11400000, guid: 772006cb4544ac942ae6c28657fc6eb2, type: 2}
+    - {fileID: 11400000, guid: b75a908d8b0a57b40ba7a63132164ba4, type: 2}
+    - {fileID: 11400000, guid: 66297dbd0bf33154d99254c4936f2ff6, type: 2}
+    - {fileID: 11400000, guid: 7348691c5975c2a459b6820f2799a892, type: 2}
+    - {fileID: 11400000, guid: b6d3a017dbd143748a81c5073b7e6672, type: 2}
+    - {fileID: 11400000, guid: 9031c03b0f211ca4c8a696921f938de1, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: factories
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[TowerFactory, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 1|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 0
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.ObjectEqualityComparer`1[[Tags.MenuUpgrade,
+        !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 5|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 8
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 8|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 10|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 5
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 15|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 17|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 8
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 20|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 22|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 10
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 27|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 29|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 8
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 32|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 34|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 15
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 39|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 40|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 41|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 8
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 44|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 45|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 46|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 47|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 48|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 20
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 51|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 53|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 54|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 55|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 8
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 56|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 58|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 59|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 60|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 62|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 25
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 63|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 64|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 65|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 67|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 16
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 68|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 69|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 70|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 71|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 72|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 73|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 74|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 30
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 75|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 76|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 77|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 78|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 79|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 8
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 80|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 81|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 82|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 83|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 84|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 85|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 86|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 35
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 87|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 88|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 89|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 91|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 8
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 92|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 93|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 94|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 95|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 96|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 97|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 98|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 40
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 99|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 100|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 101|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 102|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 103|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 8
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 104|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 105|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 106|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 107|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 108|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 109|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 110|TowerFactory, !CoreAssembly
+    - Name: towerPrototype
+      Entry: 10
+      Data: 45
+    - Name: menuUpgrades
+      Entry: 7
+      Data: 111|System.Collections.Generic.Dictionary`2[[Tags.MenuUpgrade, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parts
+      Entry: 7
+      Data: 112|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 113|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 114|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 115|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 16
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammo
+      Entry: 7
+      Data: 116|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: <WeaponPart>k__BackingField
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 117|System.Collections.Generic.List`1[[Slot, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 118|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 119|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 120|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 121|Slot, !CoreAssembly
+    - Name: <PartType>k__BackingField
+      Entry: 3
+      Data: 32
+    - Name: <WeaponPart>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: stars
+      Entry: 7
+      Data: 122|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 123|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: hardStars
+      Entry: 7
+      Data: 124|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 123
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: inventory
+      Entry: 7
+      Data: 125|Inventory, !CoreAssembly
+    - Name: weaponParts
+      Entry: 7
+      Data: 126|System.Collections.Generic.List`1[[WeaponPart, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 30
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ammoParts
+      Entry: 7
+      Data: 127|System.Collections.Generic.List`1[[WeaponPart, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: directives
+      Entry: 7
+      Data: 128|System.Collections.Generic.Dictionary`2[[WeaponPart, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 129|System.Collections.Generic.ObjectEqualityComparer`1[[WeaponPart,
+        !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 50
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 51
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 52
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectedRewards
+      Entry: 7
+      Data: 130|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 123
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  softCurrency: 0
+  hardCurrency: 0
+  skipADS: 0
+  scrap: 0
+  tickets: 5
+  newItems: []
+  newFactories: 
+  newUnlockedItems: []
+  newUnlockedFactories: 
+  dataIsSyncedWithDiskSave: 1
+  dust: 0
+  LastDialogBefore: -1
+  LastDialogAfter: -1
+  LastCompletedMissionIndex: -1
+  ShowRewardSelection: 0
+  ShouldShowDialog: 0

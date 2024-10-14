@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <UI.SlotWidget name="SlotWidget" style="width: 116px; height: 95px; color: rgb(255, 255, 255); flex-grow: 0;">
+        <ui:VisualElement name="Bakground" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.1); position: absolute; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; top: 5px; left: 0; right: 0; bottom: 0; width: 116px; height: 84px;" />
+        <ui:VisualElement name="PartIcon" style="flex-grow: 1; background-color: rgba(255, 0, 255, 0); justify-content: flex-end; display: flex; background-image: none;">
+            <ui:Label tabindex="-1" text="Part Name" display-tooltip-when-elided="true" name="PartName" style="align-self: flex-end; display: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Frame" picking-mode="Ignore" style="flex-grow: 1; border-left-color: rgb(38, 255, 0); border-right-color: rgb(38, 255, 0); border-top-color: rgb(38, 255, 0); border-bottom-color: rgb(38, 255, 0); border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; display: none; overflow: visible; visibility: visible; opacity: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+    </UI.SlotWidget>
+</ui:UXML>

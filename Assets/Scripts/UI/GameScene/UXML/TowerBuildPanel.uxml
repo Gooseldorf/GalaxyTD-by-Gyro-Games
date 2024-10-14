@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/TowerBuildPanel.uss?fileID=7433441132597879392&amp;guid=0187120841986f0468be4f1020dd8ad3&amp;type=3#TowerBuildPanel" />
+    <ui:VisualElement name="Container" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse; visibility: visible;">
+        <UI.TowerBuildPanel name="TowerBuildPanel" style="height: 222px; align-self: flex-end; flex-direction: row-reverse; justify-content: flex-start; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px; background-image: none; width: auto; flex-shrink: 1; flex-grow: 0; margin-bottom: 20px;" />
+    </ui:VisualElement>
+</ui:UXML>

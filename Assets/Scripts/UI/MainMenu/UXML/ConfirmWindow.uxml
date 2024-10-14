@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="CommonButton" src="project://database/Assets/Scripts/UI/Common/UXML/CommonButton.uxml?fileID=9197481963319205126&amp;guid=c6c4b67a6e44f8049a94d9a664326025&amp;type=3#CommonButton" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); align-self: auto; justify-content: center;">
+        <UI.ConfirmWindow name="ConfirmWindow" class="English" style="width: 760px; height: 620px; justify-content: space-between; align-items: flex-start; align-self: center;">
+            <ui:VisualElement name="Mask" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); overflow: hidden; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-top-left-radius: 60px; border-bottom-left-radius: 60px; border-top-right-radius: 60px; border-bottom-right-radius: 60px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+                <ui:VisualElement name="HolograficEffect" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/HolograficEffect.png?fileID=21300000&amp;guid=9b4f744b67d0afe42ae3c10a65667797&amp;type=3#HolograficEffect&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.1); -unity-background-scale-mode: scale-and-crop; flex-direction: column; overflow: visible; -unity-slice-left: 1; -unity-slice-top: 1; -unity-slice-right: 1; -unity-slice-bottom: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+                    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowBg.png?fileID=21300000&amp;guid=71e6e5e938f4580409ba0e80c1b24750&amp;type=3#WindowBg&apos;); -unity-background-image-tint-color: rgba(31, 178, 222, 0.2); align-items: stretch; overflow: visible;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="BlackBackground" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.95); position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Frame" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowFrame.png?fileID=21300000&amp;guid=133593c02abd35d46ac56a7d80df1560&amp;type=3#WindowFrame&apos;); overflow: visible; -unity-slice-scale: 1px; position: absolute; top: -2px; left: 0; right: 0; bottom: 0;" />
+            <ui:Label tabindex="-1" text="Do you want to buy 1000 gold for 10 crystal?" display-tooltip-when-elided="true" name="Desc" parse-escape-sequences="true" style="align-self: stretch; white-space: normal; font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; margin-top: 40px; margin-right: 20px; margin-left: 20px;" />
+            <ui:VisualElement name="Icon" style="flex-grow: 0; align-self: center; width: 300px; height: 300px; -unity-background-scale-mode: scale-to-fit;" />
+            <ui:VisualElement name="ButtonsContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-self: stretch; flex-shrink: 0; justify-content: center; margin-bottom: 25px; margin-left: 0; margin-right: 0; padding-left: 15px; padding-right: 15px;">
+                <ui:Instance template="CommonButton" name="CancelButton" style="height: 90px; flex-grow: 1; display: flex; flex-shrink: 0;" />
+                <ui:Instance template="CommonButton" name="ConfirmButton" style="height: 90px; flex-grow: 1; display: flex; flex-shrink: 0;" />
+            </ui:VisualElement>
+        </UI.ConfirmWindow>
+    </ui:VisualElement>
+</ui:UXML>

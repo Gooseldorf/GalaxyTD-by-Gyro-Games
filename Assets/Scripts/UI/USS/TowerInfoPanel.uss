@@ -1,0 +1,19 @@
+.ShowInfo {
+    translate: 0 0;
+    transition-duration: 0.3s;
+}
+
+.HideInfo {
+    translate: -430px 0;
+    transition-duration: 0.3s;
+}
+
+.ShowUpgrade {
+    translate: 0 0;
+    transition-duration: 0.3s;
+}
+
+.HideUpgrade {
+    translate: 530px 0;
+    transition-duration: 0.3s;
+}

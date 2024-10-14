@@ -1,0 +1,12 @@
+.active {
+    scale: 1.05 1.05;
+    transition-duration: 0.25s;
+}
+
+.inactive {
+    scale: 1 1;
+    transition-duration: 0.25s;
+}
+
+.noAnimation {
+}

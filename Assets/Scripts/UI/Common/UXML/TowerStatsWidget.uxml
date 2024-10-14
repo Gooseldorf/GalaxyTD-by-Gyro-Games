@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="LineStat" src="project://database/Assets/Scripts/UI/Common/UXML/LineStat.uxml?fileID=9197481963319205126&amp;guid=a7c345185bda8be4b81e9709f6b452b2&amp;type=3#LineStat" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.TowerStatsWidget name="TowerStatsWidget" class="English" style="flex-grow: 0; display: flex; align-items: center; translate: 0 -18px; margin-top: 0; padding-top: 0; margin-left: 0; padding-left: 0; padding-right: 0; padding-bottom: 0; margin-right: 0; margin-bottom: 0;">
+        <ui:VisualElement name="DamageContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-shrink: 0; justify-content: center; align-items: center; padding-bottom: 0; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 15px;">
+            <ui:Label tabindex="-1" text="DAMAGE:" display-tooltip-when-elided="true" name="DamageLabel" class="SecondaryFontFlag SecondaryFontLatin" style="font-size: 60%; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); margin-left: 0; margin-right: 7px; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-grow: 0; -unity-text-align: upper-left;" />
+            <ui:Label tabindex="-1" text="5x" display-tooltip-when-elided="true" name="ProjectilesCountLabel" class="SecondaryFontFlag SecondaryFontLatin" style="font-size: 60%; color: rgb(252, 220, 32); background-color: rgba(0, 0, 0, 0); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-grow: 0; -unity-text-align: upper-left; display: flex;" />
+            <ui:Label tabindex="-1" text="20" display-tooltip-when-elided="true" name="Damage" class="SecondaryFontFlag SecondaryFontLatin" style="font-size: 60%; color: rgb(252, 220, 32); background-color: rgba(0, 0, 0, 0); margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-grow: 0; -unity-text-align: upper-left; margin-left: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Lines" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; height: 184px;">
+            <ui:Instance template="LineStat" name="FireRate" style="flex-shrink: 0;" />
+            <ui:Instance template="LineStat" name="KnockBack" style="flex-shrink: 0;" />
+            <ui:Instance template="LineStat" name="Penetration" style="flex-shrink: 0;" />
+            <ui:Instance template="LineStat" name="Ricochet" style="flex-shrink: 0;" />
+            <ui:Instance template="LineStat" name="AOE" style="flex-shrink: 0; display: flex;" />
+            <ui:Instance template="LineStat" name="Scatter" style="flex-shrink: 0; display: flex;" />
+            <ui:Instance template="LineStat" name="ReloadTime" style="flex-shrink: 0;" />
+            <ui:Instance template="LineStat" name="ReloadCost" style="flex-shrink: 0;" />
+        </ui:VisualElement>
+    </UI.TowerStatsWidget>
+</ui:UXML>

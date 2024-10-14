@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Backgound
+    uniqueID: 1091512131
+    locked: 0
+  - name: Environment
+    uniqueID: 1857466159
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Projectiles
+    uniqueID: 226843691
+    locked: 0
+  - name: Tower
+    uniqueID: 2596987913
+    locked: 0
+  - name: Muzzles
+    uniqueID: 1588363017
+    locked: 0
+  - name: Walls
+    uniqueID: 3490907299
+    locked: 0

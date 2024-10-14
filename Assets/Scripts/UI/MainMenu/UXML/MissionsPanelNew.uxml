@@ -1,0 +1,56 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MissionWidget" src="project://database/Assets/Scripts/UI/MainMenu/UXML/MissionWidget.uxml?fileID=9197481963319205126&amp;guid=a6da035f77a58874b8c670d152fcf472&amp;type=3#MissionWidget" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <ui:VisualElement name="Container" picking-mode="Ignore" style="flex-grow: 1; justify-content: center; align-self: center;">
+        <UI.MissionPanel name="MissionsPanel" picking-mode="Ignore" class="English" style="align-self: stretch; flex-wrap: nowrap; flex-direction: row; flex-grow: 1; align-items: center;">
+            <ui:ScrollView mode="VerticalAndHorizontal" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="MissionsScroll" nested-interaction-kind="StopScrolling" touch-scroll-type="Unrestricted" scroll-deceleration-rate="0" style="flex-grow: 1; flex-shrink: 1;">
+                <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement name="MissionsGroup" style="flex-grow: 0; width: 3840px; height: 2160px;">
+                        <ui:VisualElement name="Background" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/MissionsBackground-ai-brush-removebg-tv6jvhes.png?fileID=2800000&amp;guid=b54b4668bf97ad84787d676cc90fd789&amp;type=3#MissionsBackground-ai-brush-removebg-tv6jvhes&apos;); -unity-background-scale-mode: scale-to-fit; scale: 1 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+                        <ui:VisualElement name="Lines" picking-mode="Ignore" style="flex-grow: 1; opacity: 1;">
+                            <ui:VisualElement name="Line" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 486px; height: 30px; top: 539px; left: 1097px; rotate: 17deg; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Wayline.png?fileID=21300000&amp;guid=02faa0e1b4815584da7510760874cce6&amp;type=3#Wayline&apos;); -unity-background-scale-mode: scale-and-crop;" />
+                            <ui:VisualElement name="Line" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 410px; height: 30px; top: 493px; left: 1530px; rotate: -35deg; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Wayline.png?fileID=21300000&amp;guid=02faa0e1b4815584da7510760874cce6&amp;type=3#Wayline&apos;); -unity-background-scale-mode: scale-and-crop;" />
+                            <ui:VisualElement name="Line" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 309px; height: 30px; top: 507px; left: 1840px; rotate: 53deg; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Wayline.png?fileID=21300000&amp;guid=02faa0e1b4815584da7510760874cce6&amp;type=3#Wayline&apos;); -unity-background-scale-mode: scale-and-crop;" />
+                            <ui:VisualElement name="Line" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 495px; height: 30px; top: 585px; left: 2079px; rotate: -10deg; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Wayline.png?fileID=21300000&amp;guid=02faa0e1b4815584da7510760874cce6&amp;type=3#Wayline&apos;); -unity-background-scale-mode: scale-and-crop;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Pointers" picking-mode="Ignore" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none;">
+                            <ui:VisualElement name="Pointer" style="flex-grow: 1; position: absolute; width: 118px; height: 118px; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Waypoint.png?fileID=2800000&amp;guid=30c744694563b8a4c82c3e80e85f11b4&amp;type=3#Waypoint&apos;); top: 506px; left: 1039px;" />
+                            <ui:VisualElement name="Pointer" style="flex-grow: 1; position: absolute; width: 118px; height: 118px; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Waypoint.png?fileID=2800000&amp;guid=30c744694563b8a4c82c3e80e85f11b4&amp;type=3#Waypoint&apos;); top: 560px; left: 1471px;" />
+                            <ui:VisualElement name="Pointer" style="flex-grow: 1; position: absolute; width: 118px; height: 118px; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Waypoint.png?fileID=2800000&amp;guid=30c744694563b8a4c82c3e80e85f11b4&amp;type=3#Waypoint&apos;); top: 344px; left: 1846px;" />
+                            <ui:VisualElement name="Pointer" style="flex-grow: 1; position: absolute; width: 118px; height: 118px; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Waypoint.png?fileID=2800000&amp;guid=30c744694563b8a4c82c3e80e85f11b4&amp;type=3#Waypoint&apos;); top: 583px; left: 2027px;" />
+                            <ui:VisualElement name="Pointer" style="flex-grow: 1; position: absolute; width: 118px; height: 118px; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionsPanel/Waypoint.png?fileID=2800000&amp;guid=30c744694563b8a4c82c3e80e85f11b4&amp;type=3#Waypoint&apos;); top: 498px; left: 2510px;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="CrossPointer" picking-mode="Ignore" style="flex-grow: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none;">
+                            <ui:VisualElement name="Top" picking-mode="Ignore" style="flex-grow: 0; background-color: rgb(255, 255, 255); width: 5px; opacity: 0.5; left: 40px;" />
+                            <ui:VisualElement name="VisualElement" picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                                <ui:VisualElement name="Left" picking-mode="Ignore" style="flex-grow: 0; height: 5px; align-self: center; background-color: rgb(255, 255, 255); opacity: 0.5; width: 0;" />
+                                <ui:VisualElement name="Center" picking-mode="Ignore" style="flex-grow: 0; flex-shrink: 0; width: 80px; height: 80px; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 70px; border-top-right-radius: 70px; border-bottom-right-radius: 70px; border-bottom-left-radius: 70px; opacity: 0.5;" />
+                                <ui:VisualElement name="Right" picking-mode="Ignore" style="flex-grow: 1; height: 5px; align-self: center; background-color: rgb(255, 255, 255); opacity: 0.5;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Bottom" picking-mode="Ignore" style="flex-grow: 1; background-color: rgb(255, 255, 255); width: 5px; opacity: 0.5; left: 40px;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Missions" style="flex-grow: 1; position: absolute; top: 9px; left: 36px; right: -35px; bottom: -8px; display: flex;">
+                            <ui:Instance template="MissionWidget" name="Mission_01" style="position: absolute; top: 386px; left: 986px;" />
+                            <ui:Instance template="MissionWidget" name="Mission_02" style="position: absolute; top: 526px; left: 1442px;" />
+                            <ui:Instance template="MissionWidget" name="Mission_03" style="position: absolute; top: 297px; left: 1772px;" />
+                            <ui:Instance template="MissionWidget" name="Mission_04" style="position: absolute; top: 543px; left: 1962px;" />
+                            <ui:Instance template="MissionWidget" name="Mission_05" style="position: absolute; top: 459px; left: 2447px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+            <UI.ClickableVisualElement name="LeftScrollButton" style="width: 150px; position: absolute; top: auto; left: auto; right: auto; bottom: auto; height: 150px;">
+                <ui:VisualElement name="ArrowIcon" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/Arrow.png?fileID=21300000&amp;guid=9503f10945e166b458d2f850dde84d12&amp;type=3#Arrow&apos;); flex-direction: column; scale: -1 1; opacity: 1; visibility: visible; flex-grow: 1; -unity-background-scale-mode: scale-to-fit;" />
+            </UI.ClickableVisualElement>
+            <UI.ClickableVisualElement name="RightScrollButton" style="position: absolute; right: 0; width: 150px; height: 150px;">
+                <ui:VisualElement name="ArrowIcon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/Arrow.png?fileID=21300000&amp;guid=9503f10945e166b458d2f850dde84d12&amp;type=3#Arrow&apos;); flex-direction: column; scale: 1 1; -unity-background-image-tint-color: rgb(255, 255, 255); visibility: visible; -unity-background-scale-mode: scale-to-fit;" />
+            </UI.ClickableVisualElement>
+            <ui:VisualElement name="ComingSoonLabel" style="display: none;">
+                <ui:VisualElement name="Container" style="flex-grow: 0; flex-shrink: 0; width: 563px; height: 178px; font-size: 50px; color: rgb(255, 255, 255); justify-content: center; align-items: center; margin-top: 14px; margin-bottom: 14px;">
+                    <ui:Label tabindex="-1" text="MORE MISSIONS ARE COMING SOON..." display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; display: flex;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </UI.MissionPanel>
+    </ui:VisualElement>
+</ui:UXML>

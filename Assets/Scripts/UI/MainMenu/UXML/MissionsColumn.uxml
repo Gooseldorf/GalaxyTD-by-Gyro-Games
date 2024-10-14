@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="MissionsColumn" style="flex-grow: 0; width: 570px; justify-content: flex-start; align-items: flex-start; margin-left: 0; height: 620px; flex-shrink: 0; align-self: center;" />
+</ui:UXML>

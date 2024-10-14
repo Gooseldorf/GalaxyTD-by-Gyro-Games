@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7121422510221315047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2770570244673425644}
+  - component: {fileID: 1914944319115044464}
+  m_Layer: 0
+  m_Name: '[TestingAgent]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2770570244673425644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121422510221315047}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1914944319115044464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121422510221315047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0fd92d42714a6f805a5c78e7607c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  minCash: 10000
+  maxCash: 10000
+  extraCashForReload: 50
+  defaultHpModifier: 1
+  hpModifierStep: 0.5
+  condition: 1
+  minAvailableSlice: 0.24
+  maxAttempts: 100
+  pushTimeValue: 60
+  timeScale: 1
+  enableVisual: 0
+  waves:
+    Stats: {fileID: 11400000, guid: b172a83e309e6a949b1eb28c3d9453c4, type: 2}
+    Entries:
+    - Count: 60
+      OverrideCreepHp: 0
+      CreepHp: 0
+    - Count: 90
+      OverrideCreepHp: 0
+      CreepHp: 0
+    - Count: 150
+      OverrideCreepHp: 0
+      CreepHp: 0
+  maxTowerLvl: 5
+  randomTowers: 0
+  allowedTowers: 1
+  testDirectivesOnly: 0
+  directiveProfile: {fileID: 11400000, guid: 6477a60da28a4fa4a8e081731b47aabc, type: 2}

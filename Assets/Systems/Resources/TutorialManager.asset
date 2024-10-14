@@ -1,0 +1,1967 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f691ee1eb3e302a45b24aa3238277b51, type: 3}
+  m_Name: TutorialManager
+  m_EditorClassIdentifier: 
+  tutorials:
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 0
+    ShowOnStart: 1
+    EventName: TowerBuilding
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 54
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: DropZone
+      EnvGridPosition:
+        x: 3
+        y: 8
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.5
+    - StageEvents: 122
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerBuildPanel
+      UISelectionElementName: BuildTowerWidget_Light
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: CashWidget
+      AdditionalUIHighlightElementName: CashWidget
+      NextStageDelay: 0.5
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: CashWidget
+      UISelectionElementName: CashWidget
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerInfoPanel
+      UISelectionElementName: InfoContainer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 54
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: DropZone
+      EnvGridPosition:
+        x: 9
+        y: 13
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.5
+    - StageEvents: 122
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerBuildPanel
+      UISelectionElementName: BuildTowerWidget_Shotgun
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: CashWidget
+      AdditionalUIHighlightElementName: CashWidget
+      NextStageDelay: 0.5
+    - StageEvents: 26
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: LivesWidget
+      UISelectionElementName: StartButton
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 0
+    ShowOnStart: 0
+    EventName: EnemyBehaviour_dialog
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.5
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 34
+        y: 11
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 1
+    MissionIndex: 0
+    ShowOnStart: 0
+    EventName: EnemyBehaviour
+    Stages: []
+    Icon: {fileID: 2800000, guid: 4796c285163077d42862b700eb80bfcc, type: 3}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 0
+    ShowOnStart: 0
+    EventName: BridgeShowcase_setup
+    Stages:
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WaveWidget
+      UISelectionElementName: TutorialPointer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WaveWidget
+      UISelectionElementName: TutorialPointer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 0
+    ShowOnStart: 0
+    EventName: BridgeShowcase
+    Stages:
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 8
+        y: 11
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 1
+    TutorialType: 2
+    MissionIndex: 0
+    ShowOnStart: 1
+    EventName: MenuUpgrades
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MenuBottomPanel
+      UISelectionElementName: WorkshopButton
+      TextFieldOffset:
+        x: -30
+        y: -150
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WorkshopPanel
+      UISelectionElementName: WorkshopFactoryWidget_Light
+      TextFieldOffset:
+        x: 120
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: InfoContainer
+      TextFieldOffset:
+        x: -300
+        y: -500
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MenuTopPanel
+      UISelectionElementName: SoftCurrencyWidget
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: UpgradeButton
+      TextFieldOffset:
+        x: 0
+        y: -250
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MissionsPanel
+      UISelectionElementName: MissionWidget_1
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.8
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MissionInfoWindow
+      UISelectionElementName: MissionInfoWindow
+      TextFieldOffset:
+        x: -400
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 26
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MissionInfoWindow
+      UISelectionElementName: StartButton
+      TextFieldOffset:
+        x: 0
+        y: -400
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 1
+    ShowOnStart: 0
+    EventName: GameUpgrades
+    Stages:
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 4
+        y: 1
+      IgnoreEnvironment: 1
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerInfoPanel
+      UISelectionElementName: InfoContainer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: CashWidget
+      UISelectionElementName: CashWidget
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 26
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerInfoPanel
+      UISelectionElementName: UpgradeButton
+      TextFieldOffset:
+        x: -50
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerInfoPanel
+      UISelectionElementName: InfoContainer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 1
+    ShowOnStart: 0
+    EventName: UberTowerShowcase_setup
+    Stages:
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WaveWidget
+      UISelectionElementName: TutorialPointer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 2800000, guid: b7d8fa222f84d014ca5a373bdeac8c05, type: 3}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 1
+    ShowOnStart: 0
+    EventName: UberTowerShowcase
+    Stages:
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 8
+        y: 12
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 2800000, guid: b7d8fa222f84d014ca5a373bdeac8c05, type: 3}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 2
+    ShowOnStart: 1
+    EventName: BlockPath
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 54
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: DropZone
+      EnvGridPosition:
+        x: 15
+        y: 14
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerBuildPanel
+      UISelectionElementName: BuildTowerWidget_Light
+      TextFieldOffset:
+        x: -100
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: EnergyCore
+      EnvGridPosition:
+        x: 36
+        y: 14
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 3
+    ShowOnStart: 1
+    EventName: CoreDeactivation
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: Gate
+      EnvGridPosition:
+        x: 37
+        y: 20
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: EnergyCore
+      EnvGridPosition:
+        x: 6
+        y: 13
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 1
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 3
+    ShowOnStart: 0
+    EventName: DeathRoomShowcase_setup
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 10
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 3
+    ShowOnStart: 0
+    EventName: DeathRoomShowcase
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 7
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 10
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 7
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 7
+        y: 14
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 10
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 7
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 1
+    TutorialType: 2
+    MissionIndex: 3
+    ShowOnStart: 1
+    EventName: Directives
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MenuBottomPanel
+      UISelectionElementName: WorkshopButton
+      TextFieldOffset:
+        x: -30
+        y: -150
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WorkshopPanel
+      UISelectionElementName: WorkshopFactoryWidget_Light
+      TextFieldOffset:
+        x: 100
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.5
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: DirectivesContainer
+      TextFieldOffset:
+        x: -400
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: DirectiveWidget
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: InfoContainer
+      TextFieldOffset:
+        x: -350
+        y: -500
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 26
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: Selector_StarterDamageDirective
+      TextFieldOffset:
+        x: -50
+        y: -375
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: CostDescriptionTutorialPointer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: DirectivesShopButton
+      TextFieldOffset:
+        x: -50
+        y: -375
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.5
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: DirectivesShop
+      UISelectionElementName: Container
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 74
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: DirectivesShop
+      UISelectionElementName: BuyButton
+      TextFieldOffset:
+        x: 70
+        y: -400
+      AdditionalUIHighlightParentName: MenuTopPanel
+      AdditionalUIHighlightElementName: HardCurrencyWidget
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 4
+    ShowOnStart: 1
+    EventName: MultipleWays_dialog
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 8
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 10
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 2800000, guid: b7d8fa222f84d014ca5a373bdeac8c05, type: 3}
+  - Scene: 0
+    TutorialType: 1
+    MissionIndex: 4
+    ShowOnStart: 0
+    EventName: MultipleWays
+    Stages: []
+    Icon: {fileID: 2800000, guid: b7d8fa222f84d014ca5a373bdeac8c05, type: 3}
+  - Scene: 1
+    TutorialType: 2
+    MissionIndex: 14
+    ShowOnStart: 1
+    EventName: HardModeUnlocked
+    Stages:
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 0
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MenuBottomPanel
+      UISelectionElementName: HardModeButton
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.5
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 0
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 0
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MissionsPanel
+      UISelectionElementName: MissionWidget_0
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 0
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MissionInfoWindow
+      UISelectionElementName: RewardsContainer
+      TextFieldOffset:
+        x: 0
+        y: -550
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 0
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MissionInfoWindow
+      UISelectionElementName: TicketsContainer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 0
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MissionInfoWindow
+      UISelectionElementName: MissionInfoWindow
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: CellDetachedTutor
+    Stages:
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 1
+        CharacterPosition: 0
+      EnvPointerTextKey: Alert
+      EnvGridPosition:
+        x: 34
+        y: 11
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 0
+        CharacterPosition: 0
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NoCashForReload
+    Stages:
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 0
+      EnvPointerTextKey: NoAmmo
+      EnvGridPosition:
+        x: 19
+        y: 8
+      IgnoreEnvironment: 1
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 0
+      EnvPointerTextKey: NoAmmo
+      EnvGridPosition:
+        x: 19
+        y: 8
+      IgnoreEnvironment: 1
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 0
+      EnvPointerTextKey: NoAmmo
+      EnvGridPosition:
+        x: 19
+        y: 8
+      IgnoreEnvironment: 1
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 1
+    TutorialType: 2
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewAmmo
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MenuBottomPanel
+      UISelectionElementName: WorkshopButton
+      TextFieldOffset:
+        x: -30
+        y: -150
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WorkshopPanel
+      UISelectionElementName: WorkshopFactoryWidget_Heavy
+      TextFieldOffset:
+        x: 100
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.5
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: AmmoWidget
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: AmmoPartSelector
+      TextFieldOffset:
+        x: -100
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 26
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: TutorialAmmoWidget
+      TextFieldOffset:
+        x: -100
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 1
+    TutorialType: 2
+    MissionIndex: 15
+    ShowOnStart: 1
+    EventName: NewPart
+    Stages:
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MenuBottomPanel
+      UISelectionElementName: WorkshopButton
+      TextFieldOffset:
+        x: -30
+        y: -150
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WorkshopPanel
+      UISelectionElementName: WorkshopFactoryWidget_Light
+      TextFieldOffset:
+        x: 120
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: Slots
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 5
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: SlotWidget
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 2
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: SlotWidget
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.3
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: PartWidget_LightBarrel2
+      TextFieldOffset:
+        x: 0
+        y: -500
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0.2
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: MenuTopPanel
+      UISelectionElementName: ScrapCurrencyWidget
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 58
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: BuyButtonParts
+      TextFieldOffset:
+        x: 0
+        y: -200
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: TowerCustomizationPanel
+      UISelectionElementName: InfoContainer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 2
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: DropZoneState
+    Stages:
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: DropZone
+      EnvGridPosition:
+        x: 7
+        y: 8
+      IgnoreEnvironment: 1
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 6
+      DialogLine:
+        CharacterKey: 5
+        CharacterPosition: 4
+      EnvPointerTextKey: DropZone
+      EnvGridPosition:
+        x: 7
+        y: 8
+      IgnoreEnvironment: 1
+      UISelectionParentName: 
+      UISelectionElementName: 
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_Heavy
+    Stages: []
+    Icon: {fileID: 2800000, guid: d0b25d9ca0a00f54f823a17c25e436f0, type: 3}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_Cannon
+    Stages: []
+    Icon: {fileID: 2800000, guid: 6bba76c4b3bea834290ebfd1ed47076b, type: 3}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_Plasma
+    Stages: []
+    Icon: {fileID: 2800000, guid: 3f6e6a5e9bb93604a90d3454b4384a45, type: 3}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_TwinGun
+    Stages: []
+    Icon: {fileID: 2800000, guid: 0c118784159c1924c99a03dadeaf85f7, type: 3}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_Gatling
+    Stages: []
+    Icon: {fileID: 2800000, guid: 0dd289126efd4814fa0eb80986076a2e, type: 3}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_Laser
+    Stages: []
+    Icon: {fileID: 0}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_Mortar
+    Stages: []
+    Icon: {fileID: 2800000, guid: d9161f8691850a24bbe67486b3a1399c, type: 3}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_Rocket
+    Stages: []
+    Icon: {fileID: 2800000, guid: 95ce3adbf80e868439b171b33b276ce6, type: 3}
+  - Scene: 1
+    TutorialType: 1
+    MissionIndex: -1
+    ShowOnStart: 0
+    EventName: NewTower_Gauss
+    Stages: []
+    Icon: {fileID: 2800000, guid: c4d837b383cc4ae40a192c6b1fbc2d3f, type: 3}
+  - Scene: 0
+    TutorialType: 1
+    MissionIndex: 2
+    ShowOnStart: 0
+    EventName: NewEnemy_Mech
+    Stages: []
+    Icon: {fileID: 2800000, guid: ca4662902ba0fa243a75c19ec696c77a, type: 3}
+  - Scene: 0
+    TutorialType: 1
+    MissionIndex: 5
+    ShowOnStart: 0
+    EventName: NewEnemy_Energy
+    Stages: []
+    Icon: {fileID: 2800000, guid: 9e660929662e68c42bf75cd5491aec5b, type: 3}
+  - Scene: 0
+    TutorialType: 1
+    MissionIndex: 18
+    ShowOnStart: 1
+    EventName: Portals
+    Stages: []
+    Icon: {fileID: 2800000, guid: 8c18a9ff3f9898240a4a218264f4179d, type: 3}
+  - Scene: 0
+    TutorialType: 1
+    MissionIndex: 34
+    ShowOnStart: 1
+    EventName: DropZoneActivation
+    Stages: []
+    Icon: {fileID: 2800000, guid: 5428ad50c6d1662449e0326455bce361, type: 3}
+  - Scene: 0
+    TutorialType: 2
+    MissionIndex: 0
+    ShowOnStart: 0
+    EventName: BuildMoreTowers
+    Stages:
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WaveWidget
+      UISelectionElementName: TutorialPointer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    - StageEvents: 10
+      DialogLine:
+        CharacterKey: 3
+        CharacterPosition: 4
+      EnvPointerTextKey: 
+      EnvGridPosition:
+        x: 0
+        y: 0
+      IgnoreEnvironment: 0
+      UISelectionParentName: WaveWidget
+      UISelectionElementName: TutorialPointer
+      TextFieldOffset:
+        x: 0
+        y: 0
+      AdditionalUIHighlightParentName: 
+      AdditionalUIHighlightElementName: 
+      NextStageDelay: 0
+    Icon: {fileID: 0}

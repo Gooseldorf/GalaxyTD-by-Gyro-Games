@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e5c2e773132938443b26f2d88f1c4f33
+timeCreated: 1618397680
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/AngryBots/Prefab/Player_humanoid.prefab
+  uploadId: 602711

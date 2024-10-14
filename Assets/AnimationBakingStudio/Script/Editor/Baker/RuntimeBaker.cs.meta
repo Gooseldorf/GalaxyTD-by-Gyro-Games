@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7c9329b80a93fae4296a845626eeec4c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Script/Editor/Baker/RuntimeBaker.cs
+  uploadId: 602711

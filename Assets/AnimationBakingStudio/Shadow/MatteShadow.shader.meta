@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 857ab87e29090b1449075be84564e859
+timeCreated: 1434679909
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Shadow/MatteShadow.shader
+  uploadId: 602711

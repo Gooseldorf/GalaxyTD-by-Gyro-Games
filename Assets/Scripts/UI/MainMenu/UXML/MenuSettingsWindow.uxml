@@ -1,0 +1,72 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="SettingsWidget" src="project://database/Assets/Scripts/UI/Common/UXML/SettingsWidget.uxml?fileID=9197481963319205126&amp;guid=833d806254f2ebc4e9dfb9a6df3ad280&amp;type=3#SettingsWidget" />
+    <ui:Template name="CommonButton" src="project://database/Assets/Scripts/UI/Common/UXML/CommonButton.uxml?fileID=9197481963319205126&amp;guid=c6c4b67a6e44f8049a94d9a664326025&amp;type=3#CommonButton" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; align-self: stretch; justify-content: center; background-color: rgba(0, 0, 0, 0.9);">
+        <UI.MenuSettingsWindow name="MenuSettingsWindow" class="English" style="width: 760px; height: 610px; justify-content: space-between; align-items: stretch; padding-bottom: 25px; align-self: center;">
+            <ui:VisualElement name="Mask" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); overflow: hidden; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-top-left-radius: 60px; border-bottom-left-radius: 60px; border-top-right-radius: 60px; border-bottom-right-radius: 60px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+                <ui:VisualElement name="HolograficEffect" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/HolograficEffect.png?fileID=21300000&amp;guid=9b4f744b67d0afe42ae3c10a65667797&amp;type=3#HolograficEffect&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.1); -unity-background-scale-mode: scale-and-crop; flex-direction: column; overflow: visible; -unity-slice-left: 1; -unity-slice-top: 1; -unity-slice-right: 1; -unity-slice-bottom: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+                    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowBg.png?fileID=21300000&amp;guid=71e6e5e938f4580409ba0e80c1b24750&amp;type=3#WindowBg&apos;); -unity-background-image-tint-color: rgba(31, 178, 222, 0.2); align-items: stretch; overflow: visible;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="BlackBackground" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.95); position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Frame" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowFrame.png?fileID=21300000&amp;guid=133593c02abd35d46ac56a7d80df1560&amp;type=3#WindowFrame&apos;); overflow: visible; -unity-slice-scale: 1px; position: absolute; top: -2px; left: 0; right: 0; bottom: 0;" />
+            <ui:Label tabindex="-1" text="SETTINGS" display-tooltip-when-elided="true" name="TitleLabel" style="align-self: center; font-size: 70px; flex-grow: 0; -unity-text-align: middle-center; color: rgb(255, 255, 255); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; max-height: 60px; margin-top: 15px;" />
+            <UI.ClickableVisualElement name="CloseButton" style="width: 128px; height: 128px; align-self: center; margin-right: 0; position: absolute; right: -43px; min-width: auto; min-height: auto; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/RoundButtonFrame.png?fileID=21300000&amp;guid=e46b8dc7783d50b4fa2439baece6ffe1&amp;type=3#RoundButtonFrame&apos;); justify-content: center; align-items: center; top: -45px;">
+                <ui:VisualElement name="Background" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); min-width: auto; min-height: auto; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/RoundButton.png?fileID=21300000&amp;guid=481b926a2dc8a104d91980dda90ff765&amp;type=3#RoundButton&apos;); width: 100px; height: 100px; justify-content: center; align-items: center;">
+                    <ui:VisualElement name="CloseIcon" style="flex-grow: 1; position: absolute; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/CloseIcon.png?fileID=21300000&amp;guid=4997965dd48b6e14280b9c7e0cf0fc88&amp;type=3#CloseIcon&apos;); width: 80px; height: 80px;" />
+                </ui:VisualElement>
+            </UI.ClickableVisualElement>
+            <ui:Instance template="SettingsWidget" name="SettingsWidget" />
+            <ui:VisualElement name="LanguageWidgetPlaceholder" style="flex-grow: 0; height: 90px;" />
+            <ui:VisualElement name="PrivacyButtonsContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; height: 90px; justify-content: center; align-items: center; padding-left: 25px; padding-right: 25px;">
+                <ui:Instance template="CommonButton" name="PrivacyButton" style="flex-grow: 1;" />
+                <UI.ClickableVisualElement name="UnityPrivacy" style="width: 120px; height: 90px; min-height: auto; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/SmallMenuButton.png?fileID=21300000&amp;guid=2255fdb5565177641801fe1030650a7d&amp;type=3#SmallMenuButton&apos;); justify-content: center; align-items: center; visibility: visible; display: none;">
+                    <ui:VisualElement name="Icon" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/UnityPrivacyIcon.png?fileID=21300000&amp;guid=4fc083665e538d941807ef880607f3a1&amp;type=3#UnityPrivacyIcon&apos;); width: 77px; height: 77px; flex-shrink: 0;" />
+                </UI.ClickableVisualElement>
+            </ui:VisualElement>
+            <UI.LanguageWidget name="LanguageWidget" InactiveFrameSprite="project://database/Assets/Visuals/UI/GameScene/SquareButton.png?fileID=21300000&amp;guid=9b9fe3d43cc51064a83cee7d12b8a4cc&amp;type=3#SquareButton" ActiveFrameSprite="project://database/Assets/Visuals/UI/GameScene/SquareButton_yellow.png?fileID=21300000&amp;guid=6bf660a9351d1f94bb12d099b9b8c11d&amp;type=3#SquareButton_yellow" style="flex-grow: 0; flex-direction: row; height: 90px; justify-content: space-between; align-items: stretch; padding-left: 80px; padding-right: 80px; flex-shrink: 0; position: absolute; top: 362px; right: 0; left: 0;">
+                <ui:Label tabindex="-1" text="LANGUAGE: " display-tooltip-when-elided="true" name="LanguageLabel" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-right;" />
+                <UI.ClickableVisualElement name="ChangeLanguageButton" class="noAnimation" style="flex-direction: row; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/SquareButton.png?fileID=21300000&amp;guid=9b9fe3d43cc51064a83cee7d12b8a4cc&amp;type=3#SquareButton&apos;); align-items: center; justify-content: center; width: 355px; align-self: center; display: flex; padding-top: 15px; padding-bottom: 15px; min-height: 90px; flex-shrink: 0;">
+                    <ui:Label tabindex="-1" text="ENGLISH" display-tooltip-when-elided="true" name="CurrentLanguageLabel" picking-mode="Ignore" style="align-self: center; color: rgb(255, 255, 255); font-size: 50px; -unity-text-align: middle-center; position: absolute; display: flex; top: 0; left: 0; right: 0; bottom: 0;" />
+                    <ui:VisualElement name="LanguagesContainer" picking-mode="Ignore" style="position: relative; top: auto; left: 0; right: 0; bottom: auto; flex-grow: 1; margin-right: 12px; margin-left: 12px; display: flex; background-color: rgba(0, 0, 0, 0.59); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+                        <UI.ClickableVisualElement name="English" class="noAnimation" style="border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="ENGLISH" display-tooltip-when-elided="true" class="English" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="German" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="DEUTSCH" display-tooltip-when-elided="true" class="German" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="Italian" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="ITALIANO" display-tooltip-when-elided="true" class="Italian" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="Russian" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="РУССКИЙ" display-tooltip-when-elided="true" class="Russian" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="Portuguese" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="PORTUGUÊS" display-tooltip-when-elided="true" class="Portuguese" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="Spanish" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="ESPAÑOL" display-tooltip-when-elided="true" class="Spanish" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="French" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="FRANÇAIS" display-tooltip-when-elided="true" class="French" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="Chinese" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="中文 " display-tooltip-when-elided="true" class="Chinese" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="Korean" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="한국어 " display-tooltip-when-elided="true" class="Korean" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="Japanese" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-bottom-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="日本語" display-tooltip-when-elided="true" class="Japanese" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                        <UI.ClickableVisualElement name="Hindi" class="noAnimation" style="border-top-color: rgb(0, 179, 225); border-top-width: 1px; border-bottom-width: 1px; display: flex; max-height: 60px;">
+                            <ui:Label tabindex="-1" text="हिन्दी " display-tooltip-when-elided="true" class="Hindi" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; flex-grow: 1;" />
+                        </UI.ClickableVisualElement>
+                    </ui:VisualElement>
+                </UI.ClickableVisualElement>
+            </UI.LanguageWidget>
+        </UI.MenuSettingsWindow>
+    </ui:VisualElement>
+</ui:UXML>

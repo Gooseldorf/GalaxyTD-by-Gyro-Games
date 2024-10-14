@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 8de45c360a2d542f4be2d61da2beba10
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/AngryBots/Shaders/CharacterSelfIlluminationReflective.shader
+  uploadId: 602711

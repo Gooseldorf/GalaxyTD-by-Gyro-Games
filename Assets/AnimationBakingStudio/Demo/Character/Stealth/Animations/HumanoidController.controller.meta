@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 43435b865291bbd45917331a7d3c7397
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/Stealth/Animations/HumanoidController.controller
+  uploadId: 602711

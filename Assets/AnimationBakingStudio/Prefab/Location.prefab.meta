@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f5d04da2c142254da54608744de586b
+timeCreated: 1608813275
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Prefab/Location.prefab
+  uploadId: 602711

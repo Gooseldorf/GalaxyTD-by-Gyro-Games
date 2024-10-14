@@ -1,0 +1,22 @@
+﻿#pragma kernel OpaqueExtractFunction
+
+StructuredBuffer<uint> blackBuffer;
+StructuredBuffer<uint> whiteBuffer;
+
+uint width;
+uint defaultColor;
+
+RWStructuredBuffer<uint> resultBuffer;
+
+[numthreads(1024, 1, 1)]
+void OpaqueExtractFunction (uint3 id : SV_DispatchThreadID)
+{
+    uint x = id.x % width;
+    uint y = id.x / width;
+    uint index = y * width + x;
+    
+    uint pixelOnBlack = blackBuffer[index];
+    uint pixelOnWhite = whiteBuffer[index];
+
+    resultBuffer[index] = (pixelOnBlack == pixelOnWhite) ? pixelOnWhite : 0;
+}

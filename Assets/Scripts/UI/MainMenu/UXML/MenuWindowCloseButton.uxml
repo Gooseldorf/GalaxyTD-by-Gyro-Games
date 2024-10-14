@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <UI.ClickableVisualElement name="CloseButton" style="width: 125px; height: 93px; position: absolute; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/SmallMenuButton.png?fileID=21300000&amp;guid=2255fdb5565177641801fe1030650a7d&amp;type=3#SmallMenuButton&apos;); justify-content: center; align-items: center; min-width: auto; min-height: auto; top: 10px; left: 30px; right: 0; bottom: 0;">
+        <ui:VisualElement name="BackIcon" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/BackArrow.png?fileID=2800000&amp;guid=224c16af2e2328247ab0474ed034d290&amp;type=3#BackArrow&apos;); scale: 1 1; margin-right: 20px; align-self: stretch; -unity-background-scale-mode: stretch-to-fill; margin-top: 20px; margin-bottom: 20px; margin-left: 20px;" />
+    </UI.ClickableVisualElement>
+</ui:UXML>

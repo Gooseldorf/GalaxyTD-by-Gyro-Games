@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: baff1f4726b6b85418ebb43554ca1c98
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/Stealth/Materials/char_robotGuard_suit_mat.mat
+  uploadId: 602711

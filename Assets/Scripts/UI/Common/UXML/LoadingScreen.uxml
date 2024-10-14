@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/LoadingScreen.uss?fileID=7433441132597879392&amp;guid=3c64b6ee68e244d49b8af19278fc9876&amp;type=3#LoadingScreen" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <ui:VisualElement name="LoadingScreen" class="English" style="flex-grow: 1; opacity: 1; display: flex;">
+        <ui:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; top: 0; left: 0; right: 0; bottom: 0; justify-content: space-between; background-color: rgb(0, 0, 0); align-items: center;">
+            <ui:VisualElement name="Picture" picking-mode="Ignore" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/LoadingScreen.png?fileID=2800000&amp;guid=755b07b66adc9854cbe4460fa89a0dc9&amp;type=3#LoadingScreen&apos;); width: 1632px; height: 698px; max-width: 1632px; min-width: 1632px; max-height: 698px; min-height: 698px;" />
+            <ui:VisualElement name="Tooltip" picking-mode="Ignore" style="flex-grow: 1; align-items: center;">
+                <ui:Label tabindex="-1" text="HINT TITLE" display-tooltip-when-elided="true" name="TooltipTitle" picking-mode="Ignore" style="color: rgb(31, 178, 222); font-size: 60px;  margin-top: 0; margin-right: 0; margin-bottom: 20px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                <ui:Label tabindex="-1" text="Hint text" display-tooltip-when-elided="true" name="TooltipText" picking-mode="Ignore" style=" color: rgb(255, 255, 255); font-size: 40px; -unity-text-align: upper-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; width: 1320px; flex-grow: 1; max-width: 1320px; min-width: 1320px; text-overflow: clip; white-space: normal;" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="Loaдинg..." display-tooltip-when-elided="true" name="LoadingLabel" picking-mode="Ignore" style=" color: rgb(255, 255, 255); font-size: 60px; -unity-text-align: middle-center; align-self: flex-end; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 50px; margin-bottom: 30px; margin-left: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

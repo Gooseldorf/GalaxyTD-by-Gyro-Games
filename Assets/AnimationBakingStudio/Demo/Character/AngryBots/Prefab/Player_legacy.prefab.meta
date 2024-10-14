@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72d826c84c1bf534baa1bea70d51f3ef
+timeCreated: 1618397683
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/AngryBots/Prefab/Player_legacy.prefab
+  uploadId: 602711

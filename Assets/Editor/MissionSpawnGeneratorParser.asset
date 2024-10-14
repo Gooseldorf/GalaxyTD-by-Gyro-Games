@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5cde51103f87a64bb145b8afa0b3d5d, type: 3}
+  m_Name: MissionSpawnGeneratorParser
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  missions:
+  - {fileID: 11400000, guid: 95145fb30e4f7c141b49331de8a3d5a1, type: 2}
+  - {fileID: 11400000, guid: bf90117f4b14c7946a1163dd43527fe6, type: 2}
+  - {fileID: 11400000, guid: d5b604249445d1142bd2258a331b9ff4, type: 2}
+  - {fileID: 11400000, guid: b46eb51e6f5b86141aa58955756f424e, type: 2}
+  - {fileID: 11400000, guid: 8258a7a7bd462ec4aab785e3639d878a, type: 2}
+  - {fileID: 11400000, guid: 30989567b0652cb49a6ed9223c96f999, type: 2}
+  - {fileID: 11400000, guid: 219775787128e5140950124db7260a48, type: 2}
+  - {fileID: 11400000, guid: 94c966f1fd64c284dbe8d4252b482436, type: 2}
+  - {fileID: 11400000, guid: 3303e124dab0c9448a90a545ae058c59, type: 2}
+  - {fileID: 11400000, guid: 4724700ff5694c045af5763c701aaf06, type: 2}
+  - {fileID: 11400000, guid: 6c81bc03b982ecd4cb1f6c46f93cb2a6, type: 2}
+  - {fileID: 11400000, guid: 436aacd16082e9745b77f1b5c7575b83, type: 2}
+  - {fileID: 11400000, guid: 7d5003dae9978bb4cb56bf2e8872a2d2, type: 2}
+  - {fileID: 11400000, guid: 0eac0fd7ed88e824fb9da756ab95f3b3, type: 2}
+  - {fileID: 11400000, guid: 15bcae2f1c99d6f45959f289d4e535d8, type: 2}
+  - {fileID: 11400000, guid: 28b4156e461501541bdfb97be95b8c9d, type: 2}
+  - {fileID: 11400000, guid: 205e7bf64ba77cc48a5e99bed0add105, type: 2}
+  - {fileID: 11400000, guid: 90f8b6d5b5d6f7b488e1e70a5f625b03, type: 2}
+  - {fileID: 11400000, guid: bb55fa5685f51184da2d95d202ef4810, type: 2}
+  missionSpawnGenerator: {fileID: 0}
+  IsOnlyHpModifiers: 0
+  IncludeMissionsWithMoreThenOneSpawnGroups: 1

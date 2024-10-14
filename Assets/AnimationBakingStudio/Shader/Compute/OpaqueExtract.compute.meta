@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61c3392915967654c8a59ee808fea845
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Shader/Compute/OpaqueExtract.compute
+  uploadId: 602711

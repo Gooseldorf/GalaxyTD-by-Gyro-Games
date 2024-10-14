@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 12514ea272b0c5048a5966081150f192
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/Stealth/Materials/char_robotGuard_visor_mat.mat
+  uploadId: 602711

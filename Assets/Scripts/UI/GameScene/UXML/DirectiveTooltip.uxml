@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.DirectiveTooltip name="DirectiveTooltip" class="English" style="width: 400px; height: auto; background-color: rgb(167, 248, 255); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:Label tabindex="-1" text="Directive description Directive description Directive description Directive description Directive description Directive description Directive description Directive description Directive description Directive description Directive description Directive description Directive description" display-tooltip-when-elided="true" name="DescLabel"  style="flex-grow: 1; flex-wrap: nowrap; white-space: normal; " />
+    </UI.DirectiveTooltip>
+</ui:UXML>

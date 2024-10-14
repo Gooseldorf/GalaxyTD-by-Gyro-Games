@@ -1,0 +1,8 @@
+.HardTransition {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.Normal #Hard {
+    opacity: 0;
+}

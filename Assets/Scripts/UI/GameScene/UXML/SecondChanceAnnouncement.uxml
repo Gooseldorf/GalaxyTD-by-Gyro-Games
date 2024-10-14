@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.SecondChanceAnnouncement picking-mode="Ignore" class="English" style="justify-content: center; align-items: center; flex-direction: column; align-self: center; top: 320px; opacity: 0; min-width: 122px; height: 128px;">
+        <ui:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/NextWaveBg.png?fileID=2800000&amp;guid=8db9620bdf361dd4585c09dcc23c0e6a&amp;type=3#NextWaveBg&apos;); margin-right: 32px; margin-left: 32px; margin-top: 4px; margin-bottom: 4px; flex-direction: row; padding-right: 0; padding-left: 0; align-self: stretch;">
+            <ui:VisualElement name="ContentContainer" picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; opacity: 0; display: flex; visibility: visible; padding-right: 40px; padding-left: 40px;">
+                <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="Label" picking-mode="Ignore" enable-rich-text="false"  style="color: rgb(255, 255, 255);  font-size: 80px; -unity-text-align: middle-center; flex-grow: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="LeftFrame" picking-mode="Ignore" style="flex-grow: 0; align-self: stretch; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/NextWaveBorder.png?fileID=2800000&amp;guid=c7ba5624550ed3a49b27ffab3c4e9f7e&amp;type=3#NextWaveBorder&apos;); flex-shrink: 0; width: 64px; height: 128px; position: absolute; left: 0;" />
+        <ui:VisualElement name="RightFrame" picking-mode="Ignore" style="flex-grow: 0; align-self: stretch; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/NextWaveBorder.png?fileID=2800000&amp;guid=c7ba5624550ed3a49b27ffab3c4e9f7e&amp;type=3#NextWaveBorder&apos;); flex-shrink: 0; width: 64px; height: 128px; position: absolute; left: auto; right: 0; scale: -1 1; top: auto; bottom: auto;" />
+    </UI.SecondChanceAnnouncement>
+</ui:UXML>

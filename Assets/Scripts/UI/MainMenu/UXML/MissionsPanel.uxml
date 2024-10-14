@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <ui:VisualElement name="Container" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: center; width: 1920px; align-self: center;">
+        <UI.MissionPanel name="MissionsPanel" class="English" style="align-self: stretch; flex-wrap: nowrap; flex-direction: row; flex-grow: 1; margin-left: 0; margin-bottom: 3px; margin-top: 60px; align-items: center;">
+            <ui:ScrollView scroll-deceleration-rate="0" elasticity="0" mode="Horizontal" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="MissionsScroll" horizontal-page-size="-1" mouse-wheel-scroll-size="5" nested-interaction-kind="StopScrolling" style="flex-grow: 1; overflow: hidden; flex-shrink: 1; margin-right: 100px; margin-left: 110px;" />
+            <UI.ClickableVisualElement name="LeftScrollButton" style="width: 80px; align-items: center; justify-content: center; overflow: hidden; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+                <ui:VisualElement name="ArrowIcon" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/Arrow.png?fileID=21300000&amp;guid=9503f10945e166b458d2f850dde84d12&amp;type=3#Arrow&apos;); width: 89px; height: 124px; flex-direction: column; scale: -1 1; opacity: 0.3; visibility: visible; min-width: 89px;" />
+            </UI.ClickableVisualElement>
+            <UI.ClickableVisualElement name="RightScrollButton" style="position: absolute; right: 0; overflow: hidden; justify-content: center; width: 80px; height: 610px;">
+                <ui:VisualElement name="ArrowIcon" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/Arrow.png?fileID=21300000&amp;guid=9503f10945e166b458d2f850dde84d12&amp;type=3#Arrow&apos;); width: 89px; height: 124px; flex-direction: column; scale: 1 1; -unity-background-image-tint-color: rgb(255, 255, 255); align-self: center; visibility: visible;" />
+            </UI.ClickableVisualElement>
+            <ui:VisualElement name="ComingSoonLabel" style="display: none;">
+                <ui:VisualElement name="Container" style="flex-grow: 0; flex-shrink: 0; width: 563px; height: 178px; font-size: 50px; color: rgb(255, 255, 255); justify-content: center; align-items: center; margin-top: 14px; margin-bottom: 14px;">
+                    <ui:Label tabindex="-1" text="MORE MISSIONS ARE COMING SOON..." display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; display: flex;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </UI.MissionPanel>
+    </ui:VisualElement>
+</ui:UXML>

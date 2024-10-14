@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b3316dae115d747b17e3f3e2edd416, type: 3}
+  m_Name: BioSpawner
+  m_EditorClassIdentifier: 
+  CreepType: 11
+  CashReward: 50
+  Mass: 2.7
+  CollisionRange: 0.7
+  ObstacleType: 2
+  MaxHP: 625
+  Speed: 0.7
+  MaxForce: 8
+  NeighborRange: 1
+  ArmorType: 4
+  FleshType: 1
+  RenderStats: {fileID: 11400000, guid: 7651390fead88cc4a8904c65893cd250, type: 2}
+  UnitToSpawn: {fileID: 11400000, guid: aa31f2dd850e5844cba1c7facde97ce0, type: 2}
+  PecrentOfHpAndMass: 0.5
+  PercentOfReward: 0.5
+  SpawnUnitsCount: 1
+  Delay: 3

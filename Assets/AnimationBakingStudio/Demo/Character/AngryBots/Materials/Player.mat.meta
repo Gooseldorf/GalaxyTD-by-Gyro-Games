@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: d5b5ee5a66ff1d1449a8bde70a712bb2
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/AngryBots/Materials/Player.mat
+  uploadId: 602711

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb514b32d594eab9e07bd99fbc74598, type: 3}
+  m_Name: QuantumProjectilesOnHitTag
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  randomOnHitTagEffects:
+  - {fileID: 11400000, guid: 29655bfb92f3f974eb8bc0f28d8fe9ff, type: 2}
+  - {fileID: 11400000, guid: f74ba73d469a4254fb141a1e05c3f8a5, type: 2}
+  - {fileID: 11400000, guid: f4e4f67483a046f4ea595d8b19b8e32d, type: 2}
+  - {fileID: 11400000, guid: 69e2cee026b277548835b3e4d3578016, type: 2}
+  extraDamagePercent:
+  - 0.5
+  - -0.5
+  - 10
+  bulletsToRestoreAmount: 1

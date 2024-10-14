@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80baebe7518a43fb93410a049c9ca0d0, type: 3}
+  m_Name: TextAnimationDataHolder
+  m_EditorClassIdentifier: 
+  DamagePopUpTime: 0.2
+  DamagePopUpYStartOffset: 0.8
+  DamagePopUpYFinishOffset: 1
+  DamageTextStartScale: 0
+  DamageTextFinishScale: 0.6
+  DamageIdleTime: 0
+  DamageFadingTime: 0.8
+  DamageTextColor:
+    x: 1
+    y: 0
+    z: 0
+    w: 1
+  CashPopUpTime: 0.2
+  CashPopUpXStartOffset: 0.3
+  CashPopUpYStartOffset: -0.5
+  CashPopUpYFinishOffset: 0.2
+  CashTextStartScale: 0
+  CashTextFinishScale: 0.8
+  CashIdleTime: 0
+  CashFadingTime: 0.8
+  SubtractCashTextColor:
+    x: 1
+    y: 1
+    z: 0
+    w: 1
+  AddCashTextColor:
+    x: 0
+    y: 1
+    z: 0
+    w: 1
+  DropZoneTextIdleTime: 0.5
+  DropZoneTextFadingTime: 1
+  DropZoneXStartOffset: -0.15
+  DropZoneYStartOffset: -0.3
+  DropZoneStartScale: 0.7
+  DropZoneTextColor:
+    x: 1
+    y: 0
+    z: 0
+    w: 1
+  SpawnZoneXStartOffset: 0.04
+  SpawnZoneYStartOffset: -0.65
+  SpawnZoneStartScale: 0.5
+  SpawnZoneTextColor:
+    x: 1
+    y: 1
+    z: 1
+    w: 1

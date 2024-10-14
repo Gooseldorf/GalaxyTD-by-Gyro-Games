@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac74d38feafae5a41a1b8afe2cc08cb5, type: 3}
+  m_Name: BioHydraRenderStats
+  m_EditorClassIdentifier: 
+  CreepMaterial: {fileID: 2100000, guid: f74bf019d2402d742b846f046bd4b767, type: 2}
+  SortingOrder: 0
+  Scale: 1.5
+  TimeBetweenRunFrames: 0.07
+  TimeBetweenDieFrames: 0.1
+  DeathColor: {r: 1, g: 0, b: 0.87058824, a: 1}
+  HpBarOffset: 0.3
+  HpBarWidth: 0.7
+  AnimationTableRun:
+  - UV:
+      x: 0.26367188
+      y: 0.13476562
+      z: 0
+      w: 0.8652344
+    Scale:
+      x: 0.9782609
+      y: 1
+    PositionOffset:
+      x: 0.0054347967
+      y: 0
+  - UV:
+      x: 0.25878906
+      y: 0.12646484
+      z: 0.26367188
+      w: 0.7416992
+    Scale:
+      x: 0.96014494
+      y: 0.9384058
+    PositionOffset:
+      x: 0.0036231743
+      y: -0.0018115692
+  - UV:
+      x: 0.25097656
+      y: 0.12060547
+      z: 0.25585938
+      w: 0.62109375
+    Scale:
+      x: 0.93115944
+      y: 0.89492756
+    PositionOffset:
+      x: 0
+      y: -0.009057978
+  - UV:
+      x: 0.24023438
+      y: 0.11621094
+      z: 0.24902344
+      w: 0.3955078
+    Scale:
+      x: 0.8913044
+      y: 0.8623188
+    PositionOffset:
+      x: -0.0018115925
+      y: -0.025362343
+  - UV:
+      x: 0.23046875
+      y: 0.111816406
+      z: 0
+      w: 0.17626953
+    Scale:
+      x: 0.85507244
+      y: 0.8297101
+    PositionOffset:
+      x: -0.00543479
+      y: -0.041666668
+  - UV:
+      x: 0.22363281
+      y: 0.109375
+      z: 0.7763672
+      w: 0.63378906
+    Scale:
+      x: 0.8297101
+      y: 0.8115942
+    PositionOffset:
+      x: -0.0072463816
+      y: -0.050724637
+  - UV:
+      x: 0.23339844
+      y: 0.110839844
+      z: 0.23632812
+      w: 0.28466797
+    Scale:
+      x: 0.865942
+      y: 0.82246375
+    PositionOffset:
+      x: -0.010869582
+      y: -0.045289878
+  - UV:
+      x: 0.24316406
+      y: 0.114746094
+      z: 0.7529297
+      w: 0.39111328
+    Scale:
+      x: 0.90217394
+      y: 0.85144925
+    PositionOffset:
+      x: -0.01449278
+      y: -0.030797077
+  - UV:
+      x: 0.25097656
+      y: 0.118652344
+      z: 0
+      w: 0.6220703
+    Scale:
+      x: 0.93115944
+      y: 0.8804348
+    PositionOffset:
+      x: -0.014492755
+      y: -0.016304338
+  - UV:
+      x: 0.25878906
+      y: 0.12695312
+      z: 0.5263672
+      w: 0.74316406
+    Scale:
+      x: 0.96014494
+      y: 0.942029
+    PositionOffset:
+      x: -0.014492754
+      y: -0.018115954
+  - UV:
+      x: 0.2607422
+      y: 0.12988281
+      z: 0.5263672
+      w: 0.8701172
+    Scale:
+      x: 0.9673913
+      y: 0.9637681
+    PositionOffset:
+      x: -0.010869563
+      y: -0.01811593
+  - UV:
+      x: 0.25390625
+      y: 0.12109375
+      z: 0.52246094
+      w: 0.6220703
+    Scale:
+      x: 0.942029
+      y: 0.89855075
+    PositionOffset:
+      x: -0.012681152
+      y: -0.018115925
+  - UV:
+      x: 0.24609375
+      y: 0.11621094
+      z: 0.7529297
+      w: 0.5058594
+    Scale:
+      x: 0.9130435
+      y: 0.8623188
+    PositionOffset:
+      x: -0.012681166
+      y: -0.025362343
+  - UV:
+      x: 0.23632812
+      y: 0.11230469
+      z: 0.4892578
+      w: 0.390625
+    Scale:
+      x: 0.8768116
+      y: 0.8333333
+    PositionOffset:
+      x: -0.009057953
+      y: -0.039855093
+  - UV:
+      x: 0.2265625
+      y: 0.109375
+      z: 0.23046875
+      w: 0.17529297
+    Scale:
+      x: 0.8405797
+      y: 0.8115942
+    PositionOffset:
+      x: -0.009057973
+      y: -0.050724637
+  - UV:
+      x: 0.2265625
+      y: 0.10986328
+      z: 0.46972656
+      w: 0.28076172
+    Scale:
+      x: 0.8405797
+      y: 0.8152174
+    PositionOffset:
+      x: -0.009057973
+      y: -0.048913043
+  - UV:
+      x: 0.23632812
+      y: 0.114746094
+      z: 0
+      w: 0.28808594
+    Scale:
+      x: 0.8768116
+      y: 0.85144925
+    PositionOffset:
+      x: -0.0054347822
+      y: -0.030797077
+  - UV:
+      x: 0.24609375
+      y: 0.119140625
+      z: 0.50683594
+      w: 0.5029297
+    Scale:
+      x: 0.9130435
+      y: 0.884058
+    PositionOffset:
+      x: -0.0018115874
+      y: -0.014492737
+  - UV:
+      x: 0.25585938
+      y: 0.12451172
+      z: 0
+      w: 0.74072266
+    Scale:
+      x: 0.9492754
+      y: 0.92391306
+    PositionOffset:
+      x: 0.0018115892
+      y: -0.0018116217
+  - UV:
+      x: 0.2626953
+      y: 0.13183594
+      z: 0.26367188
+      w: 0.86816406
+    Scale:
+      x: 0.9746377
+      y: 0.9782609
+    PositionOffset:
+      x: 0.007246367
+      y: 0
+  AnimationTableDie:
+  - UV:
+      x: 0.16894531
+      y: 0.07421875
+      z: 0.7871094
+      w: 0.8383789
+    Scale:
+      x: 0.6784314
+      y: 0.59607846
+    PositionOffset:
+      x: 0
+      y: 0
+  - UV:
+      x: 0.19921875
+      y: 0.087402344
+      z: 0.7871094
+      w: 0.91259766
+    Scale:
+      x: 0.8
+      y: 0.7019608
+    PositionOffset:
+      x: 0
+      y: 0
+  - UV:
+      x: 0.22753906
+      y: 0.09814453
+      z: 0.72558594
+      w: 0.29296875
+    Scale:
+      x: 0.9137255
+      y: 0.7882353
+    PositionOffset:
+      x: 0
+      y: 0
+  - UV:
+      x: 0.23925781
+      y: 0.10253906
+      z: 0
+      w: 0.40283203
+    Scale:
+      x: 0.9607843
+      y: 0.8235294
+    PositionOffset:
+      x: 0
+      y: 0
+  - UV:
+      x: 0.24121094
+      y: 0.109375
+      z: 0.24902344
+      w: 0.51171875
+    Scale:
+      x: 0.96862745
+      y: 0.8784314
+    PositionOffset:
+      x: 0
+      y: 0
+  - UV:
+      x: 0.24902344
+      y: 0.11669922
+      z: 0
+      w: 0.5053711
+    Scale:
+      x: 1
+      y: 0.9372549
+    PositionOffset:
+      x: 0
+      y: 0
+  - UV:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+    Scale:
+      x: 1
+      y: 1
+    PositionOffset:
+      x: 0
+      y: 0

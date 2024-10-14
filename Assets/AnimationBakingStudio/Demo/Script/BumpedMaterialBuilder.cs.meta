@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7adea6624bcebcb4d83e46d802ba7000
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Script/BumpedMaterialBuilder.cs
+  uploadId: 602711

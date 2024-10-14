@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 57e6deea7c2924e22a5138e2b70bb4dc
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader
+  uploadId: 602711

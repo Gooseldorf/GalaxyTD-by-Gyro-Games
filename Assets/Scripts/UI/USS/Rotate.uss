@@ -1,0 +1,12 @@
+.RotateX{
+    scale: -1 1;
+}
+
+.RotateY{
+    scale: 1 -1;
+}
+
+.RotateBase{
+    transition-duration: 0.5s;
+    transition-property: scale;
+}

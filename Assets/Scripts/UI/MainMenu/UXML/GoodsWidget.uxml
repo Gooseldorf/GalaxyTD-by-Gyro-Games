@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.GoodsWidget name="GoodsWidget" class="English" style="flex-grow: 0; width: 350px; height: 350px; align-items: center; justify-content: space-between;">
+        <ui:VisualElement name="IconContainer" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; justify-content: center; align-items: center;">
+            <ui:VisualElement name="Glow" style="flex-grow: 0; position: relative; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/ShopPanel/Bg_goods_glow.png?fileID=2800000&amp;guid=22d2c5acbde5c6942b7f10785a026b07&amp;type=3#Bg_goods_glow&apos;); width: 350px; height: 350px; align-self: center;">
+                <ui:VisualElement name="ItemIcon" style="flex-grow: 1; -unity-background-image-tint-color: rgb(255, 255, 255); align-self: stretch; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/ShopPanel/Goods_scrap1.png?fileID=2800000&amp;guid=38e475893ead600418d2770c5120ff33&amp;type=3#Goods_scrap1&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ValueContainer" style="flex-grow: 0; height: 92px; background-color: rgba(0, 0, 0, 0.63); opacity: 1; align-self: stretch; margin-top: 9px; margin-right: 9px; margin-left: 9px; border-top-left-radius: 30px; border-top-right-radius: 30px; flex-direction: row; justify-content: center; align-items: center;">
+            <ui:Label tabindex="-1" text="10.3k" display-tooltip-when-elided="true" name="ValueLabel" style="font-size: 50px; -unity-text-align: middle-left; color: rgb(255, 255, 255); -unity-font-definition: url(&apos;project://database/Assets/Editor/Fonts/PopUpText/impact.ttf?fileID=12800000&amp;guid=1165353c8d00cb54ea3ffee425fe9f27&amp;type=3#impact&apos;);" />
+            <ui:VisualElement name="ValueIcon" style="flex-grow: 0; width: 54px; height: 64px; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/TopPanel/SoftCurrencyIcon.png?fileID=2800000&amp;guid=3b05ba789d2b10848bc93849fbe61811&amp;type=3#SoftCurrencyIcon&apos;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="PriceContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 260px; height: 90px; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/SquareButton.png?fileID=21300000&amp;guid=9b9fe3d43cc51064a83cee7d12b8a4cc&amp;type=3#SquareButton&apos;); justify-content: center; align-items: center; bottom: 25px; flex-direction: row;">
+            <ui:Label tabindex="-1" text="99" display-tooltip-when-elided="true" name="PriceLabel" class="English" style="font-size: 50px; color: rgb(255, 255, 255); margin-right: 0;" />
+            <ui:VisualElement name="PriceIcon" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/TopPanel/HardCurrencyIcon.png?fileID=2800000&amp;guid=a9c1e72535199a6488dc7879b0eeff21&amp;type=3#HardCurrencyIcon&apos;); width: 40px; height: 48px; -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Frame" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowFrameWhite.png?fileID=21300000&amp;guid=483e17c052e7bd44eb26689b8832e0d7&amp;type=3#WindowFrameWhite&apos;);" />
+    </UI.GoodsWidget>
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="top" style="position: absolute; right: 0; left: 0; height: 10px;" />
+    <ui:VisualElement name="left" style="position: absolute; top: 0; bottom: 0; width: 10px;" />
+    <ui:VisualElement name="right" style="position: absolute; top: 0; bottom: 0; right: 0; width: 10px;" />
+    <ui:VisualElement name="bottom" style="position: absolute; bottom: 0; right: 0; left: 0; height: 10px;" />
+</ui:UXML>

@@ -1,0 +1,46 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <UI.UIHighlighter style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: resource(&apos;PlaceholderAds/AdImages/1024x768&apos;);">
+        <ui:VisualElement name="Test" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+        <ui:VisualElement name="TopContainer" picking-mode="Ignore" style="flex-grow: 1;">
+            <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); flex-shrink: 1;" />
+            <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                <ui:VisualElement name="Left" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); width: 0; flex-shrink: 0;" />
+                <ui:VisualElement name="Highlight" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; flex-shrink: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Bottom" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; height: 0; flex-shrink: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+            <ui:VisualElement name="LeftContainer" picking-mode="Ignore" style="flex-grow: 0; width: 0; flex-shrink: 0;">
+                <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); flex-shrink: 1;" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                    <ui:VisualElement name="Left" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); width: 0; flex-shrink: 0;" />
+                    <ui:VisualElement name="Highlight" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                    <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; flex-shrink: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Bottom" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; height: 0; flex-shrink: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MainHighlight" picking-mode="Ignore" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+            <ui:VisualElement name="RightContainer" picking-mode="Ignore" style="flex-grow: 1; flex-shrink: 1;">
+                <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); flex-shrink: 1;" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                    <ui:VisualElement name="Left" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); width: 0; flex-shrink: 0;" />
+                    <ui:VisualElement name="Highlight" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                    <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; flex-shrink: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Bottom" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; height: 0; flex-shrink: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomContainer" picking-mode="Ignore" style="flex-grow: 0; height: 0; flex-shrink: 0;">
+            <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); flex-shrink: 1;" />
+            <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                <ui:VisualElement name="Left" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); width: 0; flex-shrink: 0;" />
+                <ui:VisualElement name="Highlight" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; flex-shrink: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Bottom" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; height: 0; flex-shrink: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Glow" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 0; height: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/WindowTutorialImages/Tutorial_glow.png?fileID=21300000&amp;guid=4bec7b780fd69a143b54223983bf016a&amp;type=3#Tutorial_glow&apos;); bottom: 0; left: 0;" />
+        <ui:VisualElement name="AdditionalGlow" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 0; height: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/WindowTutorialImages/Tutorial_glow.png?fileID=21300000&amp;guid=4bec7b780fd69a143b54223983bf016a&amp;type=3#Tutorial_glow&apos;); left: 0; bottom: 0;" />
+    </UI.UIHighlighter>
+</ui:UXML>

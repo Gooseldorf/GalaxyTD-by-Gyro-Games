@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TowerSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 716d48dc3e04116468343d6c99afbd09, type: 3}
+    - {fileID: 2800000, guid: f1c1b848d8e72414689af580f3e39b92, type: 3}
+    - {fileID: 2800000, guid: fe4e805092fb3be448765d1c15d129eb, type: 3}
+    - {fileID: 2800000, guid: 560cbddcf9a225b4f8c6459e5e748b76, type: 3}
+    - {fileID: 2800000, guid: 9a67a2a6f3fce814aa0b4fdae541f2ff, type: 3}
+    - {fileID: 2800000, guid: ed7b51de14b149a45b9b126c418f0035, type: 3}
+    - {fileID: 2800000, guid: 5fe258055af4b9e4599ac3f6e936795c, type: 3}
+    - {fileID: 2800000, guid: da8ea749894e0d5419b1b99e218e91b5, type: 3}
+    - {fileID: 2800000, guid: c07534cde7dd21449a6863640dcf5339, type: 3}
+    - {fileID: 2800000, guid: 9c665c58a3bdeae4c9edd96881916f8c, type: 3}
+    - {fileID: 2800000, guid: 2903aa6cf96cf1f43bda54e76b3527a7, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - fe4e805092fb3be448765d1c15d129eb: 21300000
+    - 5fe258055af4b9e4599ac3f6e936795c: 21300000
+    - 9a67a2a6f3fce814aa0b4fdae541f2ff: 21300000
+    - f1c1b848d8e72414689af580f3e39b92: 21300000
+    - 9c665c58a3bdeae4c9edd96881916f8c: 21300000
+    - da8ea749894e0d5419b1b99e218e91b5: 21300000
+    - 2903aa6cf96cf1f43bda54e76b3527a7: 21300000
+    - 716d48dc3e04116468343d6c99afbd09: 21300000
+    - 560cbddcf9a225b4f8c6459e5e748b76: 21300000
+    - c07534cde7dd21449a6863640dcf5339: 21300000
+    - ed7b51de14b149a45b9b126c418f0035: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: fe4e805092fb3be448765d1c15d129eb, type: 3}
+  - {fileID: 21300000, guid: 5fe258055af4b9e4599ac3f6e936795c, type: 3}
+  - {fileID: 21300000, guid: 9a67a2a6f3fce814aa0b4fdae541f2ff, type: 3}
+  - {fileID: 21300000, guid: f1c1b848d8e72414689af580f3e39b92, type: 3}
+  - {fileID: 21300000, guid: 9c665c58a3bdeae4c9edd96881916f8c, type: 3}
+  - {fileID: 21300000, guid: da8ea749894e0d5419b1b99e218e91b5, type: 3}
+  - {fileID: 21300000, guid: 2903aa6cf96cf1f43bda54e76b3527a7, type: 3}
+  - {fileID: 21300000, guid: 716d48dc3e04116468343d6c99afbd09, type: 3}
+  - {fileID: 21300000, guid: 560cbddcf9a225b4f8c6459e5e748b76, type: 3}
+  - {fileID: 21300000, guid: c07534cde7dd21449a6863640dcf5339, type: 3}
+  - {fileID: 21300000, guid: ed7b51de14b149a45b9b126c418f0035, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Gauss
+  - Mortar
+  - Laser
+  - Gatling
+  - Shotgun
+  - Plasma
+  - TwinGun
+  - Cannon
+  - Heavy
+  - Rocket
+  - Light
+  m_RenderDataMap: {}
+  m_Tag: TowerSpriteAtlas
+  m_IsVariant: 0

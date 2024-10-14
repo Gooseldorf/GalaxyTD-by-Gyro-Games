@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="HardModeButton" src="project://database/Assets/Scripts/UI/MainMenu/UXML/HardModeButton.uxml?fileID=9197481963319205126&amp;guid=e4348f42ce12148419a73c1b9dc73f4b&amp;type=3#HardModeButton" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <ui:VisualElement name="Container" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-self: center; align-items: flex-end; width: 1070px; justify-content: space-around; margin-bottom: 10px;">
+        <ui:VisualElement name="DirectivesButton" class="English" style="width: 358px; height: 93px;">
+            <UI.CommonButton name="CommonButton" style="flex-grow: 1; align-items: center; justify-content: center; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/SquareButton.png?fileID=21300000&amp;guid=9b9fe3d43cc51064a83cee7d12b8a4cc&amp;type=3#SquareButton&apos;); flex-direction: row;">
+                <ui:Label tabindex="-1" text="Button" display-tooltip-when-elided="true" name="Label" picking-mode="Ignore" style="position: relative; -unity-text-align: middle-center; font-size: 50px; color: rgb(255, 255, 255);" />
+                <ui:VisualElement name="Icon" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/TicketIcon.png?fileID=21300000&amp;guid=e28ee7275033ec04fa6ba7756ba4ad9c&amp;type=3#TicketIcon&apos;); width: 42px; height: 50px; display: none; -unity-background-scale-mode: scale-to-fit;" />
+            </UI.CommonButton>
+            <ui:VisualElement name="IsNewNotification" style="background-color: rgb(239, 50, 43); position: absolute; width: 20px; height: 20px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 17px; top: 17px; left: auto; bottom: auto; display: none; flex-direction: column-reverse;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ShopButton" style="width: 358px; height: 93px;">
+            <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+            <UI.CommonButton name="CommonButton" class="English" style="flex-grow: 1; align-items: center; justify-content: center; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/SquareButton.png?fileID=21300000&amp;guid=9b9fe3d43cc51064a83cee7d12b8a4cc&amp;type=3#SquareButton&apos;); flex-direction: row;">
+                <ui:Label tabindex="-1" text="Button" display-tooltip-when-elided="true" name="Label" picking-mode="Ignore" style="position: relative; -unity-text-align: middle-center; font-size: 50px; color: rgb(255, 255, 255);" />
+                <ui:VisualElement name="Icon" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/TicketIcon.png?fileID=21300000&amp;guid=e28ee7275033ec04fa6ba7756ba4ad9c&amp;type=3#TicketIcon&apos;); width: 42px; height: 50px; display: none; -unity-background-scale-mode: scale-to-fit;" />
+            </UI.CommonButton>
+            <ui:VisualElement name="IsNewNotification" style="background-color: rgb(239, 50, 43); position: absolute; width: 20px; height: 20px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 17px; top: 17px; left: auto; bottom: auto; display: none; flex-direction: column-reverse;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="WorkshopButton" class="English" style="width: 358px; height: 93px;">
+            <UI.CommonButton name="CommonButton" style="flex-grow: 1; align-items: center; justify-content: center; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/SquareButton.png?fileID=21300000&amp;guid=9b9fe3d43cc51064a83cee7d12b8a4cc&amp;type=3#SquareButton&apos;); flex-direction: row;">
+                <ui:Label tabindex="-1" text="Button" display-tooltip-when-elided="true" name="Label" picking-mode="Ignore" style="position: relative; -unity-text-align: middle-center; font-size: 50px; color: rgb(255, 255, 255);" />
+                <ui:VisualElement name="Icon" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/TicketIcon.png?fileID=21300000&amp;guid=e28ee7275033ec04fa6ba7756ba4ad9c&amp;type=3#TicketIcon&apos;); width: 42px; height: 50px; display: none; -unity-background-scale-mode: scale-to-fit;" />
+            </UI.CommonButton>
+            <ui:VisualElement name="IsNewNotification" style="background-color: rgb(239, 50, 43); position: absolute; width: 20px; height: 20px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 17px; top: 17px; left: auto; bottom: auto; display: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Instance template="HardModeButton" name="HardModeButton" style="position: absolute; right: 15px; bottom: 15px;" />
+</ui:UXML>

@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.FireModeWidget class="English" style="height: 47px; flex-shrink: 0; flex-direction: row;">
+        <UI.SelectableStateElement name="Single" style="margin-right: 1px; flex-grow: 1;">
+            <ui:VisualElement name="SelectedVisual" style="flex-grow: 1; visibility: visible; flex-direction: row; align-items: center; justify-content: center; background-color: rgba(31, 178, 222, 0.25); display: none;">
+                <ui:Label tabindex="-1" text="Single" display-tooltip-when-elided="true" picking-mode="Ignore"  style="flex-grow: 0; -unity-text-align: middle-center;  font-size: 40px; color: rgb(255, 255, 255);" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; width: 32px; height: 22px; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/ModeSingleIcon.png?fileID=2800000&amp;guid=0aaad3e14420fde478876ecc1160ad6e&amp;type=3#ModeSingleIcon&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="AvailableVisual" style="flex-grow: 1; visibility: visible; flex-direction: row; align-items: center; justify-content: center; background-color: rgba(31, 178, 222, 0.06);">
+                <ui:Label tabindex="-1" text="Single" display-tooltip-when-elided="true" picking-mode="Ignore"  style="flex-grow: 0; -unity-text-align: middle-center;  font-size: 40px; color: rgba(255, 255, 255, 0.5);" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; width: 32px; height: 22px; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/ModeSingleIcon.png?fileID=2800000&amp;guid=0aaad3e14420fde478876ecc1160ad6e&amp;type=3#ModeSingleIcon&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);" />
+            </ui:VisualElement>
+        </UI.SelectableStateElement>
+        <UI.SelectableStateElement name="Burst" style="margin-right: 1px; flex-grow: 1;">
+            <ui:VisualElement name="SelectedVisual" style="flex-grow: 1; visibility: visible; flex-direction: row; align-items: center; justify-content: center; background-color: rgba(31, 178, 222, 0.25); display: none;">
+                <ui:Label tabindex="-1" text="Burst" display-tooltip-when-elided="true" picking-mode="Ignore"  style="flex-grow: 0; -unity-text-align: middle-center;  font-size: 40px; color: rgb(255, 255, 255);" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; width: 32px; height: 22px; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/ModeBurstIcon.png?fileID=2800000&amp;guid=c0d60bea1d86b344e96c942dfd597d24&amp;type=3#ModeBurstIcon&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="AvailableVisual" style="flex-grow: 1; visibility: visible; flex-direction: row; align-items: center; justify-content: center; background-color: rgba(31, 178, 222, 0.06);">
+                <ui:Label tabindex="-1" text="Burst" display-tooltip-when-elided="true" picking-mode="Ignore"  style="flex-grow: 0; -unity-text-align: middle-center;  font-size: 40px; color: rgba(255, 255, 255, 0.5);" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; width: 32px; height: 22px; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/ModeBurstIcon.png?fileID=2800000&amp;guid=c0d60bea1d86b344e96c942dfd597d24&amp;type=3#ModeBurstIcon&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);" />
+            </ui:VisualElement>
+        </UI.SelectableStateElement>
+        <UI.SelectableStateElement name="Auto" style="margin-right: 1px; flex-grow: 1;">
+            <ui:VisualElement name="SelectedVisual" style="flex-grow: 1; visibility: visible; flex-direction: row; align-items: center; justify-content: center; background-color: rgba(31, 178, 222, 0.25); display: none;">
+                <ui:Label tabindex="-1" text="Auto" display-tooltip-when-elided="true" picking-mode="Ignore"  style="flex-grow: 0; -unity-text-align: middle-center;  font-size: 40px; color: rgb(255, 255, 255);" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; width: 32px; height: 22px; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/ModeAutoIcon.png?fileID=2800000&amp;guid=e06d88bbf90a7b04692b96232c7b9e5f&amp;type=3#ModeAutoIcon&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="AvailableVisual" style="flex-grow: 1; visibility: visible; flex-direction: row; align-items: center; justify-content: center; background-color: rgba(31, 178, 222, 0.06);">
+                <ui:Label tabindex="-1" text="Auto" display-tooltip-when-elided="true" picking-mode="Ignore"  style="flex-grow: 0; -unity-text-align: middle-center;  font-size: 40px; color: rgba(255, 255, 255, 0.5);" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; width: 32px; height: 22px; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/ModeAutoIcon.png?fileID=2800000&amp;guid=e06d88bbf90a7b04692b96232c7b9e5f&amp;type=3#ModeAutoIcon&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);" />
+            </ui:VisualElement>
+        </UI.SelectableStateElement>
+    </UI.FireModeWidget>
+</ui:UXML>

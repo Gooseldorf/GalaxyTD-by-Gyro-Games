@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c0d84b20b71c94b47931e8fb03476864
+timeCreated: 1605946774
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Script/Editor/ModelMaker.cs
+  uploadId: 602711

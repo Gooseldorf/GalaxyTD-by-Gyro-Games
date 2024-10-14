@@ -1,0 +1,2570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab434d2e012c2e64da6a703dca097f1c, type: 3}
+  m_Name: ShootVfxRenderStats
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  MuzzlesMaterial: {fileID: 2100000, guid: a7f2e8f25d6fa3f43bd1ea8ae898575b, type: 2}
+  ImpactsMaterial: {fileID: 2100000, guid: 24b4cd29c0ebc1e428f2b4c7ce45b45b, type: 2}
+  SortingOrder: 20000
+  VfxTableData:
+  - TowerTypes: 1
+    Muzzle_T: 0.02
+    Impact_T: 0.04
+    Muzzle_S: 5
+    Impact_S: 5
+  - TowerTypes: 2
+    Muzzle_T: 0.05
+    Impact_T: 0.05
+    Muzzle_S: 5
+    Impact_S: 5
+  - TowerTypes: 4
+    Muzzle_T: 0.06
+    Impact_T: 0.03
+    Muzzle_S: 5
+    Impact_S: 15
+  - TowerTypes: 8
+    Muzzle_T: 0.03
+    Impact_T: 0.05
+    Muzzle_S: 5
+    Impact_S: 8
+  - TowerTypes: 16
+    Muzzle_T: 0.07
+    Impact_T: 0.06
+    Muzzle_S: 5
+    Impact_S: 5
+  - TowerTypes: 32
+    Muzzle_T: 0.04
+    Impact_T: 0.01
+    Muzzle_S: 5
+    Impact_S: 9
+  - TowerTypes: 64
+    Muzzle_T: 0.03
+    Impact_T: 0.08
+    Muzzle_S: 8
+    Impact_S: 5
+  - TowerTypes: 256
+    Muzzle_T: 0.04
+    Impact_T: 0.04
+    Muzzle_S: 5
+    Impact_S: 5
+  - TowerTypes: 512
+    Muzzle_T: 0.05
+    Impact_T: 0.05
+    Muzzle_S: 8
+    Impact_S: 5
+  - TowerTypes: 1024
+    Muzzle_T: 0.05
+    Impact_T: 0.05
+    Muzzle_S: 6
+    Impact_S: 5
+  - TowerTypes: 2048
+    Muzzle_T: 0.09
+    Impact_T: 0.07
+    Muzzle_S: 12
+    Impact_S: 9
+  MuzzleRenderFrameDatasDefault:
+  - UV:
+      x: 0.171875
+      y: 0.056640625
+      z: 0.31835938
+      w: 0.49902344
+    Scale:
+      x: 0.52071005
+      y: 0.17159763
+    PositionOffset:
+      x: 0.2485207
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.15234375
+      y: 0.06542969
+      z: 0.0009765625
+      w: 0.23632812
+    Scale:
+      x: 0.46153846
+      y: 0.19822486
+    PositionOffset:
+      x: 0.21893491
+      y: 0.00739645
+    ScaleModifier: 5
+  - UV:
+      x: 0.0859375
+      y: 0.036132812
+      z: 0.78125
+      w: 0.59375
+    Scale:
+      x: 0.26035503
+      y: 0.109467454
+    PositionOffset:
+      x: 0.112426035
+      y: -0.0073964517
+    ScaleModifier: 5
+  - UV:
+      x: 0.0390625
+      y: 0.051757812
+      z: 0.70410156
+      w: 0.28710938
+    Scale:
+      x: 0.1183432
+      y: 0.15680474
+    PositionOffset:
+      x: 0.06508876
+      y: -0.0044378713
+    ScaleModifier: 5
+  - UV:
+      x: 0.072265625
+      y: 0.06738281
+      z: 0.25683594
+      w: 0.8574219
+    Scale:
+      x: 0.21893491
+      y: 0.20414202
+    PositionOffset:
+      x: 0.09171597
+      y: 0.010355027
+    ScaleModifier: 5
+  - UV:
+      x: 0.11816406
+      y: 0.10253906
+      z: 0.171875
+      w: 0.24121094
+    Scale:
+      x: 0.35798818
+      y: 0.3106509
+    PositionOffset:
+      x: 0.1612426
+      y: -0.0073964586
+    ScaleModifier: 5
+  - UV:
+      x: 0.07128906
+      y: 0.06933594
+      z: 0.78125
+      w: 0.44140625
+    Scale:
+      x: 0.21597633
+      y: 0.21005917
+    PositionOffset:
+      x: 0.060650885
+      y: 0.001479291
+    ScaleModifier: 5
+  - UV:
+      x: 0.06542969
+      y: 0.07421875
+      z: 0.4716797
+      w: 0.15820312
+    Scale:
+      x: 0.19822486
+      y: 0.22485207
+    PositionOffset:
+      x: 0.07840237
+      y: -0.002958582
+    ScaleModifier: 5
+  - UV:
+      x: 0.053710938
+      y: 0.051757812
+      z: 0.5439453
+      w: 0.6894531
+    Scale:
+      x: 0.16272189
+      y: 0.15680474
+    PositionOffset:
+      x: 0.010355029
+      y: -0.0014792936
+    ScaleModifier: 5
+  - UV:
+      x: 0.099609375
+      y: 0.08496094
+      z: 0.1640625
+      w: 0.14746094
+    Scale:
+      x: 0.30177516
+      y: 0.25739646
+    PositionOffset:
+      x: 0.06508876
+      y: -0.010355023
+    ScaleModifier: 5
+  - UV:
+      x: 0.103515625
+      y: 0.08984375
+      z: 0.74609375
+      w: 0.25
+    Scale:
+      x: 0.31360948
+      y: 0.27218935
+    PositionOffset:
+      x: 0.17455623
+      y: 0.020710062
+    ScaleModifier: 5
+  - UV:
+      x: 0.115234375
+      y: 0.099609375
+      z: 0.58691406
+      w: 0.23925781
+    Scale:
+      x: 0.34911242
+      y: 0.30177516
+    PositionOffset:
+      x: 0.20118342
+      y: 0.0059171594
+    ScaleModifier: 5
+  - UV:
+      x: 0.111328125
+      y: 0.099609375
+      z: 0.8876953
+      w: 0.89941406
+    Scale:
+      x: 0.3372781
+      y: 0.30177516
+    PositionOffset:
+      x: 0.22781064
+      y: 0.0029585797
+    ScaleModifier: 5
+  - UV:
+      x: 0.115234375
+      y: 0.10644531
+      z: 0.8544922
+      w: 0.2529297
+    Scale:
+      x: 0.34911242
+      y: 0.3224852
+    PositionOffset:
+      x: 0.22485206
+      y: -0.013313603
+    ScaleModifier: 5
+  - UV:
+      x: 0.119140625
+      y: 0.07421875
+      z: 0.171875
+      w: 0.34570312
+    Scale:
+      x: 0.36094674
+      y: 0.22485207
+    PositionOffset:
+      x: 0.24556214
+      y: 0.032544382
+    ScaleModifier: 5
+  - UV:
+      x: 0.11425781
+      y: 0.06933594
+      z: 0.46875
+      w: 0.234375
+    Scale:
+      x: 0.34615386
+      y: 0.21005917
+    PositionOffset:
+      x: 0.2056213
+      y: 0.039940827
+    ScaleModifier: 5
+  - UV:
+      x: 0.2109375
+      y: 0.119140625
+      z: 0.3310547
+      w: 0.7314453
+    Scale:
+      x: 0.6390532
+      y: 0.36094674
+    PositionOffset:
+      x: 0.28106508
+      y: -0.029585807
+    ScaleModifier: 5
+  - UV:
+      x: 0.14648438
+      y: 0.08886719
+      z: 0.8515625
+      w: 0.16210938
+    Scale:
+      x: 0.44378698
+      y: 0.26923078
+    PositionOffset:
+      x: 0.19526628
+      y: -0.025147937
+    ScaleModifier: 5
+  - UV:
+      x: 0.11621094
+      y: 0.0625
+      z: 0.46875
+      w: 0.30566406
+    Scale:
+      x: 0.35207102
+      y: 0.18934911
+    PositionOffset:
+      x: 0.15532544
+      y: -0.01183432
+    ScaleModifier: 5
+  - UV:
+      x: 0.103515625
+      y: 0.09765625
+      z: 0.74902344
+      w: 0.34179688
+    Scale:
+      x: 0.31360948
+      y: 0.295858
+    PositionOffset:
+      x: 0.026627218
+      y: -0.008875731
+    ScaleModifier: 5
+  - UV:
+      x: 0.16894531
+      y: 0.13476562
+      z: 0.0009765625
+      w: 0.30371094
+    Scale:
+      x: 0.5118343
+      y: 0.40828404
+    PositionOffset:
+      x: 0.10502958
+      y: -0.020710055
+    ScaleModifier: 5
+  - UV:
+      x: 0.15722656
+      y: 0.11816406
+      z: 0.3095703
+      w: 0.3046875
+    Scale:
+      x: 0.47633135
+      y: 0.35798818
+    PositionOffset:
+      x: 0.22633137
+      y: 0.031065088
+    ScaleModifier: 5
+  - UV:
+      x: 0.19824219
+      y: 0.10546875
+      z: 0.0009765625
+      w: 0.74121094
+    Scale:
+      x: 0.6005917
+      y: 0.3195266
+    PositionOffset:
+      x: 0.30029586
+      y: 0.005917156
+    ScaleModifier: 5
+  - UV:
+      x: 0.1875
+      y: 0.095703125
+      z: 0.32714844
+      w: 0.63378906
+    Scale:
+      x: 0.56804734
+      y: 0.28994083
+    PositionOffset:
+      x: 0.25739646
+      y: 0.0029585785
+    ScaleModifier: 5
+  - UV:
+      x: 0.17285156
+      y: 0.07421875
+      z: 0.3203125
+      w: 0.5576172
+    Scale:
+      x: 0.52366865
+      y: 0.22485207
+    PositionOffset:
+      x: 0.2795858
+      y: 0.032544382
+    ScaleModifier: 5
+  - UV:
+      x: 0.12207031
+      y: 0.048828125
+      z: 0.19628906
+      w: 0.609375
+    Scale:
+      x: 0.36982247
+      y: 0.147929
+    PositionOffset:
+      x: 0.20562129
+      y: 0.005917159
+    ScaleModifier: 5
+  - UV:
+      x: 0.17089844
+      y: 0.041015625
+      z: 0.0009765625
+      w: 0.4404297
+    Scale:
+      x: 0.51775146
+      y: 0.12426036
+    PositionOffset:
+      x: 0.24408282
+      y: -0.0006213012
+    ScaleModifier: 5
+  - UV:
+      x: 0.12890625
+      y: 0.03515625
+      z: 0.8691406
+      w: 0.6142578
+    Scale:
+      x: 0.39053255
+      y: 0.10650887
+    PositionOffset:
+      x: 0.14497042
+      y: 0.0052958583
+    ScaleModifier: 5
+  - UV:
+      x: 0.06640625
+      y: 0.018554688
+      z: 0.0009765625
+      w: 0.0029296875
+    Scale:
+      x: 0.20118344
+      y: 0.056213018
+    PositionOffset:
+      x: 0.0887574
+      y: 0.00085798884
+    ScaleModifier: 5
+  - UV:
+      x: 0.043945312
+      y: 0.0390625
+      z: 0.22460938
+      w: 0.09863281
+    Scale:
+      x: 0.1331361
+      y: 0.1183432
+    PositionOffset:
+      x: -0.007396453
+      y: 0
+    ScaleModifier: 8
+  - UV:
+      x: 0.07128906
+      y: 0.029296875
+      z: 0.38867188
+      w: 0.2734375
+    Scale:
+      x: 0.21597633
+      y: 0.088757396
+    PositionOffset:
+      x: 0.063609466
+      y: 0
+    ScaleModifier: 8
+  - UV:
+      x: 0.076171875
+      y: 0.024414062
+      z: 0.7910156
+      w: 0.63183594
+    Scale:
+      x: 0.23076923
+      y: 0.0739645
+    PositionOffset:
+      x: 0.09171598
+      y: 0.00443787
+    ScaleModifier: 8
+  - UV:
+      x: 0.111328125
+      y: 0.08105469
+      z: 0.35839844
+      w: 0.15136719
+    Scale:
+      x: 0.3372781
+      y: 0.24556214
+    PositionOffset:
+      x: 0.14473373
+      y: 0.0106213
+    ScaleModifier: 5
+  - UV:
+      x: 0.14257812
+      y: 0.111328125
+      z: 0.8544922
+      w: 0.36132812
+    Scale:
+      x: 0.43195266
+      y: 0.3372781
+    PositionOffset:
+      x: 0.14769231
+      y: 0.02097633
+    ScaleModifier: 5
+  - UV:
+      x: 0.10058594
+      y: 0.13085938
+      z: 0.4951172
+      w: 0.47265625
+    Scale:
+      x: 0.30473372
+      y: 0.3964497
+    PositionOffset:
+      x: 0.09591716
+      y: -0.014526621
+    ScaleModifier: 5
+  - UV:
+      x: 0.12011719
+      y: 0.13769531
+      z: 0.8691406
+      w: 0.47460938
+    Scale:
+      x: 0.3639053
+      y: 0.41715977
+    PositionOffset:
+      x: 0.07816568
+      y: 0.037248515
+    ScaleModifier: 5
+  - UV:
+      x: 0.12402344
+      y: 0.14257812
+      z: 0.20117188
+      w: 0.66015625
+    Scale:
+      x: 0.37573963
+      y: 0.43195266
+    PositionOffset:
+      x: 0.13733727
+      y: -0.0026922994
+    ScaleModifier: 5
+  - UV:
+      x: 0.10839844
+      y: 0.10839844
+      z: 0.74121094
+      w: 0.13964844
+    Scale:
+      x: 0.32840237
+      y: 0.32840237
+    PositionOffset:
+      x: 0.14325443
+      y: 0.010621303
+    ScaleModifier: 5
+  - UV:
+      x: 0.03515625
+      y: 0.051757812
+      z: 0.70410156
+      w: 0.23339844
+    Scale:
+      x: 0.10650887
+      y: 0.15680474
+    PositionOffset:
+      x: 0.04118343
+      y: -0.01008876
+    ScaleModifier: 5
+  - UV:
+      x: 0.0625
+      y: 0.060546875
+      z: 0.7373047
+      w: 0.036132812
+    Scale:
+      x: 0.18934911
+      y: 0.18343195
+    PositionOffset:
+      x: 0.0295858
+      y: 0
+    ScaleModifier: 8
+  - UV:
+      x: 0.08105469
+      y: 0.08203125
+      z: 0.51660156
+      w: 0.60546875
+    Scale:
+      x: 0.24556214
+      y: 0.24852072
+    PositionOffset:
+      x: 0.04289941
+      y: 0.026627222
+    ScaleModifier: 8
+  - UV:
+      x: 0.078125
+      y: 0.07714844
+      z: 0.7919922
+      w: 0.6582031
+    Scale:
+      x: 0.2366864
+      y: 0.23372781
+    PositionOffset:
+      x: 0.05029586
+      y: 0.022189347
+    ScaleModifier: 8
+  - UV:
+      x: 0.09082031
+      y: 0.08203125
+      z: 0.265625
+      w: 0.15039062
+    Scale:
+      x: 0.2751479
+      y: 0.24852072
+    PositionOffset:
+      x: 0.04881657
+      y: 0.020710062
+    ScaleModifier: 8
+  - UV:
+      x: 0.0625
+      y: 0.072265625
+      z: 0.49023438
+      w: 0.009765625
+    Scale:
+      x: 0.18934911
+      y: 0.21893491
+    PositionOffset:
+      x: 0.02366864
+      y: 0.002958578
+    ScaleModifier: 8
+  - UV:
+      x: 0.056640625
+      y: 0.061523438
+      z: 0.67871094
+      w: 0.026367188
+    Scale:
+      x: 0.17159763
+      y: 0.18639053
+    PositionOffset:
+      x: 0.02071006
+      y: -0.010355035
+    ScaleModifier: 8
+  - UV:
+      x: 0.06640625
+      y: 0.06347656
+      z: 0.6376953
+      w: 0.08984375
+    Scale:
+      x: 0.20118344
+      y: 0.1923077
+    PositionOffset:
+      x: 0.032544382
+      y: -0.007396455
+    ScaleModifier: 8
+  - UV:
+      x: 0.053710938
+      y: 0.06542969
+      z: 0.5439453
+      w: 0.74316406
+    Scale:
+      x: 0.16272189
+      y: 0.19822486
+    PositionOffset:
+      x: 0.025147928
+      y: -0.019230766
+    ScaleModifier: 8
+  - UV:
+      x: 0.052734375
+      y: 0.057617188
+      z: 0.8623047
+      w: 0.0390625
+    Scale:
+      x: 0.1597633
+      y: 0.17455621
+    PositionOffset:
+      x: 0.023668637
+      y: 0.001479292
+    ScaleModifier: 8
+  - UV:
+      x: 0.0625
+      y: 0.060546875
+      z: 0.7373047
+      w: 0.036132812
+    Scale:
+      x: 0.18934911
+      y: 0.18343195
+    PositionOffset:
+      x: 0.0295858
+      y: 0
+    ScaleModifier: 6
+  - UV:
+      x: 0.08105469
+      y: 0.08203125
+      z: 0.51660156
+      w: 0.60546875
+    Scale:
+      x: 0.24556214
+      y: 0.24852072
+    PositionOffset:
+      x: 0.04289941
+      y: 0.026627222
+    ScaleModifier: 6
+  - UV:
+      x: 0.078125
+      y: 0.07714844
+      z: 0.7919922
+      w: 0.6582031
+    Scale:
+      x: 0.2366864
+      y: 0.23372781
+    PositionOffset:
+      x: 0.05029586
+      y: 0.022189347
+    ScaleModifier: 6
+  - UV:
+      x: 0.09082031
+      y: 0.08203125
+      z: 0.265625
+      w: 0.15039062
+    Scale:
+      x: 0.2751479
+      y: 0.24852072
+    PositionOffset:
+      x: 0.04881657
+      y: 0.020710062
+    ScaleModifier: 6
+  - UV:
+      x: 0.0625
+      y: 0.072265625
+      z: 0.49023438
+      w: 0.009765625
+    Scale:
+      x: 0.18934911
+      y: 0.21893491
+    PositionOffset:
+      x: 0.02366864
+      y: 0.002958578
+    ScaleModifier: 6
+  - UV:
+      x: 0.056640625
+      y: 0.061523438
+      z: 0.67871094
+      w: 0.026367188
+    Scale:
+      x: 0.17159763
+      y: 0.18639053
+    PositionOffset:
+      x: 0.02071006
+      y: -0.010355035
+    ScaleModifier: 6
+  - UV:
+      x: 0.06640625
+      y: 0.06347656
+      z: 0.6376953
+      w: 0.08984375
+    Scale:
+      x: 0.20118344
+      y: 0.1923077
+    PositionOffset:
+      x: 0.032544382
+      y: -0.007396455
+    ScaleModifier: 6
+  - UV:
+      x: 0.053710938
+      y: 0.06542969
+      z: 0.5439453
+      w: 0.74316406
+    Scale:
+      x: 0.16272189
+      y: 0.19822486
+    PositionOffset:
+      x: 0.025147928
+      y: -0.019230766
+    ScaleModifier: 6
+  - UV:
+      x: 0.052734375
+      y: 0.057617188
+      z: 0.8623047
+      w: 0.0390625
+    Scale:
+      x: 0.1597633
+      y: 0.17455621
+    PositionOffset:
+      x: 0.023668637
+      y: 0.001479292
+    ScaleModifier: 6
+  - UV:
+      x: 0.33007812
+      y: 0.072265625
+      z: 0.0009765625
+      w: 0.9267578
+    Scale:
+      x: 1
+      y: 0.21893491
+    PositionOffset:
+      x: 0.48526627
+      y: 0.002958578
+    ScaleModifier: 12
+  - UV:
+      x: 0.25390625
+      y: 0.05859375
+      z: 0.0009765625
+      w: 0.86621094
+    Scale:
+      x: 0.7692308
+      y: 0.17751479
+    PositionOffset:
+      x: 0.36988166
+      y: -0.0059171645
+    ScaleModifier: 12
+  - UV:
+      x: 0.26660156
+      y: 0.05078125
+      z: 0.6035156
+      w: 0.8857422
+    Scale:
+      x: 0.8076923
+      y: 0.15384616
+    PositionOffset:
+      x: 0.2885207
+      y: -0.020710057
+    ScaleModifier: 12
+  - UV:
+      x: 0.21875
+      y: 0.015625
+      z: 0.0009765625
+      w: 0.8486328
+    Scale:
+      x: 0.6627219
+      y: 0.04733728
+    PositionOffset:
+      x: 0.3195858
+      y: 0
+    ScaleModifier: 12
+  - UV:
+      x: 0.19433594
+      y: 0.013671875
+      z: 0.0009765625
+      w: 0.72558594
+    Scale:
+      x: 0.5887574
+      y: 0.041420117
+    PositionOffset:
+      x: 0.31218934
+      y: 0
+    ScaleModifier: 12
+  - UV:
+      x: 0.17089844
+      y: 0.056640625
+      z: 0.0009765625
+      w: 0.48339844
+    Scale:
+      x: 0.6097561
+      y: 0.20209059
+    PositionOffset:
+      x: 0.2909408
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.15039062
+      y: 0.0625
+      z: 0.5966797
+      w: 0.38378906
+    Scale:
+      x: 0.5365854
+      y: 0.22299652
+    PositionOffset:
+      x: 0.24738677
+      y: 0.010452962
+    ScaleModifier: 5
+  - UV:
+      x: 0.091796875
+      y: 0.04296875
+      z: 0.2919922
+      w: 0.25976562
+    Scale:
+      x: 0.32752612
+      y: 0.1533101
+    PositionOffset:
+      x: 0.12891985
+      y: 0.006968639
+    ScaleModifier: 5
+  - UV:
+      x: 0.04296875
+      y: 0.07910156
+      z: 0.3857422
+      w: 0.017578125
+    Scale:
+      x: 0.1533101
+      y: 0.28222996
+    PositionOffset:
+      x: 0.05574913
+      y: 0.012195122
+    ScaleModifier: 5
+  - UV:
+      x: 0.09667969
+      y: 0.0859375
+      z: 0.06542969
+      w: 0.14648438
+    Scale:
+      x: 0.34494773
+      y: 0.3066202
+    PositionOffset:
+      x: 0.12717769
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.12011719
+      y: 0.10058594
+      z: 0.47460938
+      w: 0.3701172
+    Scale:
+      x: 0.42857143
+      y: 0.35888502
+    PositionOffset:
+      x: 0.20034844
+      y: 0.019163769
+    ScaleModifier: 5
+  - UV:
+      x: 0.057617188
+      y: 0.10058594
+      z: 0.32617188
+      w: 0.00390625
+    Scale:
+      x: 0.20557491
+      y: 0.35888502
+    PositionOffset:
+      x: 0.10278746
+      y: 0.03658536
+    ScaleModifier: 5
+  - UV:
+      x: 0.0625
+      y: 0.08691406
+      z: 0.0009765625
+      w: 0.14550781
+    Scale:
+      x: 0.22299652
+      y: 0.31010452
+    PositionOffset:
+      x: 0.108013935
+      y: 0.029616727
+    ScaleModifier: 5
+  - UV:
+      x: 0.05859375
+      y: 0.05859375
+      z: 0.8017578
+      w: 0.038085938
+    Scale:
+      x: 0.20905924
+      y: 0.20905924
+    PositionOffset:
+      x: 0.0034843236
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.11230469
+      y: 0.08203125
+      z: 0.58496094
+      w: 0.15527344
+    Scale:
+      x: 0.40069687
+      y: 0.29268292
+    PositionOffset:
+      x: 0.043554008
+      y: 0.0034843246
+    ScaleModifier: 5
+  - UV:
+      x: 0.109375
+      y: 0.11425781
+      z: 0.0009765625
+      w: 0.0234375
+    Scale:
+      x: 0.3902439
+      y: 0.4076655
+    PositionOffset:
+      x: 0.19163762
+      y: -0.015679453
+    ScaleModifier: 5
+  - UV:
+      x: 0.125
+      y: 0.091796875
+      z: 0.8720703
+      w: 0.80566406
+    Scale:
+      x: 0.44599304
+      y: 0.32752612
+    PositionOffset:
+      x: 0.24738677
+      y: -0.024390241
+    ScaleModifier: 5
+  - UV:
+      x: 0.12207031
+      y: 0.1015625
+      z: 0.8720703
+      w: 0.6513672
+    Scale:
+      x: 0.43554008
+      y: 0.36236933
+    PositionOffset:
+      x: 0.25261325
+      y: -0.027874563
+    ScaleModifier: 5
+  - UV:
+      x: 0.13476562
+      y: 0.09863281
+      z: 0.18164062
+      w: 0.50878906
+    Scale:
+      x: 0.48083624
+      y: 0.35191637
+    PositionOffset:
+      x: 0.2578397
+      y: -0.012195129
+    ScaleModifier: 5
+  - UV:
+      x: 0.13378906
+      y: 0.08496094
+      z: 0.17382812
+      w: 0.421875
+    Scale:
+      x: 0.4773519
+      y: 0.3031359
+    PositionOffset:
+      x: 0.27351916
+      y: -0.012195114
+    ScaleModifier: 5
+  - UV:
+      x: 0.034179688
+      y: 0.03125
+      z: 0.69921875
+      w: 0.20019531
+    Scale:
+      x: 0.12195122
+      y: 0.11149826
+    PositionOffset:
+      x: 0.11324043
+      y: 0.006968641
+    ScaleModifier: 5
+  - UV:
+      x: 0.19335938
+      y: 0.10253906
+      z: 0.0009765625
+      w: 0.62109375
+    Scale:
+      x: 0.68989545
+      y: 0.36585367
+    PositionOffset:
+      x: 0.3066202
+      y: -0.08188154
+    ScaleModifier: 5
+  - UV:
+      x: 0.11230469
+      y: 0.061523438
+      z: 0.8515625
+      w: 0.09863281
+    Scale:
+      x: 0.40069687
+      y: 0.2195122
+    PositionOffset:
+      x: 0.16898955
+      y: -0.04355401
+    ScaleModifier: 5
+  - UV:
+      x: 0.107421875
+      y: 0.05078125
+      z: 0.22167969
+      w: 0.8046875
+    Scale:
+      x: 0.38327527
+      y: 0.18118466
+    PositionOffset:
+      x: 0.16724738
+      y: -0.027874563
+    ScaleModifier: 5
+  - UV:
+      x: 0.11035156
+      y: 0.11035156
+      z: 0.11230469
+      w: 0.02734375
+    Scale:
+      x: 0.39372823
+      y: 0.39372823
+    PositionOffset:
+      x: 0.012195127
+      y: 0.012195127
+    ScaleModifier: 5
+  - UV:
+      x: 0.1796875
+      y: 0.15722656
+      z: 0.5996094
+      w: 0.49023438
+    Scale:
+      x: 0.641115
+      y: 0.5609756
+    PositionOffset:
+      x: 0.094076656
+      y: -0.012195119
+    ScaleModifier: 5
+  - UV:
+      x: 0.16308594
+      y: 0.072265625
+      z: 0.3095703
+      w: 0.4248047
+    Scale:
+      x: 0.5818815
+      y: 0.2578397
+    PositionOffset:
+      x: 0.2665505
+      y: -0.017421607
+    ScaleModifier: 5
+  - UV:
+      x: 0.19042969
+      y: 0.07910156
+      z: 0.5996094
+      w: 0.7363281
+    Scale:
+      x: 0.6794425
+      y: 0.28222996
+    PositionOffset:
+      x: 0.3292683
+      y: -0.029616723
+    ScaleModifier: 5
+  - UV:
+      x: 0.18945312
+      y: 0.08496094
+      z: 0.5996094
+      w: 0.64941406
+    Scale:
+      x: 0.6759582
+      y: 0.3031359
+    PositionOffset:
+      x: 0.34843206
+      y: -0.022648081
+    ScaleModifier: 5
+  - UV:
+      x: 0.17871094
+      y: 0.07714844
+      z: 0.0009765625
+      w: 0.5419922
+    Scale:
+      x: 0.63763064
+      y: 0.2752613
+    PositionOffset:
+      x: 0.35714287
+      y: -0.026132409
+    ScaleModifier: 5
+  - UV:
+      x: 0.123046875
+      y: 0.048828125
+      z: 0.8720703
+      w: 0.7548828
+    Scale:
+      x: 0.4390244
+      y: 0.17421603
+    PositionOffset:
+      x: 0.29268295
+      y: 0.013937285
+    ScaleModifier: 5
+  - UV:
+      x: 0.16796875
+      y: 0.040039062
+      z: 0.59765625
+      w: 0.4482422
+    Scale:
+      x: 0.5993031
+      y: 0.14285715
+    PositionOffset:
+      x: 0.28222996
+      y: -0.003205572
+    ScaleModifier: 5
+  - UV:
+      x: 0.14746094
+      y: 0.041015625
+      z: 0.5966797
+      w: 0.3408203
+    Scale:
+      x: 0.5261324
+      y: 0.14634146
+    PositionOffset:
+      x: 0.22125435
+      y: 0.0020209071
+    ScaleModifier: 5
+  - UV:
+      x: 0.09082031
+      y: 0.024414062
+      z: 0.11230469
+      w: 0.0009765625
+    Scale:
+      x: 0.3240418
+      y: 0.087108016
+    PositionOffset:
+      x: 0.10627177
+      y: -0.0032055774
+    ScaleModifier: 5
+  - UV:
+      x: 0.043945312
+      y: 0.0390625
+      z: 0.2705078
+      w: 0.09863281
+    Scale:
+      x: 0.15679443
+      y: 0.13937283
+    PositionOffset:
+      x: -0.008710805
+      y: 0
+    ScaleModifier: 8
+  - UV:
+      x: 0.0703125
+      y: 0.03125
+      z: 0.31640625
+      w: 0.10644531
+    Scale:
+      x: 0.2508711
+      y: 0.11149826
+    PositionOffset:
+      x: 0.073170744
+      y: -0.0034843206
+    ScaleModifier: 8
+  - UV:
+      x: 0.08886719
+      y: 0.04296875
+      z: 0.38867188
+      w: 0.10644531
+    Scale:
+      x: 0.31707317
+      y: 0.1533101
+    PositionOffset:
+      x: 0.09930314
+      y: 0.027874565
+    ScaleModifier: 8
+  - UV:
+      x: 0.111328125
+      y: 0.08105469
+      z: 0.35839844
+      w: 0.15136719
+    Scale:
+      x: 0.39721254
+      y: 0.2891986
+    PositionOffset:
+      x: 0.17045295
+      y: 0.012508709
+    ScaleModifier: 5
+  - UV:
+      x: 0.14257812
+      y: 0.111328125
+      z: 0.8544922
+      w: 0.36132812
+    Scale:
+      x: 0.5087108
+      y: 0.39721254
+    PositionOffset:
+      x: 0.17393729
+      y: 0.02470383
+    ScaleModifier: 5
+  - UV:
+      x: 0.10058594
+      y: 0.13085938
+      z: 0.4951172
+      w: 0.47265625
+    Scale:
+      x: 0.35888502
+      y: 0.46689895
+    PositionOffset:
+      x: 0.11296167
+      y: -0.017108006
+    ScaleModifier: 5
+  - UV:
+      x: 0.12011719
+      y: 0.13769531
+      z: 0.8691406
+      w: 0.47460938
+    Scale:
+      x: 0.42857143
+      y: 0.4912892
+    PositionOffset:
+      x: 0.09205575
+      y: 0.043867588
+    ScaleModifier: 5
+  - UV:
+      x: 0.12402344
+      y: 0.14257812
+      z: 0.20117188
+      w: 0.66015625
+    Scale:
+      x: 0.4425087
+      y: 0.5087108
+    PositionOffset:
+      x: 0.16174215
+      y: -0.003170722
+    ScaleModifier: 5
+  - UV:
+      x: 0.10839844
+      y: 0.10839844
+      z: 0.74121094
+      w: 0.13964844
+    Scale:
+      x: 0.38675958
+      y: 0.38675958
+    PositionOffset:
+      x: 0.1687108
+      y: 0.012508712
+    ScaleModifier: 5
+  - UV:
+      x: 0.03515625
+      y: 0.051757812
+      z: 0.70410156
+      w: 0.23339844
+    Scale:
+      x: 0.12543555
+      y: 0.18466899
+    PositionOffset:
+      x: 0.048501745
+      y: -0.011881536
+    ScaleModifier: 5
+  - UV:
+      x: 0.0546875
+      y: 0.06542969
+      z: 0.6220703
+      w: 0.020507812
+    Scale:
+      x: 0.19512194
+      y: 0.23344947
+    PositionOffset:
+      x: 0.027874561
+      y: 0.0052264836
+    ScaleModifier: 8
+  - UV:
+      x: 0.064453125
+      y: 0.06542969
+      z: 0.57128906
+      w: 0.087890625
+    Scale:
+      x: 0.22996515
+      y: 0.23344947
+    PositionOffset:
+      x: 0.045296162
+      y: 0.0052264836
+    ScaleModifier: 8
+  - UV:
+      x: 0.099609375
+      y: 0.083984375
+      z: 0.22460938
+      w: 0.0126953125
+    Scale:
+      x: 0.3554007
+      y: 0.29965156
+    PositionOffset:
+      x: 0.07317073
+      y: 0.034843203
+    ScaleModifier: 8
+  - UV:
+      x: 0.08984375
+      y: 0.072265625
+      z: 0.4794922
+      w: 0.083984375
+    Scale:
+      x: 0.3205575
+      y: 0.2578397
+    PositionOffset:
+      x: 0.0662021
+      y: 0.0034843183
+    ScaleModifier: 8
+  - UV:
+      x: 0.078125
+      y: 0.078125
+      z: 0.7919922
+      w: 0.7373047
+    Scale:
+      x: 0.27874565
+      y: 0.27874565
+    PositionOffset:
+      x: 0.0662021
+      y: 0.0034843173
+    ScaleModifier: 8
+  - UV:
+      x: 0.06542969
+      y: 0.07128906
+      z: 0.5546875
+      w: 0.0107421875
+    Scale:
+      x: 0.23344947
+      y: 0.2543554
+    PositionOffset:
+      x: 0.008710801
+      y: -0.0017421537
+    ScaleModifier: 8
+  - UV:
+      x: 0.057617188
+      y: 0.07324219
+      z: 0.43066406
+      w: 0.0087890625
+    Scale:
+      x: 0.20557491
+      y: 0.26132405
+    PositionOffset:
+      x: 0.033101045
+      y: 0.0052264836
+    ScaleModifier: 8
+  - UV:
+      x: 0.07128906
+      y: 0.07910156
+      z: 0.78125
+      w: 0.5126953
+    Scale:
+      x: 0.2543554
+      y: 0.28222996
+    PositionOffset:
+      x: 0.026132403
+      y: -0.012195114
+    ScaleModifier: 8
+  - UV:
+      x: 0.047851562
+      y: 0.057617188
+      z: 0.5498047
+      w: 0.8105469
+    Scale:
+      x: 0.17073171
+      y: 0.20557491
+    PositionOffset:
+      x: 0.019163765
+      y: 0.019163767
+    ScaleModifier: 8
+  - UV:
+      x: 0.0546875
+      y: 0.06542969
+      z: 0.6220703
+      w: 0.020507812
+    Scale:
+      x: 0.19512194
+      y: 0.23344947
+    PositionOffset:
+      x: 0.027874561
+      y: 0.0052264836
+    ScaleModifier: 6
+  - UV:
+      x: 0.064453125
+      y: 0.06542969
+      z: 0.57128906
+      w: 0.087890625
+    Scale:
+      x: 0.22996515
+      y: 0.23344947
+    PositionOffset:
+      x: 0.045296162
+      y: 0.0052264836
+    ScaleModifier: 6
+  - UV:
+      x: 0.099609375
+      y: 0.083984375
+      z: 0.22460938
+      w: 0.0126953125
+    Scale:
+      x: 0.3554007
+      y: 0.29965156
+    PositionOffset:
+      x: 0.07317073
+      y: 0.034843203
+    ScaleModifier: 6
+  - UV:
+      x: 0.08984375
+      y: 0.072265625
+      z: 0.4794922
+      w: 0.083984375
+    Scale:
+      x: 0.3205575
+      y: 0.2578397
+    PositionOffset:
+      x: 0.0662021
+      y: 0.0034843183
+    ScaleModifier: 6
+  - UV:
+      x: 0.078125
+      y: 0.078125
+      z: 0.7919922
+      w: 0.7373047
+    Scale:
+      x: 0.27874565
+      y: 0.27874565
+    PositionOffset:
+      x: 0.0662021
+      y: 0.0034843173
+    ScaleModifier: 6
+  - UV:
+      x: 0.06542969
+      y: 0.07128906
+      z: 0.5546875
+      w: 0.0107421875
+    Scale:
+      x: 0.23344947
+      y: 0.2543554
+    PositionOffset:
+      x: 0.008710801
+      y: -0.0017421537
+    ScaleModifier: 6
+  - UV:
+      x: 0.057617188
+      y: 0.07324219
+      z: 0.43066406
+      w: 0.0087890625
+    Scale:
+      x: 0.20557491
+      y: 0.26132405
+    PositionOffset:
+      x: 0.033101045
+      y: 0.0052264836
+    ScaleModifier: 6
+  - UV:
+      x: 0.07128906
+      y: 0.07910156
+      z: 0.78125
+      w: 0.5126953
+    Scale:
+      x: 0.2543554
+      y: 0.28222996
+    PositionOffset:
+      x: 0.026132403
+      y: -0.012195114
+    ScaleModifier: 6
+  - UV:
+      x: 0.047851562
+      y: 0.057617188
+      z: 0.5498047
+      w: 0.8105469
+    Scale:
+      x: 0.17073171
+      y: 0.20557491
+    PositionOffset:
+      x: 0.019163765
+      y: 0.019163767
+    ScaleModifier: 6
+  - UV:
+      x: 0.2685547
+      y: 0.080078125
+      z: 0.3330078
+      w: 0.8701172
+    Scale:
+      x: 0.9581882
+      y: 0.2857143
+    PositionOffset:
+      x: 0.43735194
+      y: 0.027874565
+    ScaleModifier: 12
+  - UV:
+      x: 0.25976562
+      y: 0.06640625
+      z: 0.6035156
+      w: 0.8173828
+    Scale:
+      x: 0.9268293
+      y: 0.2369338
+    PositionOffset:
+      x: 0.372892
+      y: 0.024390247
+    ScaleModifier: 12
+  - UV:
+      x: 0.2705078
+      y: 0.060546875
+      z: 0.6152344
+      w: 0.93847656
+    Scale:
+      x: 0.9651568
+      y: 0.21602787
+    PositionOffset:
+      x: 0.35024393
+      y: 0.020905923
+    ScaleModifier: 12
+  - UV:
+      x: 0.28027344
+      y: 0.046875
+      z: 0.3330078
+      w: 0.95214844
+    Scale:
+      x: 1
+      y: 0.16724738
+    PositionOffset:
+      x: 0.3502439
+      y: 0.031358883
+    ScaleModifier: 12
+  - UV:
+      x: 0.21679688
+      y: 0.015625
+      z: 0.3310547
+      w: 0.85253906
+    Scale:
+      x: 0.77351916
+      y: 0.05574913
+    PositionOffset:
+      x: 0.372892
+      y: 0
+    ScaleModifier: 12
+  MuzzleTowerIndexes: 00000000020000000300000007000000080000000f000000100000001200000013000000190000001a0000001c0000001d0000001f0000002000000026000000270000002f0000003000000038000000390000003d0000003e000000400000004100000045000000460000004d0000004e000000500000005100000057000000580000005a0000005b0000005d0000005e00000064000000650000006d0000006e00000076000000770000007b000000
+  ImpactRenderFrameDatasDefault:
+  - UV:
+      x: 0.032226562
+      y: 0.04296875
+      z: 0.9638672
+      w: 0.9560547
+    Scale:
+      x: 0.106451616
+      y: 0.14193548
+    PositionOffset:
+      x: 0.0016129017
+      y: -0.030645156
+    ScaleModifier: 5
+  - UV:
+      x: 0.08300781
+      y: 0.047851562
+      z: 0.84277344
+      w: 0.234375
+    Scale:
+      x: 0.27419356
+      y: 0.15806451
+    PositionOffset:
+      x: 0.02096774
+      y: -0.0064516095
+    ScaleModifier: 5
+  - UV:
+      x: 0.111328125
+      y: 0.08886719
+      z: 0.71875
+      w: 0.026367188
+    Scale:
+      x: 0.36774194
+      y: 0.29354838
+    PositionOffset:
+      x: 0.13225807
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.10839844
+      y: 0.09277344
+      z: 0.7919922
+      w: 0.5986328
+    Scale:
+      x: 0.3580645
+      y: 0.30645162
+    PositionOffset:
+      x: 0.1532258
+      y: 0.0032258106
+    ScaleModifier: 5
+  - UV:
+      x: 0.08984375
+      y: 0.040039062
+      z: 0.7128906
+      w: 0.49609375
+    Scale:
+      x: 0.29677418
+      y: 0.13225806
+    PositionOffset:
+      x: 0
+      y: -0.009677418
+    ScaleModifier: 5
+  - UV:
+      x: 0.095703125
+      y: 0.0625
+      z: 0.84472656
+      w: 0.09277344
+    Scale:
+      x: 0.31612903
+      y: 0.20645161
+    PositionOffset:
+      x: 0.11935484
+      y: -0.014516129
+    ScaleModifier: 5
+  - UV:
+      x: 0.099609375
+      y: 0.06640625
+      z: 0.32128906
+      w: 0.06738281
+    Scale:
+      x: 0.32903227
+      y: 0.21935484
+    PositionOffset:
+      x: 0.103225805
+      y: 0.004838708
+    ScaleModifier: 5
+  - UV:
+      x: 0.10546875
+      y: 0.055664062
+      z: 0.7919922
+      w: 0.5410156
+    Scale:
+      x: 0.3483871
+      y: 0.18387097
+    PositionOffset:
+      x: 0.15806451
+      y: 0.035483874
+    ScaleModifier: 5
+  - UV:
+      x: 0.01171875
+      y: 0.0068359375
+      z: 0.52734375
+      w: 0.4951172
+    Scale:
+      x: 0.038709678
+      y: 0.022580646
+    PositionOffset:
+      x: 0.0032258069
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.0107421875
+      y: 0.0068359375
+      z: 0.5410156
+      w: 0.4951172
+    Scale:
+      x: 0.03548387
+      y: 0.022580646
+    PositionOffset:
+      x: 0.0048387093
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.024414062
+      y: 0.0126953125
+      z: 0.953125
+      w: 0.6933594
+    Scale:
+      x: 0.08064516
+      y: 0.041935485
+    PositionOffset:
+      x: -0.017741937
+      y: 0.009677419
+    ScaleModifier: 15
+  - UV:
+      x: 0.0146484375
+      y: 0.0107421875
+      z: 0.25097656
+      w: 0.2939453
+    Scale:
+      x: 0.048387095
+      y: 0.03548387
+    PositionOffset:
+      x: 0.017741935
+      y: 0.0032258066
+    ScaleModifier: 15
+  - UV:
+      x: 0.037109375
+      y: 0.020507812
+      z: 0.8886719
+      w: 0.37109375
+    Scale:
+      x: 0.12258065
+      y: 0.06774194
+    PositionOffset:
+      x: -0.0032258087
+      y: -0.009677419
+    ScaleModifier: 15
+  - UV:
+      x: 0.0146484375
+      y: 0.015625
+      z: 0.52734375
+      w: 0.2861328
+    Scale:
+      x: 0.048387095
+      y: 0.051612902
+    PositionOffset:
+      x: 0.049999997
+      y: 0.0048387097
+    ScaleModifier: 15
+  - UV:
+      x: 0.037109375
+      y: 0.032226562
+      z: 0.953125
+      w: 0.7080078
+    Scale:
+      x: 0.12258065
+      y: 0.106451616
+    PositionOffset:
+      x: -0.0032258087
+      y: -0.009677417
+    ScaleModifier: 8
+  - UV:
+      x: 0.051757812
+      y: 0.0390625
+      z: 0.92089844
+      w: 0.17382812
+    Scale:
+      x: 0.17096774
+      y: 0.12903225
+    PositionOffset:
+      x: 0.046774194
+      y: -0.0048387125
+    ScaleModifier: 8
+  - UV:
+      x: 0.059570312
+      y: 0.048828125
+      z: 0.9277344
+      w: 0.2626953
+    Scale:
+      x: 0.1967742
+      y: 0.16129032
+    PositionOffset:
+      x: 0.07903226
+      y: 0.008064518
+    ScaleModifier: 8
+  - UV:
+      x: 0.017578125
+      y: 0.026367188
+      z: 0.55566406
+      w: 0.091796875
+    Scale:
+      x: 0.058064517
+      y: 0.08709677
+    PositionOffset:
+      x: -0.003225808
+      y: -0.0096774185
+    ScaleModifier: 8
+  - UV:
+      x: 0.005859375
+      y: 0.0068359375
+      z: 0.8066406
+      w: 0.3623047
+    Scale:
+      x: 0.019354839
+      y: 0.022580646
+    PositionOffset:
+      x: 0
+      y: 0
+    ScaleModifier: 8
+  - UV:
+      x: 0.07910156
+      y: 0.091796875
+      z: 0.90234375
+      w: 0.5996094
+    Scale:
+      x: 0.2612903
+      y: 0.30322582
+    PositionOffset:
+      x: 0.114516124
+      y: 0.0016129031
+    ScaleModifier: 5
+  - UV:
+      x: 0.08691406
+      y: 0.08691406
+      z: 0.8066406
+      w: 0.45214844
+    Scale:
+      x: 0.28709677
+      y: 0.28709677
+    PositionOffset:
+      x: 0.07580645
+      y: 0.0032258057
+    ScaleModifier: 5
+  - UV:
+      x: 0.12207031
+      y: 0.123046875
+      z: 0.71875
+      w: 0.234375
+    Scale:
+      x: 0.4032258
+      y: 0.4064516
+    PositionOffset:
+      x: 0.14354838
+      y: -0.020967735
+    ScaleModifier: 5
+  - UV:
+      x: 0.12988281
+      y: 0.13378906
+      z: 0.58691406
+      w: 0.03125
+    Scale:
+      x: 0.42903227
+      y: 0.44193548
+    PositionOffset:
+      x: 0.17580645
+      y: -0.003225795
+    ScaleModifier: 5
+  - UV:
+      x: 0.12695312
+      y: 0.13378906
+      z: 0.6777344
+      w: 0.359375
+    Scale:
+      x: 0.41935483
+      y: 0.44193548
+    PositionOffset:
+      x: 0.19354838
+      y: -0.003225795
+    ScaleModifier: 5
+  - UV:
+      x: 0.07714844
+      y: 0.09765625
+      z: 0.7128906
+      w: 0.53808594
+    Scale:
+      x: 0.2548387
+      y: 0.32258064
+    PositionOffset:
+      x: 0.13387097
+      y: 0.0145161245
+    ScaleModifier: 5
+  - UV:
+      x: 0.032226562
+      y: 0.029296875
+      z: 0.9638672
+      w: 0.9248047
+    Scale:
+      x: 0.106451616
+      y: 0.09677419
+    PositionOffset:
+      x: -0.008064515
+      y: 0.0048387107
+    ScaleModifier: 9
+  - UV:
+      x: 0.029296875
+      y: 0.016601562
+      z: 0.72753906
+      w: 0.6933594
+    Scale:
+      x: 0.09677419
+      y: 0.05483871
+    PositionOffset:
+      x: 0.03548387
+      y: 0.0064516123
+    ScaleModifier: 9
+  - UV:
+      x: 0.06933594
+      y: 0.04296875
+      z: 0.90234375
+      w: 0.5546875
+    Scale:
+      x: 0.22903226
+      y: 0.14193548
+    PositionOffset:
+      x: 0.043548387
+      y: 0.011290325
+    ScaleModifier: 9
+  - UV:
+      x: 0.078125
+      y: 0.03125
+      z: 0.32128906
+      w: 0.0029296875
+    Scale:
+      x: 0.2580645
+      y: 0.103225805
+    PositionOffset:
+      x: 0.14193548
+      y: 0.027419355
+    ScaleModifier: 9
+  - UV:
+      x: 0.040039062
+      y: 0.0390625
+      z: 0.953125
+      w: 0.7421875
+    Scale:
+      x: 0.13225806
+      y: 0.12903225
+    PositionOffset:
+      x: 0.0016129016
+      y: -0.008064516
+    ScaleModifier: 5
+  - UV:
+      x: 0.045898438
+      y: 0.026367188
+      z: 0.953125
+      w: 0.8222656
+    Scale:
+      x: 0.15161291
+      y: 0.08709677
+    PositionOffset:
+      x: 0.011290321
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.06542969
+      y: 0.028320312
+      z: 0.55566406
+      w: 0.0009765625
+    Scale:
+      x: 0.21612903
+      y: 0.09354839
+    PositionOffset:
+      x: 0.027419358
+      y: 0.0064516137
+    ScaleModifier: 5
+  - UV:
+      x: 0.06542969
+      y: 0.032226562
+      z: 0.8955078
+      w: 0.45507812
+    Scale:
+      x: 0.21612903
+      y: 0.106451616
+    PositionOffset:
+      x: 0.049999997
+      y: 0.0032258066
+    ScaleModifier: 5
+  - UV:
+      x: 0.032226562
+      y: 0.053710938
+      z: 0.72753906
+      w: 0.6376953
+    Scale:
+      x: 0.106451616
+      y: 0.17741935
+    PositionOffset:
+      x: 0.15322581
+      y: 0.00967742
+    ScaleModifier: 5
+  - UV:
+      x: 0.013671875
+      y: 0.02734375
+      z: 0.76953125
+      w: 0.74902344
+    Scale:
+      x: 0.045161292
+      y: 0.090322584
+    PositionOffset:
+      x: 0.16129033
+      y: -0.008064518
+    ScaleModifier: 5
+  - UV:
+      x: 0.040039062
+      y: 0.064453125
+      z: 0.72753906
+      w: 0.71191406
+    Scale:
+      x: 0.13225806
+      y: 0.21290323
+    PositionOffset:
+      x: 0.037096772
+      y: 0.024193551
+    ScaleModifier: 5
+  - UV:
+      x: 0.068359375
+      y: 0.08496094
+      z: 0.84277344
+      w: 0.2841797
+    Scale:
+      x: 0.22580644
+      y: 0.28064516
+    PositionOffset:
+      x: 0.02580645
+      y: 0.01935484
+    ScaleModifier: 5
+  - UV:
+      x: 0.051757812
+      y: 0.08300781
+      z: 0.25097656
+      w: 0.30664062
+    Scale:
+      x: 0.17096774
+      y: 0.27419356
+    PositionOffset:
+      x: -0.004838711
+      y: 0.025806451
+    ScaleModifier: 5
+  - UV:
+      x: 0.0390625
+      y: 0.049804688
+      z: 0.65234375
+      w: 0.30371094
+    Scale:
+      x: 0.12903225
+      y: 0.16451614
+    PositionOffset:
+      x: 0.019354839
+      y: -0.029032258
+    ScaleModifier: 5
+  - UV:
+      x: 0.07324219
+      y: 0.07128906
+      z: 0.83203125
+      w: 0.01953125
+    Scale:
+      x: 0.24193548
+      y: 0.23548387
+    PositionOffset:
+      x: -0.017741932
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.16210938
+      y: 0.15722656
+      z: 0.42285156
+      w: 0.12011719
+    Scale:
+      x: 0.5354839
+      y: 0.5193548
+    PositionOffset:
+      x: 0.0032258045
+      y: -0.0016128983
+    ScaleModifier: 5
+  - UV:
+      x: 0.30273438
+      y: 0.30273438
+      z: 0.0009765625
+      w: 0.69628906
+    Scale:
+      x: 1
+      y: 1
+    PositionOffset:
+      x: 0
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.30273438
+      y: 0.30273438
+      z: 0.0009765625
+      w: 0.39160156
+    Scale:
+      x: 1
+      y: 1
+    PositionOffset:
+      x: 0
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.13085938
+      y: 0.11425781
+      z: 0.42285156
+      w: 0.00390625
+    Scale:
+      x: 0.43225807
+      y: 0.37741935
+    PositionOffset:
+      x: 0.0064516077
+      y: -0.0016129144
+    ScaleModifier: 5
+  - UV:
+      x: 0.12988281
+      y: 0.13476562
+      z: 0.58691406
+      w: 0.16699219
+    Scale:
+      x: 0.42903227
+      y: 0.44516128
+    PositionOffset:
+      x: -0.0048387167
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.15527344
+      y: 0.123046875
+      z: 0.1640625
+      w: 0.0107421875
+    Scale:
+      x: 0.5129032
+      y: 0.4064516
+    PositionOffset:
+      x: -0.030645153
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.1484375
+      y: 0.13769531
+      z: 0.52734375
+      w: 0.35546875
+    Scale:
+      x: 0.4903226
+      y: 0.45483872
+    PositionOffset:
+      x: -0.022580648
+      y: -0.008064507
+    ScaleModifier: 5
+  - UV:
+      x: 0.16113281
+      y: 0.12695312
+      z: 0.0009765625
+      w: 0.0107421875
+    Scale:
+      x: 0.5322581
+      y: 0.41935483
+    PositionOffset:
+      x: -0.008064508
+      y: 0.0096774185
+    ScaleModifier: 5
+  - UV:
+      x: 0.15625
+      y: 0.140625
+      z: 0.5546875
+      w: 0.4951172
+    Scale:
+      x: 0.516129
+      y: 0.46451613
+    PositionOffset:
+      x: -0.0064516068
+      y: 0.016129026
+    ScaleModifier: 5
+  - UV:
+      x: 0.1640625
+      y: 0.13867188
+      z: 0.56152344
+      w: 0.6376953
+    Scale:
+      x: 0.5419355
+      y: 0.45806453
+    PositionOffset:
+      x: 0.009677415
+      y: 0.016129032
+    ScaleModifier: 5
+  - UV:
+      x: 0.16992188
+      y: 0.14160156
+      z: 0.25097656
+      w: 0.13574219
+    Scale:
+      x: 0.5612903
+      y: 0.46774194
+    PositionOffset:
+      x: 0.0032258139
+      y: -0.0016128902
+    ScaleModifier: 5
+  - UV:
+      x: 0.17675781
+      y: 0.1484375
+      z: 0.78515625
+      w: 0.85058594
+    Scale:
+      x: 0.58387095
+      y: 0.4903226
+    PositionOffset:
+      x: -0.017741939
+      y: 0.0064516175
+    ScaleModifier: 5
+  - UV:
+      x: 0.16601562
+      y: 0.15527344
+      z: 0.78515625
+      w: 0.6933594
+    Scale:
+      x: 0.5483871
+      y: 0.5129032
+    PositionOffset:
+      x: 0
+      y: 0.004838706
+    ScaleModifier: 5
+  - UV:
+      x: 0.16210938
+      y: 0.15722656
+      z: 0.42285156
+      w: 0.12011719
+    Scale:
+      x: 0.5354839
+      y: 0.5193548
+    PositionOffset:
+      x: 0.0032258045
+      y: -0.0016128983
+    ScaleModifier: 5
+  - UV:
+      x: 0.30273438
+      y: 0.30273438
+      z: 0.0009765625
+      w: 0.69628906
+    Scale:
+      x: 1
+      y: 1
+    PositionOffset:
+      x: 0
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.30273438
+      y: 0.30273438
+      z: 0.0009765625
+      w: 0.39160156
+    Scale:
+      x: 1
+      y: 1
+    PositionOffset:
+      x: 0
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.13085938
+      y: 0.11425781
+      z: 0.42285156
+      w: 0.00390625
+    Scale:
+      x: 0.43225807
+      y: 0.37741935
+    PositionOffset:
+      x: 0.0064516077
+      y: -0.0016129144
+    ScaleModifier: 5
+  - UV:
+      x: 0.12988281
+      y: 0.13476562
+      z: 0.58691406
+      w: 0.16699219
+    Scale:
+      x: 0.42903227
+      y: 0.44516128
+    PositionOffset:
+      x: -0.0048387167
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.15527344
+      y: 0.123046875
+      z: 0.1640625
+      w: 0.0107421875
+    Scale:
+      x: 0.5129032
+      y: 0.4064516
+    PositionOffset:
+      x: -0.030645153
+      y: 0
+    ScaleModifier: 5
+  - UV:
+      x: 0.1484375
+      y: 0.13769531
+      z: 0.52734375
+      w: 0.35546875
+    Scale:
+      x: 0.4903226
+      y: 0.45483872
+    PositionOffset:
+      x: -0.022580648
+      y: -0.008064507
+    ScaleModifier: 5
+  - UV:
+      x: 0.16113281
+      y: 0.12695312
+      z: 0.0009765625
+      w: 0.0107421875
+    Scale:
+      x: 0.5322581
+      y: 0.41935483
+    PositionOffset:
+      x: -0.008064508
+      y: 0.0096774185
+    ScaleModifier: 5
+  - UV:
+      x: 0.15625
+      y: 0.140625
+      z: 0.5546875
+      w: 0.4951172
+    Scale:
+      x: 0.516129
+      y: 0.46451613
+    PositionOffset:
+      x: -0.0064516068
+      y: 0.016129026
+    ScaleModifier: 5
+  - UV:
+      x: 0.1640625
+      y: 0.13867188
+      z: 0.56152344
+      w: 0.6376953
+    Scale:
+      x: 0.5419355
+      y: 0.45806453
+    PositionOffset:
+      x: 0.009677415
+      y: 0.016129032
+    ScaleModifier: 5
+  - UV:
+      x: 0.16992188
+      y: 0.14160156
+      z: 0.25097656
+      w: 0.13574219
+    Scale:
+      x: 0.5612903
+      y: 0.46774194
+    PositionOffset:
+      x: 0.0032258139
+      y: -0.0016128902
+    ScaleModifier: 5
+  - UV:
+      x: 0.17675781
+      y: 0.1484375
+      z: 0.78515625
+      w: 0.85058594
+    Scale:
+      x: 0.58387095
+      y: 0.4903226
+    PositionOffset:
+      x: -0.017741939
+      y: 0.0064516175
+    ScaleModifier: 5
+  - UV:
+      x: 0.16601562
+      y: 0.15527344
+      z: 0.78515625
+      w: 0.6933594
+    Scale:
+      x: 0.5483871
+      y: 0.5129032
+    PositionOffset:
+      x: 0
+      y: 0.004838706
+    ScaleModifier: 5
+  - UV:
+      x: 0.12402344
+      y: 0.115234375
+      z: 0.71875
+      w: 0.1171875
+    Scale:
+      x: 0.40967742
+      y: 0.38064516
+    PositionOffset:
+      x: -0.0016129024
+      y: 0.016129032
+    ScaleModifier: 5
+  - UV:
+      x: 0.22167969
+      y: 0.22070312
+      z: 0.56152344
+      w: 0.7783203
+    Scale:
+      x: 0.7322581
+      y: 0.7290323
+    PositionOffset:
+      x: -0.011290343
+      y: -0.0064516156
+    ScaleModifier: 5
+  - UV:
+      x: 0.24707031
+      y: 0.24023438
+      z: 0.30566406
+      w: 0.50390625
+    Scale:
+      x: 0.816129
+      y: 0.7935484
+    PositionOffset:
+      x: 0.008064527
+      y: -0.022580624
+    ScaleModifier: 5
+  - UV:
+      x: 0.25390625
+      y: 0.2529297
+      z: 0.30566406
+      w: 0.74609375
+    Scale:
+      x: 0.83870965
+      y: 0.83548385
+    PositionOffset:
+      x: 0
+      y: -0.014516127
+    ScaleModifier: 5
+  - UV:
+      x: 0.24804688
+      y: 0.25
+      z: 0.0009765625
+      w: 0.13964844
+    Scale:
+      x: 0.81935483
+      y: 0.82580644
+    PositionOffset:
+      x: -0.009677415
+      y: -0.019354839
+    ScaleModifier: 5
+  - UV:
+      x: 0.21972656
+      y: 0.22265625
+      z: 0.30566406
+      w: 0.27929688
+    Scale:
+      x: 0.7258065
+      y: 0.7354839
+    PositionOffset:
+      x: -0.0016129161
+      y: -0.022580648
+    ScaleModifier: 5
+  - UV:
+      x: 0.080078125
+      y: 0.07910156
+      z: 0.8066406
+      w: 0.37109375
+    Scale:
+      x: 0.26451612
+      y: 0.2612903
+    PositionOffset:
+      x: 0
+      y: -0.008064511
+    ScaleModifier: 5
+  - UV:
+      x: 0.060546875
+      y: 0.056640625
+      z: 0.8886719
+      w: 0.3935547
+    Scale:
+      x: 0.2
+      y: 0.18709677
+    PositionOffset:
+      x: -0.0032258034
+      y: 0.006451611
+    ScaleModifier: 5
+  - UV:
+      x: 0.057617188
+      y: 0.055664062
+      z: 0.91308594
+      w: 0.31347656
+    Scale:
+      x: 0.19032258
+      y: 0.18387097
+    PositionOffset:
+      x: -0.004838705
+      y: 0.014516129
+    ScaleModifier: 5
+  - UV:
+      x: 0.06640625
+      y: 0.06347656
+      z: 0.90722656
+      w: 0.02734375
+    Scale:
+      x: 0.21935484
+      y: 0.20967741
+    PositionOffset:
+      x: -0.009677416
+      y: 0.02096774
+    ScaleModifier: 5
+  - UV:
+      x: 0.06933594
+      y: 0.06347656
+      z: 0.89941406
+      w: 0.4892578
+    Scale:
+      x: 0.22903226
+      y: 0.20967741
+    PositionOffset:
+      x: -0.008064516
+      y: -0.0048387153
+    ScaleModifier: 5
+  - UV:
+      x: 0.07421875
+      y: 0.07519531
+      z: 0.84472656
+      w: 0.15722656
+    Scale:
+      x: 0.2451613
+      y: 0.2483871
+    PositionOffset:
+      x: 0
+      y: 0.0048387116
+    ScaleModifier: 5
+  - UV:
+      x: 0.056640625
+      y: 0.026367188
+      z: 0.6230469
+      w: 0.0029296875
+    Scale:
+      x: 0.18709677
+      y: 0.08709677
+    PositionOffset:
+      x: -0.03225806
+      y: 0.020967742
+    ScaleModifier: 9
+  - UV:
+      x: 0.099609375
+      y: 0.029296875
+      z: 0.32128906
+      w: 0.036132812
+    Scale:
+      x: 0.32903227
+      y: 0.09677419
+    PositionOffset:
+      x: 0.09677419
+      y: 0.0064516123
+    ScaleModifier: 9
+  - UV:
+      x: 0.123046875
+      y: 0.049804688
+      z: 0.52734375
+      w: 0.30371094
+    Scale:
+      x: 0.4064516
+      y: 0.16451614
+    PositionOffset:
+      x: 0.10967741
+      y: -0.008064521
+    ScaleModifier: 9
+  - UV:
+      x: 0.044921875
+      y: 0.037109375
+      z: 0.953125
+      w: 0.7832031
+    Scale:
+      x: 0.14838709
+      y: 0.12258065
+    PositionOffset:
+      x: 0
+      y: 0.0032258052
+    ScaleModifier: 9
+  - UV:
+      x: 0.057617188
+      y: 0.045898438
+      z: 0.9277344
+      w: 0.21484375
+    Scale:
+      x: 0.19032258
+      y: 0.15161291
+    PositionOffset:
+      x: 0.0048387107
+      y: 0.014516127
+    ScaleModifier: 9
+  ImpactTowerIndexes: 000000000300000004000000090000000a0000000d0000000e000000120000001300000018000000190000001c0000001d0000002200000023000000270000002800000034000000350000004d0000004e00000052000000

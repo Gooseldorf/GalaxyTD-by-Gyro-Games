@@ -1,0 +1,433 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target x86_64-apple-macos10.10 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MacOSUnity
+import AdSupport
+import AppKit
+import CryptoKit
+import Dispatch
+import Foundation
+import SQLite3
+import Security
+import StoreKit
+import Swift
+import os.log
+import os
+@_inheritsConvenienceInitializers @objc public class DTDEngineWrapper : ObjectiveC.NSObject {
+  @objc public static var engineLoggerMessageClosure: ((MacOSUnity.DTDLogLevel, Swift.String) -> Swift.Void)? {
+    @objc get
+    @objc set
+  }
+  @objc public static func destroySDK()
+  @objc public static func setSDKVersion(version: Swift.String)
+  @objc public static func enableEditorMode()
+  @objc public static var unitySdkFolderPath: Swift.String {
+    @objc get
+  }
+  @objc public static func testString(value: Swift.String)
+  @objc public static func engineSubscriptionHistory(_ transactions: [Swift.String : [Swift.String]])
+  @objc public static func engineSubscriprtionPayment(productId: Swift.String, transactionId: Swift.String)
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum DTDRemoteConfigSource : Swift.Int {
+  case empty = 0
+  case remote = 1
+  case defaults = 2
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DTDRemoteConfigSource : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc final public class DTDRemoteConfigValue : ObjectiveC.NSObject {
+  @objc final public var value: Any
+  @objc final public var source: MacOSUnity.DTDRemoteConfigSource
+  @objc final public var stringValue: Swift.String? {
+    @objc get
+  }
+  @objc final public var floatValue: Swift.Float {
+    @objc get
+  }
+  @objc final public var doubleValue: Swift.Double {
+    @objc get
+  }
+  @objc final public var int32Value: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var int64Value: Swift.Int64 {
+    @objc get
+  }
+  @objc final public var integerValue: Swift.Int {
+    @objc get
+  }
+  @objc final public var boolValue: Swift.Bool {
+    @objc get
+  }
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_hasMissingDesignatedInitializers @objc final public class DTDRemoteConfigCollection : ObjectiveC.NSObject {
+  public typealias ConfigCollection = [Swift.String : MacOSUnity.DTDRemoteConfigValue]
+  @objc final public subscript(key: Swift.String) -> MacOSUnity.DTDRemoteConfigValue {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension DTDRemoteConfigCollection {
+  @objc final public func getRawConfig() -> [Swift.String : MacOSUnity.DTDRemoteConfigValue]
+}
+@_inheritsConvenienceInitializers @objc final public class DTDRemoteConfig : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public static var remoteConfigWaiting: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var groupDefinitionWaiting: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var defaults: [Swift.String : Any] {
+    @objc get
+    @objc set
+  }
+  @objc public static var config: MacOSUnity.DTDRemoteConfigCollection {
+    @objc get
+  }
+  @objc public static func applyConfig()
+  @objc public static func resetConfig()
+  @objc deinit
+}
+@objc public enum DTDRemoteConfigChangeResult : Swift.Int {
+  case failure = 0
+  case success = 1
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DTDRemoteConfigChangeResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@objc public enum DTDRemoteConfigReceiveResult : Swift.Int {
+  case failure = 0
+  case success = 1
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DTDRemoteConfigReceiveResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@objc public protocol DTDRemoteConfigListener {
+  @objc(onReceivedResult:) func onReceived(result: MacOSUnity.DTDRemoteConfigReceiveResult)
+  @objc func onPrepareToChange()
+  @objc(onChangedResult:error:) func onChanged(result: MacOSUnity.DTDRemoteConfigChangeResult, error: Swift.Error?)
+}
+@_inheritsConvenienceInitializers @objc public class DTDAnalytics : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public static var logLevel: MacOSUnity.DTDLogLevel {
+    @objc get
+    @objc set
+  }
+  @objc(deviceIdHandler:) public static func getDeviceId(completionHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc(sdkVersionHandler:) public static func getSDKVersion(completionHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc(trackingAvailabilityHandler:) public static func getTrackingAvailability(completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @objc(trackingAvailability:) public static func setTrackingAvailability(value: Swift.Bool)
+  @objc(userIdHandler:) public static func getUserId(completionHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc public static func setIdentifiersListener(listener: MacOSUnity.DTDIdentifiersListener?)
+  @objc(setInitializationCompleteCallback:) public static func setInitializationCompleteCallback(callback: (() -> Swift.Void)?)
+  @objc(userId:) public static func setUserId(userId: Swift.String)
+  @objc public static func replace(fromUserId: Swift.String, toUserId: Swift.String)
+  @objc(currentLevelHandler:) public static func getCurrentLevel(completionHandler: @escaping (Swift.Int) -> Swift.Void)
+  @objc(currentLevel:) public static func setCurrentLevel(currentLevel: Swift.Int)
+  @objc(levelUp:) public static func levelUp(level: Swift.Int)
+  @objc(levelUp:withBalances:) public static func levelUp(level: Swift.Int, balances: [Swift.String : Swift.Int])
+  @objc public static func currentBalance(balance: [Swift.String : Swift.Int])
+  @objc(applicationKey:configuration:) public static func initialize(applicationKey: Swift.String, configuration: MacOSUnity.DTDAnalyticsConfiguration)
+  @objc(applicationKey:) public static func initialize(applicationKey: Swift.String)
+  @objc(applicationKey:configuration:abConfigListener:) public static func initializeWithAbTest(applicationKey: Swift.String, configuration: MacOSUnity.DTDAnalyticsConfiguration, abConfigListener: MacOSUnity.DTDRemoteConfigListener)
+  @objc(applicationKey:abConfigListener:) public static func initializeWithAbTest(applicationKey: Swift.String, abConfigListener: MacOSUnity.DTDRemoteConfigListener)
+  @objc(customEvent:) public static func customEvent(eventName: Swift.String)
+  @objc(customEvent:withParameters:) public static func customEvent(eventName: Swift.String, parameters: MacOSUnity.DTDCustomEventParameters)
+  @objc public static func sendBufferedEvents()
+  @objc public static func virtualCurrencyPayment(purchaseId: Swift.String, purchaseType: Swift.String, purchaseAmount: Swift.Int, purchasePrice: Swift.Int, purchaseCurrency: Swift.String)
+  @objc public static func virtualCurrencyPayment(purchaseId: Swift.String, purchaseType: Swift.String, purchaseAmount: Swift.Int, resources: [Swift.String : Swift.Int])
+  @objc(currencyName:currencyAmount:source:accrualType:) public static func currencyAccrual(currencyName: Swift.String, currencyAmount: Swift.Int, source: Swift.String, accrualType: MacOSUnity.DTDAccrualType)
+  @objc(startProgressionEvent:) public static func startProgressionEvent(eventName: Swift.String)
+  @objc(startProgressionEvent:withParameters:) public static func startProgressionEvent(eventName: Swift.String, parameters: MacOSUnity.DTDStartProgressionEventParameters)
+  @objc(finishProgressionEvent:) public static func finishProgressionEvent(eventName: Swift.String)
+  @objc(finishProgressionEvent:withParameters:) public static func finishProgressionEvent(eventName: Swift.String, parameters: MacOSUnity.DTDFinishProgressionEventParameters)
+  @objc public static func realCurrencyPayment(orderId: Swift.String, price: Swift.Double, productId: Swift.String, currencyCode: Swift.String)
+  @objc public static func isRestoreTransactionHistoryRequired(completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public static func subscriptionHistory(transactions: [StoreKit.SKPaymentTransaction])
+  @objc public static func subscriptionPayment(transaction: StoreKit.SKPaymentTransaction, product: StoreKit.SKProduct)
+  @objc(socialNetworkConnect:) public static func socialNetworkConnect(socialNetwork: MacOSUnity.DTDSocialNetwork)
+  @objc(socialNetworkPost:withReason:) public static func socialNetworkPost(socialNetwork: MacOSUnity.DTDSocialNetwork, reason: Swift.String)
+  @objc(tutorialStep:) public static func tutorial(step: Swift.Int)
+  @objc(referrer:) public static func referrer(utmData: [MacOSUnity.DTDReferralProperty : Swift.String])
+  @objc public static func adImpression(network: Swift.String, revenue: Swift.Double, placement: Swift.String?, unit: Swift.String?)
+  @objc deinit
+}
+extension DTDAnalytics {
+  @objc public static func testLogs()
+  @objc public static func setTestProxyUrl(url: Swift.String)
+  @objc public static func getTestProxyUrl(urlHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc public static func setTestCustomUrl(url: Swift.String)
+  @objc public static func getTestCustomUrl(urlHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc public static var loggerMessageClosure: ((Swift.String) -> Swift.Void)? {
+    @objc get
+    @objc set
+  }
+  @objc public static var sdkFolderPath: Swift.String {
+    @objc get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class DTDReferralProperty : ObjectiveC.NSObject, Foundation.NSCopying {
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc public init(name: Swift.String)
+  @objc public static let source: MacOSUnity.DTDReferralProperty
+  @objc public static let campaign: MacOSUnity.DTDReferralProperty
+  @objc public static let content: MacOSUnity.DTDReferralProperty
+  @objc public static let medium: MacOSUnity.DTDReferralProperty
+  @objc public static let term: MacOSUnity.DTDReferralProperty
+  @objc final public let name: Swift.String
+  @available(*, unavailable)
+  @objc override dynamic public init()
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc override dynamic public var hash: Swift.Int {
+    @objc get
+  }
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class DTDCustomEventParameters : ObjectiveC.NSObject {
+  @objc(addBool:value:) final public func add(key: Swift.String, value: Swift.Bool)
+  @objc(addInt:value:) final public func add(key: Swift.String, value: Swift.Int)
+  @objc(addString:value:) final public func add(key: Swift.String, value: Swift.String)
+  @objc(addDouble:value:) final public func add(key: Swift.String, value: Swift.Double)
+  @objc final public func getAllParameters() -> [Swift.String : Any]
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc final public class DTDFinishProgressionEventParameters : ObjectiveC.NSObject {
+  @objc final public var successfulCompletion: Swift.Bool
+  @objc final public var duration: Swift.Int
+  @objc final public var spent: [Swift.String : Swift.Int]
+  @objc final public var earned: [Swift.String : Swift.Int]
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc final public class DTDStartProgressionEventParameters : ObjectiveC.NSObject {
+  @objc final public var source: Swift.String?
+  @objc final public func setDifficulty(difficulty: Swift.Int)
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class DTDAnalyticsConfiguration : ObjectiveC.NSObject {
+  @objc public var logLevel: MacOSUnity.DTDLogLevel
+  @objc public var userId: Swift.String?
+  @objc public var currentLevel: Foundation.NSNumber?
+  @objc public var trackingAvailability: MacOSUnity.DTDTrackingStatus
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public class DTDSocialNetwork : ObjectiveC.NSObject {
+  @objc public init(name: Swift.String)
+  @objc final public let name: Swift.String
+  @objc public static let facebook: MacOSUnity.DTDSocialNetwork
+  @objc public static let vkontakte: MacOSUnity.DTDSocialNetwork
+  @objc public static let twitter: MacOSUnity.DTDSocialNetwork
+  @objc public static let googleplus: MacOSUnity.DTDSocialNetwork
+  @objc public static let whatsapp: MacOSUnity.DTDSocialNetwork
+  @objc public static let viber: MacOSUnity.DTDSocialNetwork
+  @objc public static let evernote: MacOSUnity.DTDSocialNetwork
+  @objc public static let googlemail: MacOSUnity.DTDSocialNetwork
+  @objc public static let linkedin: MacOSUnity.DTDSocialNetwork
+  @objc public static let pinterest: MacOSUnity.DTDSocialNetwork
+  @objc public static let qzone: MacOSUnity.DTDSocialNetwork
+  @objc public static let reddit: MacOSUnity.DTDSocialNetwork
+  @objc public static let renren: MacOSUnity.DTDSocialNetwork
+  @objc public static let tumblr: MacOSUnity.DTDSocialNetwork
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum DTDTrackingStatus : Swift.Int {
+  case unknown
+  case enable
+  case disable
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DTDTrackingStatus : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@objc public enum DTDAccrualType : Swift.Int {
+  case earned = 0
+  case bought = 1
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+}
+extension DTDAccrualType : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@objc public protocol DTDIdentifiersListener {
+  @objc optional func didReceiveDevtodevId(with devtodevId: Swift.Int64)
+}
+@_inheritsConvenienceInitializers @objc public class DTDUserCard : ObjectiveC.NSObject {
+  @objc(setName:) public static func setName(name: Swift.String)
+  @objc(getNameHandler:) public static func getName(completionHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc(setEmail:) public static func setEmail(email: Swift.String)
+  @objc(getEmailHandler:) public static func getEmail(completionHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc(setPhone:) public static func setPhone(phone: Swift.String)
+  @objc(getPhoneHandler:) public static func getPhone(completionHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc(setPhoto:) public static func setPhoto(photo: Swift.String)
+  @objc(getPhotoHandler:) public static func getPhoto(completionHandler: @escaping (Swift.String) -> Swift.Void)
+  @objc(setGender:) public static func setGender(gender: MacOSUnity.DTDGender)
+  @objc(getGenderHandler:) public static func getGender(completionHandler: @escaping (MacOSUnity.DTDGender) -> Swift.Void)
+  @objc(setAge:) public static func setAge(age: Swift.Int)
+  @objc(getAgeHandler:) public static func getAge(completionHandler: @escaping (Swift.Int) -> Swift.Void)
+  @objc(setCheater:) public static func setCheater(cheater: Swift.Bool)
+  @objc(setTester:) public static func setTester(tester: Swift.Bool)
+  @objc(setString:value:) public static func set(key: Swift.String, value: Swift.String)
+  @objc(setBool:value:) public static func set(key: Swift.String, value: Swift.Bool)
+  @objc(setInt:value:) public static func set(key: Swift.String, value: Swift.Int)
+  @objc(setDouble:value:) public static func set(key: Swift.String, value: Swift.Double)
+  @objc public static func getValue(key: Swift.String, _ completionHandler: @escaping (Any?) -> Swift.Void)
+  @objc(unsetProperty:) public static func unset(property: Swift.String)
+  @objc(unset:) public static func unset(properties: [Swift.String])
+  @objc(increment:byInt:) public static func increment(key: Swift.String, value: Swift.Int)
+  @objc(increment:byDouble:) public static func increment(key: Swift.String, value: Swift.Double)
+  @objc public static func clearUser()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc(Gender) public enum DTDGender : Swift.Int {
+  case unknown = 0
+  case male = 1
+  case female = 2
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DTDVerifyResponse : ObjectiveC.NSObject {
+  @objc final public let verificationResult: Swift.String?
+  @objc final public let receiptStatus: MacOSUnity.DTDReceiptStatus
+  @available(*, unavailable)
+  @objc override dynamic public init()
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class DTDAntiCheat : ObjectiveC.NSObject {
+  @objc public static func verifyPayment(receiptString: Swift.String, completionHandler: @escaping (MacOSUnity.DTDVerifyResponse) -> Swift.Void)
+  @objc(verifyPaymentCompletion:) public static func verifyPayment(completionHandler: @escaping (MacOSUnity.DTDVerifyResponse) -> Swift.Void)
+  @available(*, unavailable)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(ReceiptStatus) public enum DTDReceiptStatus : Swift.Int {
+  case receiptValid
+  case receiptNotValid
+  case receiptServerError
+  case receiptSandbox
+  case receiptInternalError
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DTDLogLevel : Swift.Int, Swift.CaseIterable {
+  case unknown
+  case no
+  case error
+  case warning
+  case info
+  case debug
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [MacOSUnity.DTDLogLevel]
+  public static var allCases: [MacOSUnity.DTDLogLevel] {
+    get
+  }
+}
+extension MacOSUnity.DTDRemoteConfigSource : Swift.Equatable {}
+extension MacOSUnity.DTDRemoteConfigSource : Swift.Hashable {}
+extension MacOSUnity.DTDRemoteConfigSource : Swift.RawRepresentable {}
+extension MacOSUnity.DTDRemoteConfigChangeResult : Swift.Equatable {}
+extension MacOSUnity.DTDRemoteConfigChangeResult : Swift.Hashable {}
+extension MacOSUnity.DTDRemoteConfigChangeResult : Swift.RawRepresentable {}
+extension MacOSUnity.DTDRemoteConfigReceiveResult : Swift.Equatable {}
+extension MacOSUnity.DTDRemoteConfigReceiveResult : Swift.Hashable {}
+extension MacOSUnity.DTDRemoteConfigReceiveResult : Swift.RawRepresentable {}
+extension MacOSUnity.DTDGender : Swift.Equatable {}
+extension MacOSUnity.DTDGender : Swift.Hashable {}
+extension MacOSUnity.DTDGender : Swift.RawRepresentable {}
+extension MacOSUnity.DTDTrackingStatus : Swift.Equatable {}
+extension MacOSUnity.DTDTrackingStatus : Swift.Hashable {}
+extension MacOSUnity.DTDTrackingStatus : Swift.RawRepresentable {}
+extension MacOSUnity.DTDAccrualType : Swift.Equatable {}
+extension MacOSUnity.DTDAccrualType : Swift.Hashable {}
+extension MacOSUnity.DTDAccrualType : Swift.RawRepresentable {}
+extension MacOSUnity.DTDReceiptStatus : Swift.Equatable {}
+extension MacOSUnity.DTDReceiptStatus : Swift.Hashable {}
+extension MacOSUnity.DTDReceiptStatus : Swift.RawRepresentable {}
+extension MacOSUnity.DTDLogLevel : Swift.Equatable {}
+extension MacOSUnity.DTDLogLevel : Swift.Hashable {}
+extension MacOSUnity.DTDLogLevel : Swift.RawRepresentable {}

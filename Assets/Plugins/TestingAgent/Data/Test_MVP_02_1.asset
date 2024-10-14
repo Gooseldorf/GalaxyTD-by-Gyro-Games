@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720e8ee4b93c4c0ea140de501076bba5, type: 3}
+  m_Name: Test_MVP_02_1
+  m_EditorClassIdentifier: 
+  IsCompleted: 0
+  Mission: {fileID: 11400000, guid: 10e824486b28fd448a0f893ffaf86cbc, type: 2}
+  TowerFactoryData: {fileID: 11400000, guid: 50f38e36da81900418b3be9526e48442, type: 2}
+  Stats: {fileID: 11400000, guid: b172a83e309e6a949b1eb28c3d9453c4, type: 2}
+  Cash: 6816
+  BuiltTowers:
+  - TowerId: 1
+    DropZoneIndex: 4
+    LevelUpCount: 18
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 8
+    LevelUpCount: 18
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 11
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 12
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 10
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 2
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 5
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 7
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 1
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 3
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 13
+    LevelUpCount: 18
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 9
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 6
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  - TowerId: 1
+    DropZoneIndex: 14
+    LevelUpCount: 17
+    Shots: 0
+    Kills: 0
+    Reloads: 0
+    Damage: 0
+    Overheat: 0
+    Dps: 0
+    OverallCost: 0
+    BuildCost: 0
+    UpgradeCost: 0
+    ReloadCost: 0
+    CostOverDamage: 0
+    CostPerShot: 0
+  Entries:
+  - {fileID: 8411146485431968461}
+--- !u!114 &8411146485431968461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab12e9b97b64477d9605dc6bf8bd510a, type: 3}
+  m_Name: SubTest_Bug1_150
+  m_EditorClassIdentifier: 
+  WithHeaders: 1
+  IsCompleted: 0
+  CreepCount: 150
+  HpModifier: 1.5
+  Wins:
+  - Attempt: 1
+    HpModifier: 1
+    Towers:
+    - TowerId: 1
+      DropZoneIndex: 4
+      LevelUpCount: 18
+      Shots: 44
+      Kills: 13
+      Reloads: 0
+      Damage: 650
+      Overheat: 3856.5537
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 25
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 8
+      LevelUpCount: 18
+      Shots: 44
+      Kills: 12
+      Reloads: 0
+      Damage: 600
+      Overheat: 3559.8958
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 23.076923
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 11
+      LevelUpCount: 17
+      Shots: 41
+      Kills: 7
+      Reloads: 0
+      Damage: 350
+      Overheat: 2076.606
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 13.461538
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 12
+      LevelUpCount: 17
+      Shots: 47
+      Kills: 13
+      Reloads: 0
+      Damage: 650
+      Overheat: 3856.5537
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 25
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 10
+      LevelUpCount: 17
+      Shots: 35
+      Kills: 1
+      Reloads: 0
+      Damage: 50
+      Overheat: 296.658
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 1.9230769
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 2
+      LevelUpCount: 17
+      Shots: 35
+      Kills: 3
+      Reloads: 0
+      Damage: 150
+      Overheat: 889.974
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 5.769231
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 5
+      LevelUpCount: 17
+      Shots: 35
+      Kills: 6
+      Reloads: 0
+      Damage: 300
+      Overheat: 1779.9479
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 11.538462
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 7
+      LevelUpCount: 17
+      Shots: 76
+      Kills: 16
+      Reloads: 0
+      Damage: 800
+      Overheat: 4746.5283
+      Dps: 0
+      OverallCost: 565
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 52
+      CostOverDamage: 15.384615
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 1
+      LevelUpCount: 17
+      Shots: 38
+      Kills: 8
+      Reloads: 0
+      Damage: 400
+      Overheat: 2373.264
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 15.384615
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 3
+      LevelUpCount: 17
+      Shots: 47
+      Kills: 12
+      Reloads: 0
+      Damage: 600
+      Overheat: 3559.8958
+      Dps: 0
+      OverallCost: 539
+      BuildCost: 16
+      UpgradeCost: 497
+      ReloadCost: 26
+      CostOverDamage: 23.076923
+      CostPerShot: 0.77035105
+    - TowerId: 1
+      DropZoneIndex: 13
+      LevelUpCount: 18
+      Shots: 47
+      Kills: 12
+      Reloads: 0
+      Damage: 600
+      Overheat: 2866.5793
+      Dps: 0
+      OverallCost: 436
+      BuildCost: 16
+      UpgradeCost: 398
+      ReloadCost: 22
+      CostOverDamage: 27.272728
+      CostPerShot: 0.6419592
+    - TowerId: 1
+      DropZoneIndex: 9
+      LevelUpCount: 17
+      Shots: 44
+      Kills: 12
+      Reloads: 0
+      Damage: 600
+      Overheat: 2866.5793
+      Dps: 0
+      OverallCost: 436
+      BuildCost: 16
+      UpgradeCost: 398
+      ReloadCost: 22
+      CostOverDamage: 27.272728
+      CostPerShot: 0.6419592
+    - TowerId: 1
+      DropZoneIndex: 6
+      LevelUpCount: 17
+      Shots: 44
+      Kills: 13
+      Reloads: 0
+      Damage: 650
+      Overheat: 3105.461
+      Dps: 0
+      OverallCost: 436
+      BuildCost: 16
+      UpgradeCost: 398
+      ReloadCost: 22
+      CostOverDamage: 29.545454
+      CostPerShot: 0.6419592
+    - TowerId: 1
+      DropZoneIndex: 14
+      LevelUpCount: 17
+      Shots: 44
+      Kills: 9
+      Reloads: 0
+      Damage: 450
+      Overheat: 2149.9346
+      Dps: 0
+      OverallCost: 436
+      BuildCost: 16
+      UpgradeCost: 398
+      ReloadCost: 22
+      CostOverDamage: 20.454546
+      CostPerShot: 0.6419592
+  Lose: []

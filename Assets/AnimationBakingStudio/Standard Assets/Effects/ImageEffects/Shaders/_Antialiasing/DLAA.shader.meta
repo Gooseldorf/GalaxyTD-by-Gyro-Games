@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 017ca72b9e8a749058d13ebd527e98fa
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader
+  uploadId: 602711

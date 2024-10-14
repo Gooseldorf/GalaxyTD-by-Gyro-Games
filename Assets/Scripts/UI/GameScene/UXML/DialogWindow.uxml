@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/ScrollRect.uss?fileID=7433441132597879392&amp;guid=e192f6ac1ada00a458d540e1c29b0b7d&amp;type=3#ScrollRect" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.DialogWindow name="DialogWindow" picking-mode="Ignore" class="English" style="flex-grow: 1;">
+        <ui:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/Dialogues/Bg/Laboratory.png?fileID=2800000&amp;guid=5659ed1a7431bb44ea8fdc72bc6eee27&amp;type=3#Laboratory&apos;); -unity-background-image-tint-color: rgb(102, 102, 102);" />
+        <ui:VisualElement name="Images" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+            <ui:VisualElement name="CharacterOne" picking-mode="Ignore" style="flex-grow: 1; background-image: none; -unity-background-scale-mode: scale-to-fit; flex-direction: column-reverse;">
+                <ui:VisualElement name="CharacterIcon1" picking-mode="Ignore" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/Dialogues/Tauri.png?fileID=21300000&amp;guid=34b1abc136b9a694a889d84e35f90d7a&amp;type=3#Tauri&apos;); scale: 1 1; translate: 0 0; flex-shrink: 0; width: 800px; height: 800px; left: -120px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="CharacterTwo" picking-mode="Ignore" style="flex-grow: 1; background-image: none; -unity-background-scale-mode: scale-to-fit; flex-shrink: 0; flex-direction: column-reverse; flex-wrap: wrap-reverse; align-self: auto;">
+                <ui:VisualElement name="CharacterIcon2" picking-mode="Ignore" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/Dialogues/ShipsNavigator.png?fileID=21300000&amp;guid=726c83499651d2f459cb0b90ea57ad2a&amp;type=3#ShipsNavigator&apos;); flex-shrink: 0; scale: -1 1; translate: 0 0; width: 800px; height: 800px; right: 120px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Text" picking-mode="Ignore" style="flex-grow: 1; display: flex; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; align-items: stretch;">
+            <ui:VisualElement name="Separator" picking-mode="Ignore" style="flex-grow: 1;" />
+            <ui:VisualElement name="TextContainer" style="height: 400px; left: auto; right: auto; margin-right: 460px; margin-left: 460px;">
+                <ui:VisualElement name="Mask" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); overflow: hidden; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-top-left-radius: 60px; border-bottom-left-radius: 60px; border-top-right-radius: 60px; border-bottom-right-radius: 60px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+                    <ui:VisualElement name="HolograficEffect" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/HolograficEffect.png?fileID=21300000&amp;guid=9b4f744b67d0afe42ae3c10a65667797&amp;type=3#HolograficEffect&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.1); -unity-background-scale-mode: scale-and-crop; flex-direction: column; overflow: visible; -unity-slice-left: 1; -unity-slice-top: 1; -unity-slice-right: 1; -unity-slice-bottom: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+                        <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowBg.png?fileID=21300000&amp;guid=71e6e5e938f4580409ba0e80c1b24750&amp;type=3#WindowBg&apos;); -unity-background-image-tint-color: rgba(31, 178, 222, 0.2); align-items: stretch; overflow: visible;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="BlackBackground" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.95); position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Frame" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowFrame.png?fileID=21300000&amp;guid=133593c02abd35d46ac56a7d80df1560&amp;type=3#WindowFrame&apos;); overflow: visible; -unity-slice-scale: 1px; position: absolute; top: -2px; left: 0; right: 0; bottom: 0;" />
+                <ui:VisualElement name="Text" style="flex-grow: 1; padding-top: 30px; padding-right: 60px; padding-bottom: -33px; padding-left: 60px;">
+                    <ui:Label text="Mr. Frodo" name="CharacterName" style="font-size: 60px; color: rgb(0, 179, 225); -unity-text-align: middle-left; padding-left: 20px; -unity-font-style: bold;" />
+                    <ui:VisualElement name="SeparatorLine" style="flex-grow: 0; background-color: rgb(0, 179, 225); height: 2px;" />
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="LineScroll" horizontal-scroller-visibility="Hidden" style="background-image: none; flex-grow: 1; padding-top: 0; padding-bottom: 50px; margin-top: 20px;">
+                        <ui:Label name="Line" text="Six fonts make up the Sarpanch family, ranging in weight from Regular to Black. As weight increases along the family’s axis, vertical strokes become thicker, but the typeface’s horizontals retain the same thickness across each weight. While the rather wide Regular weight of the family is almost monolinear, the Black weight appears to have a very high degree of contrast." style="font-size: 46px; color: rgb(255, 255, 255); white-space: normal; -unity-text-align: upper-left; margin-top: 0; padding-left: 10px;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ClickArea" style="flex-grow: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+        <ui:Label tabindex="-1" text="&lt;u&gt;Skip dialog&lt;/u&gt;" display-tooltip-when-elided="true" name="SkipLabel" style="display: flex; color: rgb(255, 255, 255); font-size: 46px; -unity-text-align: upper-right; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 20px; margin-right: 20px; margin-bottom: 0; margin-left: 0; position: absolute; right: 40px; top: 40px;" />
+    </UI.DialogWindow>
+</ui:UXML>

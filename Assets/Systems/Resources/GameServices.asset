@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd89c2d3384bb2b46f9018fa226889, type: 3}
+  m_Name: GameServices
+  m_EditorClassIdentifier: 
+  MovementSettingsSo: {fileID: 11400000, guid: 5bbb63e188e2fc6448dbd7dda9dcfa84, type: 2}
+  systems:
+  - {fileID: 11400000, guid: 8e1175c3917d2ef49954894dc56b318f, type: 2}
+  - {fileID: 11400000, guid: cb2a1cbba56d36c4fad4bc8fa4fe7d07, type: 2}
+  - {fileID: 11400000, guid: a581264ae29a9fb4bae52aa6b9182e89, type: 2}
+  - {fileID: 11400000, guid: 4b3c24cee58bb3c4881dc58d292c3c1e, type: 2}
+  RenderDataHolder: {fileID: 11400000, guid: 0adbf132804f8cd4998184e7dc52eded, type: 2}
+  IsHard: 0
+  SkipAllDialogs: 0
+  MissionStartLoadTime: 0
+  MissionInitedTime: 32.19330690430888
+  critterStats: {fileID: 11400000, guid: 503bbc9d65caa2142a0212a5c101a9ad, type: 2}

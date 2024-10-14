@@ -1,0 +1,78 @@
+.Chinese {
+    -unity-font: resource('UIFonts/NotoSansSC-Medium_v1');
+    -unity-font-definition: resource('UIFonts/NotoSansSC-Medium_v1');
+    -unity-paragraph-spacing: 20px;
+}
+
+.Russian {
+    -unity-font: resource('UIFonts/CatV_v7');
+    -unity-font-definition: resource('UIFonts/CatV_v7');
+}
+
+.Japanese {
+    -unity-font: resource('UIFonts/NotoSansJP-Medium_v1');
+    -unity-font-definition: resource('UIFonts/NotoSansJP-Medium_v1');
+    -unity-paragraph-spacing: 27px;
+    letter-spacing: -10px;
+}
+
+.Korean {
+    -unity-font: resource('UIFonts/NotoSansKR-Medium_v1');
+    -unity-font-definition: resource('UIFonts/NotoSansKR-Medium_v1');
+    -unity-paragraph-spacing: 20px;
+    letter-spacing: -5px;
+}
+
+.French {
+    -unity-font: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-font-definition: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-paragraph-spacing: -13px;
+    letter-spacing: -3px;
+}
+
+.German {
+    -unity-font: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-font-definition: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-paragraph-spacing: -13px;
+    letter-spacing: -3px;
+}
+
+.Hindi {
+    -unity-font: resource('UIFonts/IBMPlexSansDevanagari-Medium');
+    -unity-font-definition: resource('UIFonts/IBMPlexSansDevanagari-Medium');
+}
+
+.Italian {
+    -unity-font: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-font-definition: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-paragraph-spacing: -13px;
+    letter-spacing: -3px;
+}
+
+.Portuguese {
+    -unity-font: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-font-definition: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-paragraph-spacing: -13px;
+    letter-spacing: -3px;
+}
+
+.Spanish {
+    -unity-font: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-font-definition: resource('UIFonts/MonaspaceKrypton-Medium_v4');
+    -unity-paragraph-spacing: -13px;
+    letter-spacing: -3px;
+}
+
+.SecondaryFontFlag {
+}
+
+.SecondaryFontLatin {
+    -unity-font: resource('UIFonts/DigitalCyrillic1_v2');
+    -unity-font-definition: resource('UIFonts/DigitalCyrillic1_v2');
+    -unity-paragraph-spacing: 26px;
+}
+
+.English {
+    -unity-font: resource('UIFonts/CatV_v7');
+    -unity-font-definition: resource('UIFonts/CatV_v7');
+}

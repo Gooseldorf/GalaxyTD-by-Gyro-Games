@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 80a293241fe77a84294f67c92f33a7a4
+timeCreated: 1618397677
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/Stealth/Prefab/char_robotGuard.prefab
+  uploadId: 602711

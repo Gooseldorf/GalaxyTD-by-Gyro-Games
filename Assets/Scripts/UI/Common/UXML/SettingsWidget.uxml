@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.SettingsWidget name="SettingsWidget" class="English" style="flex-grow: 1; justify-content: space-around; flex-direction: row;">
+        <ui:VisualElement name="Labels" style="flex-grow: 0; flex-direction: column; padding-left: 80px;">
+            <ui:Label tabindex="-1" text="MUSIC" display-tooltip-when-elided="true" name="MusicLabel" style="font-size: 50px; -unity-text-align: middle-left; flex-grow: 0; align-items: auto; color: rgb(255, 255, 255); height: 51px;" />
+            <ui:Label tabindex="-1" text="SOUND" display-tooltip-when-elided="true" name="SoundLabel" style="font-size: 50px; -unity-text-align: middle-left; flex-grow: 0; align-items: auto; color: rgb(255, 255, 255);" />
+            <ui:Label tabindex="-1" text="VIBRATION" display-tooltip-when-elided="true" name="VibrationTitle" style="font-size: 50px; -unity-text-align: middle-left; flex-grow: 1; align-items: auto; color: rgb(255, 255, 255); display: none;" />
+            <ui:Label tabindex="-1" text="SKIP DIALOGS" display-tooltip-when-elided="true" name="DialogsLabel" style="font-size: 50px; -unity-text-align: middle-left; flex-grow: 0; align-items: auto; color: rgb(255, 255, 255);" />
+            <ui:Label tabindex="-1" text="ADDITIONAL" display-tooltip-when-elided="true" name="AdditionalTitle" style="font-size: 50px; -unity-text-align: middle-left; flex-grow: 1; align-items: auto; color: rgb(255, 255, 255); display: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Toggles" style="flex-grow: 0; width: 150px;">
+            <UI.SelectableElement name="MusicCheckbox" style="background-color: rgba(255, 255, 255, 0); flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/EmptyChecker.png?fileID=21300000&amp;guid=51a771a2875504846ae4ad08d7f11aa7&amp;type=3#EmptyChecker&apos;); height: 62px; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit;">
+                <ui:VisualElement name="Frame" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/FilledChecker.png?fileID=21300000&amp;guid=9b39a7fd9be9d0545b041d7b37a69d6d&amp;type=3#FilledChecker&apos;); display: flex; -unity-background-scale-mode: scale-to-fit;" />
+            </UI.SelectableElement>
+            <UI.SelectableElement name="SoundCheckbox" style="background-color: rgba(255, 255, 255, 0); flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/EmptyChecker.png?fileID=21300000&amp;guid=51a771a2875504846ae4ad08d7f11aa7&amp;type=3#EmptyChecker&apos;); height: 62px; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit;">
+                <ui:VisualElement name="Frame" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/FilledChecker.png?fileID=21300000&amp;guid=9b39a7fd9be9d0545b041d7b37a69d6d&amp;type=3#FilledChecker&apos;); flex-shrink: 1; -unity-background-scale-mode: scale-to-fit;" />
+            </UI.SelectableElement>
+            <UI.SelectableElement name="VibrationCheckbox" style="background-color: rgba(255, 255, 255, 0); flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/EmptyChecker.png?fileID=21300000&amp;guid=51a771a2875504846ae4ad08d7f11aa7&amp;type=3#EmptyChecker&apos;); width: 62px; height: 62px; flex-shrink: 0; display: none;">
+                <ui:VisualElement name="Frame" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/FilledChecker.png?fileID=21300000&amp;guid=9b39a7fd9be9d0545b041d7b37a69d6d&amp;type=3#FilledChecker&apos;);" />
+            </UI.SelectableElement>
+            <UI.SelectableElement name="DialogsCheckbox" style="background-color: rgba(255, 255, 255, 0); flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/EmptyChecker.png?fileID=21300000&amp;guid=51a771a2875504846ae4ad08d7f11aa7&amp;type=3#EmptyChecker&apos;); height: 62px; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit;">
+                <ui:VisualElement name="Frame" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/FilledChecker.png?fileID=21300000&amp;guid=9b39a7fd9be9d0545b041d7b37a69d6d&amp;type=3#FilledChecker&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </UI.SelectableElement>
+            <UI.SelectableElement name="AdditionalCheckbox" style="background-color: rgba(255, 255, 255, 0); flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/EmptyChecker.png?fileID=21300000&amp;guid=51a771a2875504846ae4ad08d7f11aa7&amp;type=3#EmptyChecker&apos;); width: 62px; height: 62px; flex-shrink: 0; display: none;">
+                <ui:VisualElement name="Frame" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/FilledChecker.png?fileID=21300000&amp;guid=9b39a7fd9be9d0545b041d7b37a69d6d&amp;type=3#FilledChecker&apos;);" />
+            </UI.SelectableElement>
+        </ui:VisualElement>
+    </UI.SettingsWidget>
+</ui:UXML>

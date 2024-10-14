@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64baf42b2a54ce1459cbc36157bc884d, type: 3}
+  m_Name: ArmorTypeHpModifier
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: hpModifiersDict
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[AllEnums+ArmorType, !CoreAssembly],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[AllEnums+ArmorType,
+        !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: HpModifiersSingleTypeDictianary
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType,
+        !CoreAssembly],[AllEnums+ArmorType, !CoreAssembly]], Assembly-CSharp-Editor],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.ObjectEqualityComparer`1[[ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType,
+        !CoreAssembly],[AllEnums+ArmorType, !CoreAssembly]], Assembly-CSharp-Editor]],
+        mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 4|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 1
+    - Name: Value2
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 5|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 1
+    - Name: Value2
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 6|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 1
+    - Name: Value2
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 7|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 2
+    - Name: Value2
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 8|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 2
+    - Name: Value2
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 9|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 2
+    - Name: Value2
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 10|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 4
+    - Name: Value2
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 11|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 4
+    - Name: Value2
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 12|ArmorTypeHpModifier+Pair`2[[AllEnums+FleshType, !CoreAssembly],[AllEnums+ArmorType,
+        !CoreAssembly]], Assembly-CSharp-Editor
+    - Name: Value1
+      Entry: 3
+      Data: 4
+    - Name: Value2
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  missionsToChange:
+  - {fileID: 11400000, guid: a154c10c6dcea3442b987b5c2cb17694, type: 2}
+  IsSingleType: 1

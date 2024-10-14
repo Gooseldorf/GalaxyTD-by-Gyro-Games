@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402096c320dc4995bf173f266beb467e, type: 3}
+  m_Name: TwinRecoil3
+  m_EditorClassIdentifier: 
+  Bonuses:
+  - {fileID: 11400000, guid: 1c9c74f8bbb4d89439b2ef0908919ff2, type: 2}
+  - {fileID: 11400000, guid: 1a202c69de2024a49b4a022cda2c44b4, type: 2}
+  <PartType>k__BackingField: 8
+  <TowerId>k__BackingField: 8
+  SoftCost: 0
+  HardCost: 0
+  ScrapCost: 59000
+  TowerCostIncrease: 0
+  BulletCostIncrease: 0
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 9db23d30252cdab4ba7da8c3eedf3933,
+    type: 3}

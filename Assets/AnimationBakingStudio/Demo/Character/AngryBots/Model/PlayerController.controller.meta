@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 22c3485d68ea23e4abe10af99949e3e8
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/AngryBots/Model/PlayerController.controller
+  uploadId: 602711

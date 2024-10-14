@@ -1,0 +1,26 @@
+{
+    "name": "!masterAudio",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Core.Editor",
+        "Unity.Scenes",
+        "Unity.Scenes.Editor",
+        "UnityEngine.UI",
+        "Unity.Mathematics",
+        "Unity.2D.Tilemap.Extras",
+        "Unity.Collections",
+        "Unity.Transforms",
+        "Unity.Services.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "RelationsInspector.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5adfe98894704ff4cbe852583a2cd28f
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Tile/Hexagon.mat
+  uploadId: 602711

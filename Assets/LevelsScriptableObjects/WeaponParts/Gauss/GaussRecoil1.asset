@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402096c320dc4995bf173f266beb467e, type: 3}
+  m_Name: GaussRecoil1
+  m_EditorClassIdentifier: 
+  Bonuses:
+  - {fileID: 11400000, guid: 7a5500cf974c1824fbeb4d6f3041c71a, type: 2}
+  - {fileID: 11400000, guid: 3b048c4d8c9bd844b92aba3db454c7ae, type: 2}
+  <PartType>k__BackingField: 8
+  <TowerId>k__BackingField: 2048
+  SoftCost: 0
+  HardCost: 0
+  ScrapCost: 0
+  TowerCostIncrease: 0
+  BulletCostIncrease: 0
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 6b99bef73718f184c960ba3cc2fe2b45,
+    type: 3}

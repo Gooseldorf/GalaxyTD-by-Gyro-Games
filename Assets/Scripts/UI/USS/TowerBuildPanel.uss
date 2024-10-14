@@ -1,0 +1,9 @@
+.Show {
+    translate: 0 0;
+    transition-duration: 0.3s;
+}
+
+.Hide {
+    translate: 0 250px;
+    transition-duration: 0.3s;
+}

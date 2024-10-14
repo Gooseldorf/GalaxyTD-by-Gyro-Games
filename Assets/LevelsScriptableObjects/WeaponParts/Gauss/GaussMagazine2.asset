@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402096c320dc4995bf173f266beb467e, type: 3}
+  m_Name: GaussMagazine2
+  m_EditorClassIdentifier: 
+  Bonuses:
+  - {fileID: 11400000, guid: e0e5aabdbe9e07a4fa503bb7005c1c7f, type: 2}
+  <PartType>k__BackingField: 2
+  <TowerId>k__BackingField: 2048
+  SoftCost: 0
+  HardCost: 0
+  ScrapCost: 350
+  TowerCostIncrease: 0
+  BulletCostIncrease: 0.15
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 7061a3813d73d864280eab68b31bd965,
+    type: 3}

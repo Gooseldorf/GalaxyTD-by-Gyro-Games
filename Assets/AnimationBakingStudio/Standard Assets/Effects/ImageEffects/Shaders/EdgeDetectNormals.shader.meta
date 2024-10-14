@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0d1644bdf064147baa97f235fc5b4903
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader
+  uploadId: 602711

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f2e5d9d4272afec4597efd446bd312d6
+timeCreated: 1609052392
+licenseType: Store
+ComputeShaderImporter:
+  currentAPIMask: 4
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Shader/Compute/DefaultExtract.compute
+  uploadId: 602711

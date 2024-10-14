@@ -1,0 +1,21 @@
+﻿#pragma kernel TrimFunction
+
+StructuredBuffer<uint> srcBuffer;
+uint srcFirstX;
+uint srcFirstY;
+uint srcWidth;
+uint destFirstX;
+uint destFirstY;
+uint destWidth;
+
+RWStructuredBuffer<uint> destBuffer;
+
+[numthreads(1024, 1, 1)]
+void TrimFunction (uint3 id : SV_DispatchThreadID)
+{
+    uint x = id.x % destWidth;
+    uint y = id.x / destWidth;
+    uint srcIndex = (srcFirstY + y) * srcWidth + (srcFirstX + x);
+    uint destIndex = (destFirstY + y) * destWidth + (destFirstX + x);
+    destBuffer[destIndex] = srcBuffer[srcIndex];
+}

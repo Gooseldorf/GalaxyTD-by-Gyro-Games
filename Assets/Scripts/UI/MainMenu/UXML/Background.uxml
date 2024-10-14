@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Background.uss?fileID=7433441132597879392&amp;guid=d9425ecaf95eedf43b28bab8e9ded54e&amp;type=3#Background" />
+    <ui:VisualElement name="Background" picking-mode="Ignore" class="Normal" style="flex-grow: 1;">
+        <ui:VisualElement name="Normal" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Background.png?fileID=2800000&amp;guid=c6f630af38eefa54d9b9be6879f98c6b&amp;type=3#Background&apos;); opacity: 1;">
+            <ui:VisualElement name="Planet" picking-mode="Ignore" style="flex-grow: 0; width: 390px; height: 331px; background-image: url(&apos;project://database/Assets/Visuals/UI/Planet.png?fileID=2800000&amp;guid=82a9dfeba0567ef4ea407310bb849617&amp;type=3#Planet&apos;); -unity-background-scale-mode: scale-to-fit; position: absolute; scale: 3 3;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Hard" picking-mode="Ignore" class="HardTransition" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/HardBackground.jpg?fileID=2800000&amp;guid=494ba08e1fe98394b8d693c6f8ad1ce2&amp;type=3#HardBackground&apos;); position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

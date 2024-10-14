@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421a214e5289d6642bf4a304b037525d, type: 3}
+  m_Name: SpawnAreaBrush
+  m_EditorClassIdentifier: 
+  m_Cells:
+  - m_Tile: {fileID: 11400000, guid: 280ebb6fa23a70f44bf336209eae3d4a, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 41b9db72737899143b7acc535d9b9899, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 72008326ee1fe8041b426491c6d7f77b, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: 5207fe23fedcf5b43a0de43e68b9ace0, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Size: {x: 2, y: 2, z: 1}
+  m_Pivot: {x: 1, y: 0, z: 0}
+  m_CanChangeZPosition: 0
+  m_FloodFillContiguousOnly: 1
+  m_LastPickedLayout: 0
+  m_LastPickedCellSwizzle: 0
+  m_LastPickedCellSize: {x: 1, y: 1, z: 0}
+  m_LastPickedCellGap: {x: 0, y: 0, z: 0}
+  DrawTiles: 0
+  TileSet:
+  - {fileID: 11400000, guid: 280ebb6fa23a70f44bf336209eae3d4a, type: 2}
+  - {fileID: 11400000, guid: 41b9db72737899143b7acc535d9b9899, type: 2}
+  - {fileID: 11400000, guid: 72008326ee1fe8041b426491c6d7f77b, type: 2}
+  - {fileID: 11400000, guid: 5207fe23fedcf5b43a0de43e68b9ace0, type: 2}
+  spawnGroupVisualPrefab: {fileID: -859926208714625943, guid: 9bb9db19844bd624c81b1c4ae0c9bc3f,
+    type: 3}
+  spawnZonePartialVisualPrefab: {fileID: 4816268895443955917, guid: 0fb0225386e496745b53f1b571086353,
+    type: 3}
+  SpawnGroupIndex: 1

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TowerStatsIconsAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 6aadb4e432318eb4985efc134e57797b, type: 3}
+    - {fileID: 2800000, guid: b7748dc5319446842a9dcf68603fad0e, type: 3}
+    - {fileID: 2800000, guid: 87b3ae289251c9546ae0f3bbea2ec54d, type: 3}
+    - {fileID: 2800000, guid: 651f8d22c1a4d8642ace6d178e53af25, type: 3}
+    - {fileID: 2800000, guid: ed3e1aafbc343cf41b85d0af55a0c340, type: 3}
+    - {fileID: 2800000, guid: 1d2c6f54b8208b341b7c79dfc50a9cfb, type: 3}
+    - {fileID: 2800000, guid: 2237cb1b421a1c3408b16c21784d6701, type: 3}
+    - {fileID: 2800000, guid: bac52ea271920fd49bfa7568149136e9, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 651f8d22c1a4d8642ace6d178e53af25: 21300000
+    - bac52ea271920fd49bfa7568149136e9: 21300000
+    - 1d2c6f54b8208b341b7c79dfc50a9cfb: 21300000
+    - 6aadb4e432318eb4985efc134e57797b: 21300000
+    - b7748dc5319446842a9dcf68603fad0e: 21300000
+    - 87b3ae289251c9546ae0f3bbea2ec54d: 21300000
+    - 2237cb1b421a1c3408b16c21784d6701: 21300000
+    - ed3e1aafbc343cf41b85d0af55a0c340: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 651f8d22c1a4d8642ace6d178e53af25, type: 3}
+  - {fileID: 21300000, guid: bac52ea271920fd49bfa7568149136e9, type: 3}
+  - {fileID: 21300000, guid: 1d2c6f54b8208b341b7c79dfc50a9cfb, type: 3}
+  - {fileID: 21300000, guid: 6aadb4e432318eb4985efc134e57797b, type: 3}
+  - {fileID: 21300000, guid: b7748dc5319446842a9dcf68603fad0e, type: 3}
+  - {fileID: 21300000, guid: 87b3ae289251c9546ae0f3bbea2ec54d, type: 3}
+  - {fileID: 21300000, guid: 2237cb1b421a1c3408b16c21784d6701, type: 3}
+  - {fileID: 21300000, guid: ed3e1aafbc343cf41b85d0af55a0c340, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PenetrationIcon
+  - ScatterIcon
+  - RicochetIcon
+  - ReloadCostIcon
+  - FireRateIcon
+  - KnockBackIcon
+  - AOEIcon
+  - ReloadTimeIcon
+  m_RenderDataMap: {}
+  m_Tag: TowerStatsIconsAtlas
+  m_IsVariant: 0

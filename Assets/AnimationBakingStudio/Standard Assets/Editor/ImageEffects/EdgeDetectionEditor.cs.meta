@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b5f1618d14cd80f4da910f00b04af37f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs
+  uploadId: 602711

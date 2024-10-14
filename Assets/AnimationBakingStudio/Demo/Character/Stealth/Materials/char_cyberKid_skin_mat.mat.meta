@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2f332f152b68838489cad04ed1f8b7be
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/Stealth/Materials/char_cyberKid_skin_mat.mat
+  uploadId: 602711

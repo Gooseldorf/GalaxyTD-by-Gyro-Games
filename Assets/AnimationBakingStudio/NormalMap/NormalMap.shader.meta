@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a02179f48c7a9904daf36a54d7a3235f
+timeCreated: 1615441099
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/NormalMap/NormalMap.shader
+  uploadId: 602711

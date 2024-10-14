@@ -1,0 +1,1856 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405f119c9ca6f7b4d9f75f76364b1052, type: 3}
+  m_Name: TowerStatsParser
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: towerStats
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[AttackStats, !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 1|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 35
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 22
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 2.25
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 2|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 30
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.06
+    - Name: ReloadTime
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 3|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 9
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 4|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.2
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 5|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 0
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 0
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 6|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 9.740283
+    - Name: Control
+      Entry: 4
+      Data: 0.96
+    - Name: Recoil
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0.9685
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 35
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 102
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 9.72
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 8|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 10
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.28
+    - Name: ReloadTime
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 9|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 12
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 100
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 10|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.5
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 11|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 0
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 2
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 80
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 12|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 5.729578
+    - Name: Control
+      Entry: 4
+      Data: 0.8
+    - Name: Recoil
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0.9763
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 20
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 76
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 7.5
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 14|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 5
+    - Name: BulletCost
+      Entry: 4
+      Data: 1.17
+    - Name: ReloadTime
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 15|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 7
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 16|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 1
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 5
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 17|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 2
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 0
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 80
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 18|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 14.8969021
+    - Name: Control
+      Entry: 4
+      Data: 0.5
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0.9597
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 30
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 85
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 20.33
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 20|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 20
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.43
+    - Name: ReloadTime
+      Entry: 4
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 21|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 12
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 22|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 1
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 2
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 23|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 1
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 1
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 24|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 5.729578
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0.976311
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 80
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 90
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 96.88
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 26|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 6
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.32
+    - Name: ReloadTime
+      Entry: 4
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 27|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 14
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 28|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 1.8
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 29|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 2
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 1
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 30|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 5.729578
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0.97966
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 30
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 48
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 13.43
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 32|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 100
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.18
+    - Name: ReloadTime
+      Entry: 4
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 33|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 14
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 180
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 34|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.1
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 35|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 1
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 1
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 80
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 36|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 2.864789
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0.97966
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 25
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 117
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 23
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 38|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 50
+    - Name: BulletCost
+      Entry: 4
+      Data: 0.22
+    - Name: ReloadTime
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 39|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 14
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 120
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 40|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.3
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 41|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 5
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 0
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 42|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 28.64789
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0.97966
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|GunStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 150
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 1450
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 645
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 44|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 1
+    - Name: BulletCost
+      Entry: 4
+      Data: 10
+    - Name: ReloadTime
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 45|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 18
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 120
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 46|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 2
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RicochetStats
+      Entry: 7
+      Data: 47|RicochetStats, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 2
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 5
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0.8
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AccuracyStats
+      Entry: 7
+      Data: 48|AccuracyStats, !CoreAssembly
+    - Name: Deviation
+      Entry: 4
+      Data: 0.5729578
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0.9841
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Systems.Attakers.MortarStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 0
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 390
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 140
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 50|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 3
+    - Name: BulletCost
+      Entry: 4
+      Data: 1
+    - Name: ReloadTime
+      Entry: 4
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 51|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 20
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 60
+    - Name: AttackAngle
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 52|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.2
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 3
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AOE
+      Entry: 4
+      Data: 1.2
+    - Name: ArrivalTime
+      Entry: 4
+      Data: 1
+    - Name: ScatterDistance
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|RocketStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 10
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 710
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 256
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0.7
+    - Name: ReloadStats
+      Entry: 7
+      Data: 54|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 6
+    - Name: BulletCost
+      Entry: 4
+      Data: 2.07
+    - Name: ReloadTime
+      Entry: 4
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 55|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 16
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 60
+    - Name: AttackAngle
+      Entry: 4
+      Data: 90
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 56|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 3
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0.3
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 18446744073709551603
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 1
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AOE
+      Entry: 4
+      Data: 1
+    - Name: ScatterDistance
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: gameUpgradeCosts
+      Entry: 7
+      Data: 57|System.Collections.Generic.Dictionary`2[[AllEnums+TowerId, !CoreAssembly],[System.Collections.Generic.List`1[[System.Int32,
+        mscorlib]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 58|System.Collections.Generic.EnumEqualityComparer`1[[AllEnums+TowerId,
+        !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 3
+      Data: 22
+    - Name: 
+      Entry: 3
+      Data: 43
+    - Name: 
+      Entry: 3
+      Data: 90
+    - Name: 
+      Entry: 3
+      Data: 39
+    - Name: 
+      Entry: 3
+      Data: 49
+    - Name: 
+      Entry: 3
+      Data: 59
+    - Name: 
+      Entry: 3
+      Data: 73
+    - Name: 
+      Entry: 3
+      Data: 277
+    - Name: 
+      Entry: 3
+      Data: 88
+    - Name: 
+      Entry: 3
+      Data: 101
+    - Name: 
+      Entry: 3
+      Data: 113
+    - Name: 
+      Entry: 3
+      Data: 127
+    - Name: 
+      Entry: 3
+      Data: 765
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 60|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 41
+    - Name: 
+      Entry: 3
+      Data: 84
+    - Name: 
+      Entry: 3
+      Data: 170
+    - Name: 
+      Entry: 3
+      Data: 345
+    - Name: 
+      Entry: 3
+      Data: 148
+    - Name: 
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 3
+      Data: 219
+    - Name: 
+      Entry: 3
+      Data: 266
+    - Name: 
+      Entry: 3
+      Data: 425
+    - Name: 
+      Entry: 3
+      Data: 214
+    - Name: 
+      Entry: 3
+      Data: 238
+    - Name: 
+      Entry: 3
+      Data: 263
+    - Name: 
+      Entry: 3
+      Data: 291
+    - Name: 
+      Entry: 3
+      Data: 864
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 61|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 26
+    - Name: 
+      Entry: 3
+      Data: 53
+    - Name: 
+      Entry: 3
+      Data: 106
+    - Name: 
+      Entry: 3
+      Data: 215
+    - Name: 
+      Entry: 3
+      Data: 91
+    - Name: 
+      Entry: 3
+      Data: 110
+    - Name: 
+      Entry: 3
+      Data: 134
+    - Name: 
+      Entry: 3
+      Data: 161
+    - Name: 
+      Entry: 3
+      Data: 196
+    - Name: 
+      Entry: 3
+      Data: 124
+    - Name: 
+      Entry: 3
+      Data: 137
+    - Name: 
+      Entry: 3
+      Data: 151
+    - Name: 
+      Entry: 3
+      Data: 168
+    - Name: 
+      Entry: 3
+      Data: 1127
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 79
+    - Name: 
+      Entry: 3
+      Data: 163
+    - Name: 
+      Entry: 3
+      Data: 335
+    - Name: 
+      Entry: 3
+      Data: 689
+    - Name: 
+      Entry: 3
+      Data: 313
+    - Name: 
+      Entry: 3
+      Data: 385
+    - Name: 
+      Entry: 3
+      Data: 472
+    - Name: 
+      Entry: 3
+      Data: 580
+    - Name: 
+      Entry: 3
+      Data: 977
+    - Name: 
+      Entry: 3
+      Data: 517
+    - Name: 
+      Entry: 3
+      Data: 580
+    - Name: 
+      Entry: 3
+      Data: 650
+    - Name: 
+      Entry: 3
+      Data: 727
+    - Name: 
+      Entry: 3
+      Data: 1632
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 63|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 3
+      Data: 63
+    - Name: 
+      Entry: 3
+      Data: 127
+    - Name: 
+      Entry: 3
+      Data: 54
+    - Name: 
+      Entry: 3
+      Data: 67
+    - Name: 
+      Entry: 3
+      Data: 82
+    - Name: 
+      Entry: 3
+      Data: 98
+    - Name: 
+      Entry: 3
+      Data: 487
+    - Name: 
+      Entry: 3
+      Data: 129
+    - Name: 
+      Entry: 3
+      Data: 145
+    - Name: 
+      Entry: 3
+      Data: 161
+    - Name: 
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 3
+      Data: 510
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 7
+      Data: 64|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 82
+    - Name: 
+      Entry: 3
+      Data: 167
+    - Name: 
+      Entry: 3
+      Data: 338
+    - Name: 
+      Entry: 3
+      Data: 685
+    - Name: 
+      Entry: 3
+      Data: 291
+    - Name: 
+      Entry: 3
+      Data: 351
+    - Name: 
+      Entry: 3
+      Data: 425
+    - Name: 
+      Entry: 3
+      Data: 515
+    - Name: 
+      Entry: 3
+      Data: 2935
+    - Name: 
+      Entry: 3
+      Data: 696
+    - Name: 
+      Entry: 3
+      Data: 774
+    - Name: 
+      Entry: 3
+      Data: 861
+    - Name: 
+      Entry: 3
+      Data: 957
+    - Name: 
+      Entry: 3
+      Data: 3148
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 7
+      Data: 65|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 106
+    - Name: 
+      Entry: 3
+      Data: 218
+    - Name: 
+      Entry: 3
+      Data: 447
+    - Name: 
+      Entry: 3
+      Data: 918
+    - Name: 
+      Entry: 3
+      Data: 415
+    - Name: 
+      Entry: 3
+      Data: 510
+    - Name: 
+      Entry: 3
+      Data: 626
+    - Name: 
+      Entry: 3
+      Data: 768
+    - Name: 
+      Entry: 3
+      Data: 2640
+    - Name: 
+      Entry: 3
+      Data: 915
+    - Name: 
+      Entry: 3
+      Data: 1034
+    - Name: 
+      Entry: 3
+      Data: 1168
+    - Name: 
+      Entry: 3
+      Data: 1319
+    - Name: 
+      Entry: 3
+      Data: 3216
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 7
+      Data: 66|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 61
+    - Name: 
+      Entry: 3
+      Data: 120
+    - Name: 
+      Entry: 3
+      Data: 242
+    - Name: 
+      Entry: 3
+      Data: 482
+    - Name: 
+      Entry: 3
+      Data: 193
+    - Name: 
+      Entry: 3
+      Data: 232
+    - Name: 
+      Entry: 3
+      Data: 278
+    - Name: 
+      Entry: 3
+      Data: 334
+    - Name: 
+      Entry: 3
+      Data: 2253
+    - Name: 
+      Entry: 3
+      Data: 451
+    - Name: 
+      Entry: 3
+      Data: 498
+    - Name: 
+      Entry: 3
+      Data: 549
+    - Name: 
+      Entry: 3
+      Data: 606
+    - Name: 
+      Entry: 3
+      Data: 4181
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 7
+      Data: 67|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 65
+    - Name: 
+      Entry: 3
+      Data: 131
+    - Name: 
+      Entry: 3
+      Data: 262
+    - Name: 
+      Entry: 3
+      Data: 524
+    - Name: 
+      Entry: 3
+      Data: 211
+    - Name: 
+      Entry: 3
+      Data: 253
+    - Name: 
+      Entry: 3
+      Data: 305
+    - Name: 
+      Entry: 3
+      Data: 365
+    - Name: 
+      Entry: 3
+      Data: 3745
+    - Name: 
+      Entry: 3
+      Data: 600
+    - Name: 
+      Entry: 3
+      Data: 659
+    - Name: 
+      Entry: 3
+      Data: 726
+    - Name: 
+      Entry: 3
+      Data: 799
+    - Name: 
+      Entry: 3
+      Data: 1944
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 7
+      Data: 68|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 85
+    - Name: 
+      Entry: 3
+      Data: 171
+    - Name: 
+      Entry: 3
+      Data: 344
+    - Name: 
+      Entry: 3
+      Data: 691
+    - Name: 
+      Entry: 3
+      Data: 281
+    - Name: 
+      Entry: 3
+      Data: 337
+    - Name: 
+      Entry: 3
+      Data: 407
+    - Name: 
+      Entry: 3
+      Data: 489
+    - Name: 
+      Entry: 3
+      Data: 4744
+    - Name: 
+      Entry: 3
+      Data: 787
+    - Name: 
+      Entry: 3
+      Data: 866
+    - Name: 
+      Entry: 3
+      Data: 953
+    - Name: 
+      Entry: 3
+      Data: 1051
+    - Name: 
+      Entry: 3
+      Data: 4269
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: towerDataPositions
+      Entry: 7
+      Data: 69|System.Collections.Generic.Dictionary`2[[AllEnums+TowerId, !CoreAssembly],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 70|System.Collections.Generic.EnumEqualityComparer`1[[AllEnums+TowerId,
+        !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  upgradeProvider: {fileID: 11400000, guid: f51b781b2581caf42b1c8828872b7e84, type: 2}
+  gameData: {fileID: 11400000, guid: 58a98b9a2ac7c0341b47646099b262b2, type: 2}

@@ -1,0 +1,90 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="WaveLine" src="project://database/Assets/Scripts/UI/MainMenu/UXML/WaveLine.uxml?fileID=9197481963319205126&amp;guid=eabf8036a54645c4db3f7338b50b083b&amp;type=3#WaveLine" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.WaveWidget name="WaveWidget" picking-mode="Ignore" class="English" style="flex-grow: 0; flex-direction: column; align-self: flex-start; width: 375px; height: 215px; left: auto; overflow: visible; position: absolute; justify-content: flex-start; display: flex; right: 0; top: 140px; translate: 375px 0;">
+        <ui:VisualElement name="WaveContainer" picking-mode="Ignore" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-shrink: 0; flex-wrap: nowrap; justify-content: center; height: 85px;">
+            <ui:VisualElement name="ProgressBarContainer" picking-mode="Ignore" style="flex-grow: 1; display: flex; flex-direction: row; align-self: flex-end; flex-shrink: 0; justify-content: flex-start; position: absolute; bottom: 0; right: 0; left: 0; top: 0; margin-left: 94px;">
+                <ui:VisualElement name="WaveProgressBar" picking-mode="Ignore" style="flex-grow: 0; flex-shrink: 0; margin-left: 0; margin-bottom: 0; margin-top: 8px; overflow: hidden; width: 0;">
+                    <ui:VisualElement name="Filling" picking-mode="Ignore" style="flex-grow: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/WaveWidgetBar.png?fileID=21300000&amp;guid=381c42b049f6e294c94da0d83cfc74b4&amp;type=3#WaveWidgetBar&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: stretch-to-fill; overflow: hidden; flex-shrink: 0; min-width: 282px; min-height: 75px; align-self: flex-start; max-width: 282px; max-height: 75px; opacity: 0.3;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/WaveWidgetBg.png?fileID=2800000&amp;guid=ffe295296a58e8e47bfa635e690d652a&amp;type=3#WaveWidgetBg&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: row;">
+                <ui:VisualElement name="WaveNumberContainer" picking-mode="Ignore" style="flex-grow: 0; width: 85px; justify-content: center; align-items: center; margin-left: 9px; margin-top: 10px; margin-bottom: 5px;">
+                    <ui:VisualElement name="Icon" picking-mode="Ignore" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveIcon.png?fileID=21300000&amp;guid=85cbed0b2e8dcce43aaec35ca6fc488e&amp;type=3#WaveIcon&apos;); width: 45px; height: 53px; flex-shrink: 0; align-items: stretch; margin-top: 5px;" />
+                    <ui:Label tabindex="-1" text="10/12" display-tooltip-when-elided="true" name="WaveLabel" picking-mode="Ignore" class="English" style="font-size: 30px; align-self: stretch; color: rgb(255, 255, 255); flex-direction: column; align-items: stretch; justify-content: space-around; height: 37px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: upper-center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <UI.ClickableVisualElement name="CheatButton" style="position: absolute; top: 0; left: auto; right: 0; bottom: 0; width: 150px;" />
+            <ui:VisualElement picking-mode="Ignore" name="TutorialPointer" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="WaveContainer" picking-mode="Ignore" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-shrink: 0; flex-wrap: nowrap; justify-content: center; height: 65px; width: 240px; align-self: flex-end;">
+            <ui:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/WaveWidgetSubBg.png?fileID=2800000&amp;guid=6225ad5af856e544e9f933cfeac0c186&amp;type=3#WaveWidgetSubBg&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: row;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="WaveContainer" picking-mode="Ignore" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-shrink: 0; flex-wrap: nowrap; justify-content: center; height: 65px; width: 190px; align-self: flex-end;">
+            <ui:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/WaveWidgetSubBg.png?fileID=2800000&amp;guid=6225ad5af856e544e9f933cfeac0c186&amp;type=3#WaveWidgetSubBg&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: row;" />
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" name="WaveLinesContainer" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+            <ui:Instance template="WaveLine" name="WaveLineTemplate" picking-mode="Ignore" style="position: absolute; top: 8px; left: 395px; height: 70px;">
+                <AttributeOverrides element-name="WaveLine" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Count" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Icon" picking-mode="Ignore" />
+                <AttributeOverrides element-name="ArmorType" picking-mode="Ignore" />
+                <AttributeOverrides element-name="FleshType" picking-mode="Ignore" />
+            </ui:Instance>
+            <ui:Instance template="WaveLine" name="WaveLineTemplate" picking-mode="Ignore" style="position: absolute; top: 8px; left: 140px; height: 70px;">
+                <AttributeOverrides element-name="WaveLine" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Count" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Icon" picking-mode="Ignore" />
+                <AttributeOverrides element-name="ArmorType" picking-mode="Ignore" />
+                <AttributeOverrides element-name="FleshType" picking-mode="Ignore" />
+            </ui:Instance>
+            <ui:Instance template="WaveLine" name="WaveLineTemplate" picking-mode="Ignore" style="scale: 1 1; opacity: 0.5; position: absolute; top: 82px; left: 164px;">
+                <AttributeOverrides element-name="WaveLine" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Count" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Icon" picking-mode="Ignore" />
+                <AttributeOverrides element-name="ArmorType" picking-mode="Ignore" />
+                <AttributeOverrides element-name="FleshType" picking-mode="Ignore" />
+            </ui:Instance>
+            <ui:Instance template="WaveLine" name="WaveLineTemplate" picking-mode="Ignore" style="scale: 1 1; opacity: 0.5; position: absolute; top: 147px; left: 182px;">
+                <AttributeOverrides element-name="WaveLine" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Count" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Icon" picking-mode="Ignore" />
+                <AttributeOverrides element-name="ArmorType" picking-mode="Ignore" />
+                <AttributeOverrides element-name="FleshType" picking-mode="Ignore" />
+            </ui:Instance>
+            <ui:Instance template="WaveLine" name="WaveLineTemplate" picking-mode="Ignore" style="scale: 1 1; position: absolute; opacity: 0.5; top: 147px; left: 395px;">
+                <AttributeOverrides element-name="WaveLine" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Count" picking-mode="Ignore" />
+                <AttributeOverrides element-name="Icon" picking-mode="Ignore" />
+                <AttributeOverrides element-name="ArmorType" picking-mode="Ignore" />
+                <AttributeOverrides element-name="FleshType" picking-mode="Ignore" />
+            </ui:Instance>
+        </ui:VisualElement>
+    </UI.WaveWidget>
+    <UI.NextWaveAnnouncement name="NextWaveAnnouncement" picking-mode="Ignore" class="English" style="position: relative; height: 128px; justify-content: center; align-items: center; align-self: center; top: 175px; display: flex; opacity: 0; flex-direction: row; min-width: 122px; visibility: visible;">
+        <ui:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; align-self: stretch; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/NextWaveBg.png?fileID=2800000&amp;guid=8db9620bdf361dd4585c09dcc23c0e6a&amp;type=3#NextWaveBg&apos;); margin-right: 32px; margin-left: 32px; margin-top: 4px; margin-bottom: 4px; flex-direction: row;">
+            <ui:VisualElement name="ContentContainer" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; justify-content: space-between; opacity: 0; display: flex; visibility: hidden;">
+                <ui:Label tabindex="-1" text="WAVE" display-tooltip-when-elided="true" name="NextWaveLabel" enable-rich-text="false" picking-mode="Ignore" style="color: rgb(255, 255, 255); font-size: 80px; padding-left: 40px; -unity-text-align: middle-right; flex-grow: 0;" />
+                <ui:Label tabindex="-1" text="10" display-tooltip-when-elided="true" name="NextWaveNumber" picking-mode="Ignore" enable-rich-text="false" style="color: rgb(255, 255, 255); font-size: 80px; -unity-text-align: middle-right; flex-grow: 0; margin-left: 15px;" />
+                <ui:VisualElement name="WaveLineContainer" picking-mode="Ignore" style="flex-grow: 0; align-items: center; justify-content: center; flex-shrink: 0; margin-right: 10px;">
+                    <ui:VisualElement name="WaveLine" picking-mode="Ignore" style="flex-shrink: 0;">
+                        <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+                        <UI.WaveLine name="WaveLine" picking-mode="Ignore" class="English" style="height: 70px; flex-grow: 0; flex-shrink: 1; flex-direction: row; justify-content: center; align-items: center;">
+                            <ui:Label tabindex="-1" text="603" display-tooltip-when-elided="true" name="Count" parse-escape-sequences="false" picking-mode="Ignore" class="English" style="color: rgb(255, 255, 255); font-size: 50px; flex-shrink: 1; -unity-text-align: middle-right;" />
+                            <ui:Label tabindex="-1" text="x" display-tooltip-when-elided="true" name="X" parse-escape-sequences="false" picking-mode="Ignore" class="English" style="color: rgb(255, 255, 255); font-size: 50px; flex-shrink: 1; -unity-text-align: middle-center; margin-right: 0; padding-right: 0; padding-left: 0; margin-left: 0; translate: 0 -4px;" />
+                            <ui:VisualElement name="Icon" picking-mode="Ignore" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/Textures/enemiseIcons/BigBug_icon.png?fileID=21300000&amp;guid=78e71dd8752eef547b5f18aa90669c50&amp;type=3#BigBug_icon&apos;); width: 64px; -unity-background-scale-mode: scale-to-fit; align-self: stretch;" />
+                            <ui:VisualElement name="ArmorType" picking-mode="Ignore" style="flex-grow: 0; width: 28px; height: 36px; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionInfoWindow/LightIcon.png?fileID=2800000&amp;guid=c81575bcfa5368f4ea72f01f23203a77&amp;type=3#LightIcon&apos;);" />
+                            <ui:VisualElement name="FleshType" picking-mode="Ignore" style="flex-grow: 0; width: 28px; height: 36px; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/MissionInfoWindow/BioFleshIcon.png?fileID=2800000&amp;guid=a3e8ff119f1fc1346ba3ec871d25854c&amp;type=3#BioFleshIcon&apos;);" />
+                        </UI.WaveLine>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="WaveHp" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: center;">
+                        <ui:VisualElement name="HpIcon" picking-mode="Ignore" style="flex-grow: 0; width: 32px; height: 32px; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/HpIcon.png?fileID=2800000&amp;guid=afb650e1174b2ca4984130c68519ed91&amp;type=3#HpIcon&apos;);" />
+                        <ui:Label tabindex="-1" text="12345" display-tooltip-when-elided="true" name="WaveHpLabel" picking-mode="Ignore" class="English" style="color: rgb(255, 255, 255); font-size: 50px; -unity-text-align: middle-center;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="LeftFrame" picking-mode="Ignore" style="flex-grow: 0; align-self: stretch; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/NextWaveBorder.png?fileID=2800000&amp;guid=c7ba5624550ed3a49b27ffab3c4e9f7e&amp;type=3#NextWaveBorder&apos;); flex-shrink: 0; width: 64px; height: 128px; position: absolute; left: 0;" />
+        <ui:VisualElement name="RightFrame" picking-mode="Ignore" style="flex-grow: 0; align-self: stretch; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/WaveWidget/NextWaveBorder.png?fileID=2800000&amp;guid=c7ba5624550ed3a49b27ffab3c4e9f7e&amp;type=3#NextWaveBorder&apos;); flex-shrink: 0; width: 64px; height: 128px; position: absolute; left: auto; right: 0; scale: -1 1;" />
+    </UI.NextWaveAnnouncement>
+</ui:UXML>

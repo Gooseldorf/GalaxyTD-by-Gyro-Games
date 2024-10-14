@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 88b902e04b92e864786774d17308d1aa
+timeCreated: 1607431237
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Script/Editor/Helper/ShadowHelper.cs
+  uploadId: 602711

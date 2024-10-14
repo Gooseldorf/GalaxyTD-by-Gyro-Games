@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.DirectiveWidget name="DirectiveWidget" EmptyDirectiveSprite="project://database/Assets/Visuals/UI/Parts/Directives/Directive_empty.png?fileID=21300000&amp;guid=bdee50cf7dcb0184d9094716b438f95f&amp;type=3#Directive_empty" class="English" style="width: 130px; flex-direction: column; height: 130px; align-self: center; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); visibility: visible;">
+        <ui:VisualElement name="DirectiveBackground" style="flex-grow: 1; align-self: stretch; justify-content: center; align-items: stretch; opacity: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="DirectiveSelection" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none; background-image: url(&apos;project://database/Assets/Visuals/UI/Parts/Directives/Directive_selection.png?fileID=2800000&amp;guid=fd510beee34ea05488937f587ea122e3&amp;type=3#Directive_selection&apos;);" />
+            <ui:VisualElement name="DirectiveIcon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/Parts/Directives/Directive_empty.png?fileID=21300000&amp;guid=bdee50cf7dcb0184d9094716b438f95f&amp;type=3#Directive_empty&apos;); display: flex; justify-content: center; align-items: center; opacity: 1; align-self: stretch;" />
+        </ui:VisualElement>
+    </UI.DirectiveWidget>
+</ui:UXML>

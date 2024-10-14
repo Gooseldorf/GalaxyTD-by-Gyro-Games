@@ -1,0 +1,27 @@
+{
+    "name": "TestingAgent.Editor",
+    "rootNamespace": "TestingAgent.Editor",
+    "references": [
+        "GUID:8cb51276e8a39e347b3e0a54f719d2cf",
+        "GUID:12944d3db57a0c745b39c2a225ca6af6",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:bfc8ec54c1f06304487f4a37ebfc97c0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Sirenix.Serialization.dll",
+        "Sirenix.Utilities.dll",
+        "Sirenix.Serialization.Config.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

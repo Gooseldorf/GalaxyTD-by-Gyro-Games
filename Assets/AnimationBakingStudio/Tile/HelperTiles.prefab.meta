@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1737a13d529482040830d0d16879178e
+timeCreated: 1517758436
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Tile/HelperTiles.prefab
+  uploadId: 602711

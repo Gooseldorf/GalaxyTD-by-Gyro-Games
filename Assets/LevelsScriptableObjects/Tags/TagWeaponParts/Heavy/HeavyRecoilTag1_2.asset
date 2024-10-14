@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b577d03918dba64d9cddc1d293c5186, type: 3}
+  m_Name: HeavyRecoilTag1_2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: OrderId
+      Entry: 3
+      Data: 0
+    - Name: attackStats
+      Entry: 7
+      Data: 0|AttackStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 0
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 0
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 1
+    - Name: Sellmodifier
+      Entry: 4
+      Data: 0
+    - Name: ReloadStats
+      Entry: 7
+      Data: 1|ReloadStats, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 0
+    - Name: BulletCost
+      Entry: 4
+      Data: 0
+    - Name: ReloadTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: 2|AimingStats, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 0
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 0
+    - Name: AttackAngle
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: 3|ShootingStats, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 0
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 18446744073709551615
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 0
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsPercent: 1

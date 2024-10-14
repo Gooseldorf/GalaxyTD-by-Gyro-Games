@@ -1,0 +1,70 @@
+.unity-scroller--vertical > .unity-scroller__low-button {
+    display: none;
+}
+
+.unity-scroller--horizontal > .unity-scroller__low-button {
+    display: none;
+}
+
+.unity-scroller--vertical > .unity-scroller__high-button {
+    display: none;
+}
+
+.unity-scroller--horizontal > .unity-scroller__high-button {
+    display: none;
+}
+
+.unity-scroller--vertical {
+    min-width: 4px;
+}
+
+.unity-scroller--horizontal {
+    min-width: 4px;
+}
+
+.unity-scroller--vertical > .unity-base-slider--vertical {
+    width: 4px;
+}
+
+.unity-scroller--horizontal > .unity-base-slider--horizontal {
+    width: 4px;
+}
+
+.unity-base-slider__dragger {
+    background-image: url('project://database/Assets/Visuals/UI/MenuScene/ScrollFg.png?fileID=21300000&guid=91a12f25f2770f34dbbb60bfbcb5735d&type=3#ScrollFg');
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 500px;
+}
+
+.unity-base-slider__dragger-border {
+    display: none;
+}
+
+.unity-base-slider--vertical .unity-base-slider__tracker {
+    display: flex;
+    width: 3px;
+    margin-left: 10px;
+    background-color: rgb(2, 96, 120);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.unity-base-slider--horizontal .unity-base-slider__tracker {
+    display: flex;
+    height: 3px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(2, 96, 120);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+#unity-slider {
+    margin-top: 10;
+    margin-bottom: 20;
+}
+

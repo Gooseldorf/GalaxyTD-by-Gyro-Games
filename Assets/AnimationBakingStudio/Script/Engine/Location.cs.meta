@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e44c59f5666fc9842b7ea4c7da100c37
+timeCreated: 1608964690
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Script/Engine/Location.cs
+  uploadId: 602711

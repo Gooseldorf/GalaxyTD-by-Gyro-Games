@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 17169e69b2c24704fb70768b77e5d360
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Shadow/SimpleShadow.prefab
+  uploadId: 602711

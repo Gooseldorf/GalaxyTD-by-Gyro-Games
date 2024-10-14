@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f2bc750015b6f2b4f935c872513d34c3
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Character/Stealth/Materials/char_robotGuard_helmet_mat.mat
+  uploadId: 602711

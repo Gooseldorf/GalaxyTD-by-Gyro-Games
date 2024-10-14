@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e3b9eabe8142dcb52d56a53f7629df, type: 3}
+  m_Name: Energy1
+  m_EditorClassIdentifier: 
+  CreepType: 6
+  CashReward: 25
+  Mass: 1.8
+  CollisionRange: 0.3
+  ObstacleType: 2
+  MaxHP: 83
+  Speed: 6
+  MaxForce: 8
+  NeighborRange: 1
+  ArmorType: 1
+  FleshType: 4
+  RenderStats: {fileID: 11400000, guid: e8c8de5c194036f4189626afec2286c4, type: 2}

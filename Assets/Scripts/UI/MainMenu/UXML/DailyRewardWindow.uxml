@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="DailyRewardItem" src="project://database/Assets/Scripts/UI/MainMenu/UXML/DailyRewardItem.uxml?fileID=9197481963319205126&amp;guid=ba798c991dcc0df4dba70267a6602ff3&amp;type=3#DailyRewardItem" />
+    <Style src="project://database/Assets/Scripts/UI/USS/ScrollRect.uss?fileID=7433441132597879392&amp;guid=e192f6ac1ada00a458d540e1c29b0b7d&amp;type=3#ScrollRect" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.DailyRewardWindow name="DailyRewardWindow" class="English" style="align-items: center; justify-content: space-around; flex-grow: 1; background-color: rgba(0, 0, 0, 0.83);">
+        <ui:VisualElement name="root" style="flex-grow: 0; background-color: rgba(255, 255, 255, 0); display: flex; visibility: visible; opacity: 1; overflow: visible; top: 0; bottom: 0; left: 0; right: 0; position: relative; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: space-around; flex-shrink: 0; align-self: auto; height: 400px; min-height: 400px;">
+            <ui:VisualElement name="Mask" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); overflow: hidden; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-top-left-radius: 60px; border-bottom-left-radius: 60px; border-top-right-radius: 60px; border-bottom-right-radius: 60px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+                <ui:VisualElement name="HolograficEffect" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/HolograficEffect.png?fileID=21300000&amp;guid=9b4f744b67d0afe42ae3c10a65667797&amp;type=3#HolograficEffect&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.1); -unity-background-scale-mode: scale-and-crop; flex-direction: column; overflow: visible; -unity-slice-left: 1; -unity-slice-top: 1; -unity-slice-right: 1; -unity-slice-bottom: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+                    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowBg.png?fileID=21300000&amp;guid=71e6e5e938f4580409ba0e80c1b24750&amp;type=3#WindowBg&apos;); -unity-background-image-tint-color: rgba(31, 178, 222, 0.2); align-items: stretch; overflow: visible;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="BlackBackground" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.95); position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="DAILY REWARDS" display-tooltip-when-elided="true" selectable="false" name="Title"  style="font-size: 70px; color: rgb(255, 255, 255);  -unity-text-align: middle-center; margin-top: 20px;" />
+            <ui:VisualElement name="Frame" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowFrame.png?fileID=21300000&amp;guid=133593c02abd35d46ac56a7d80df1560&amp;type=3#WindowFrame&apos;); overflow: visible; -unity-slice-scale: 1px; position: absolute; top: -2px; left: 0; right: 0; bottom: 0;" />
+            <ui:VisualElement name="Container" style="flex-direction: row; flex-grow: 1; justify-content: space-evenly; align-items: center; padding-top: 0; padding-right: 30px; padding-bottom: 0; padding-left: 30px; margin-bottom: 30px; margin-top: 10px;">
+                <ui:Instance template="DailyRewardItem" name="DailyRewardItem" style="flex-grow: 0;" />
+                <ui:Instance template="DailyRewardItem" name="DailyRewardItem" style="flex-grow: 0;" />
+                <ui:Instance template="DailyRewardItem" name="DailyRewardItem" style="flex-grow: 0;" />
+                <ui:Instance template="DailyRewardItem" name="DailyRewardItem" style="flex-grow: 0;" />
+                <ui:Instance template="DailyRewardItem" name="DailyRewardItem" style="flex-grow: 0;" />
+                <ui:Instance template="DailyRewardItem" name="DailyRewardItem" style="flex-grow: 0;" />
+                <ui:Instance template="DailyRewardItem" name="DailyRewardItem" style="flex-grow: 0;" />
+            </ui:VisualElement>
+            <UI.ClickableVisualElement name="CloseButton" style="width: 128px; height: 128px; align-self: center; margin-right: 0; position: absolute; right: -43px; min-width: auto; min-height: auto; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/RoundButtonFrame.png?fileID=21300000&amp;guid=e46b8dc7783d50b4fa2439baece6ffe1&amp;type=3#RoundButtonFrame&apos;); justify-content: center; align-items: center; top: -45px;">
+                <ui:VisualElement name="Background" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); min-width: auto; min-height: auto; background-image: url(&apos;project://database/Assets/Visuals/UI/Buttons/RoundButton.png?fileID=21300000&amp;guid=481b926a2dc8a104d91980dda90ff765&amp;type=3#RoundButton&apos;); width: 100px; height: 100px; justify-content: center; align-items: center;">
+                    <ui:VisualElement name="CloseIcon" style="flex-grow: 1; position: absolute; background-image: url(&apos;project://database/Assets/Visuals/UI/MenuScene/CloseIcon.png?fileID=21300000&amp;guid=4997965dd48b6e14280b9c7e0cf0fc88&amp;type=3#CloseIcon&apos;); width: 80px; height: 80px;" />
+                </ui:VisualElement>
+            </UI.ClickableVisualElement>
+        </ui:VisualElement>
+    </UI.DailyRewardWindow>
+</ui:UXML>

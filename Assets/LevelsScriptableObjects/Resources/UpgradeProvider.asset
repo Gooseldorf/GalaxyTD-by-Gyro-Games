@@ -1,0 +1,2275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66dc67f7849e7fa43bd6beb1b2de4d02, type: 3}
+  m_Name: UpgradeProvider
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 11271a3fde7c34e4f98d6c48b2a3941b, type: 2}
+    - {fileID: 11400000, guid: 37cb551311f25f94f8a3c01011ed4624, type: 2}
+    - {fileID: 11400000, guid: 6830d0080efceb74c88cb584a11a72bb, type: 2}
+    - {fileID: 11400000, guid: 089aea26a1940ba489b0cf480e81daec, type: 2}
+    - {fileID: 11400000, guid: 1bf6b4b7b3ab80c4884647f9396bd785, type: 2}
+    - {fileID: 11400000, guid: b8fb0f0dbb3b0a341ad03273cd458bb1, type: 2}
+    - {fileID: 11400000, guid: 31c355820e47911418c98be8e750e957, type: 2}
+    - {fileID: 11400000, guid: ed68708075182104ba61e5204083b51b, type: 2}
+    - {fileID: 11400000, guid: c1a7b10533ba5f94992636ea774860f9, type: 2}
+    - {fileID: 11400000, guid: a7a9b01967e448b4086a5c0dd81ebad2, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: costs
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[AllEnums+TowerId, !CoreAssembly],[System.Collections.Generic.List`1[[System.Int32,
+        mscorlib]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[AllEnums+TowerId,
+        !CoreAssembly]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 18
+    - Name: 
+      Entry: 3
+      Data: 12
+    - Name: 
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 3
+      Data: 24
+    - Name: 
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 3
+      Data: 90
+    - Name: 
+      Entry: 3
+      Data: 160
+    - Name: 
+      Entry: 3
+      Data: 340
+    - Name: 
+      Entry: 3
+      Data: 530
+    - Name: 
+      Entry: 3
+      Data: 1100
+    - Name: 
+      Entry: 3
+      Data: 2900
+    - Name: 
+      Entry: 3
+      Data: 5100
+    - Name: 
+      Entry: 3
+      Data: 8000
+    - Name: 
+      Entry: 3
+      Data: 18000
+    - Name: 
+      Entry: 3
+      Data: 34000
+    - Name: 
+      Entry: 3
+      Data: 59000
+    - Name: 
+      Entry: 3
+      Data: 97000
+    - Name: 
+      Entry: 3
+      Data: 290000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 17
+    - Name: 
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 3
+      Data: 24
+    - Name: 
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 3
+      Data: 110
+    - Name: 
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 3
+      Data: 340
+    - Name: 
+      Entry: 3
+      Data: 600
+    - Name: 
+      Entry: 3
+      Data: 1100
+    - Name: 
+      Entry: 3
+      Data: 3200
+    - Name: 
+      Entry: 3
+      Data: 5400
+    - Name: 
+      Entry: 3
+      Data: 8000
+    - Name: 
+      Entry: 3
+      Data: 19000
+    - Name: 
+      Entry: 3
+      Data: 36000
+    - Name: 
+      Entry: 3
+      Data: 60000
+    - Name: 
+      Entry: 3
+      Data: 110000
+    - Name: 
+      Entry: 3
+      Data: 310000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 17
+    - Name: 
+      Entry: 3
+      Data: 12
+    - Name: 
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 3
+      Data: 110
+    - Name: 
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 3
+      Data: 450
+    - Name: 
+      Entry: 3
+      Data: 600
+    - Name: 
+      Entry: 3
+      Data: 1800
+    - Name: 
+      Entry: 3
+      Data: 3500
+    - Name: 
+      Entry: 3
+      Data: 5400
+    - Name: 
+      Entry: 3
+      Data: 8500
+    - Name: 
+      Entry: 3
+      Data: 20000
+    - Name: 
+      Entry: 3
+      Data: 38000
+    - Name: 
+      Entry: 3
+      Data: 63000
+    - Name: 
+      Entry: 3
+      Data: 190000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 15
+    - Name: 
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 3
+      Data: 90
+    - Name: 
+      Entry: 3
+      Data: 110
+    - Name: 
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 3
+      Data: 450
+    - Name: 
+      Entry: 3
+      Data: 670
+    - Name: 
+      Entry: 3
+      Data: 2000
+    - Name: 
+      Entry: 3
+      Data: 3500
+    - Name: 
+      Entry: 3
+      Data: 5700
+    - Name: 
+      Entry: 3
+      Data: 9500
+    - Name: 
+      Entry: 3
+      Data: 21000
+    - Name: 
+      Entry: 3
+      Data: 40000
+    - Name: 
+      Entry: 3
+      Data: 66000
+    - Name: 
+      Entry: 3
+      Data: 200000
+    - Name: 
+      Entry: 3
+      Data: 350000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 13
+    - Name: 
+      Entry: 3
+      Data: 160
+    - Name: 
+      Entry: 3
+      Data: 250
+    - Name: 
+      Entry: 3
+      Data: 510
+    - Name: 
+      Entry: 3
+      Data: 670
+    - Name: 
+      Entry: 3
+      Data: 2000
+    - Name: 
+      Entry: 3
+      Data: 3900
+    - Name: 
+      Entry: 3
+      Data: 6000
+    - Name: 
+      Entry: 3
+      Data: 12000
+    - Name: 
+      Entry: 3
+      Data: 22000
+    - Name: 
+      Entry: 3
+      Data: 42000
+    - Name: 
+      Entry: 3
+      Data: 69000
+    - Name: 
+      Entry: 3
+      Data: 210000
+    - Name: 
+      Entry: 3
+      Data: 380000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 3
+      Data: 250
+    - Name: 
+      Entry: 3
+      Data: 510
+    - Name: 
+      Entry: 3
+      Data: 780
+    - Name: 
+      Entry: 3
+      Data: 2200
+    - Name: 
+      Entry: 3
+      Data: 4200
+    - Name: 
+      Entry: 3
+      Data: 6000
+    - Name: 
+      Entry: 3
+      Data: 13000
+    - Name: 
+      Entry: 3
+      Data: 24000
+    - Name: 
+      Entry: 3
+      Data: 44000
+    - Name: 
+      Entry: 3
+      Data: 72000
+    - Name: 
+      Entry: 3
+      Data: 220000
+    - Name: 
+      Entry: 3
+      Data: 400000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 3
+      Data: 530
+    - Name: 
+      Entry: 3
+      Data: 780
+    - Name: 
+      Entry: 3
+      Data: 2400
+    - Name: 
+      Entry: 3
+      Data: 4200
+    - Name: 
+      Entry: 3
+      Data: 6500
+    - Name: 
+      Entry: 3
+      Data: 14000
+    - Name: 
+      Entry: 3
+      Data: 26000
+    - Name: 
+      Entry: 3
+      Data: 47000
+    - Name: 
+      Entry: 3
+      Data: 75000
+    - Name: 
+      Entry: 3
+      Data: 230000
+    - Name: 
+      Entry: 3
+      Data: 420000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 3
+      Data: 890
+    - Name: 
+      Entry: 3
+      Data: 2400
+    - Name: 
+      Entry: 3
+      Data: 4500
+    - Name: 
+      Entry: 3
+      Data: 7000
+    - Name: 
+      Entry: 3
+      Data: 15000
+    - Name: 
+      Entry: 3
+      Data: 28000
+    - Name: 
+      Entry: 3
+      Data: 50000
+    - Name: 
+      Entry: 3
+      Data: 80000
+    - Name: 
+      Entry: 3
+      Data: 240000
+    - Name: 
+      Entry: 3
+      Data: 440000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 3
+      Data: 890
+    - Name: 
+      Entry: 3
+      Data: 2600
+    - Name: 
+      Entry: 3
+      Data: 4800
+    - Name: 
+      Entry: 3
+      Data: 7000
+    - Name: 
+      Entry: 3
+      Data: 16000
+    - Name: 
+      Entry: 3
+      Data: 30000
+    - Name: 
+      Entry: 3
+      Data: 53000
+    - Name: 
+      Entry: 3
+      Data: 85000
+    - Name: 
+      Entry: 3
+      Data: 250000
+    - Name: 
+      Entry: 3
+      Data: 460000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 3
+      Data: 2900
+    - Name: 
+      Entry: 3
+      Data: 4800
+    - Name: 
+      Entry: 3
+      Data: 7500
+    - Name: 
+      Entry: 3
+      Data: 17000
+    - Name: 
+      Entry: 3
+      Data: 32000
+    - Name: 
+      Entry: 3
+      Data: 56000
+    - Name: 
+      Entry: 3
+      Data: 90000
+    - Name: 
+      Entry: 3
+      Data: 270000
+    - Name: 
+      Entry: 3
+      Data: 480000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 18
+    - Name: 
+      Entry: 3
+      Data: 12
+    - Name: 
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 3
+      Data: 24
+    - Name: 
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 3
+      Data: 90
+    - Name: 
+      Entry: 3
+      Data: 160
+    - Name: 
+      Entry: 3
+      Data: 340
+    - Name: 
+      Entry: 3
+      Data: 530
+    - Name: 
+      Entry: 3
+      Data: 1100
+    - Name: 
+      Entry: 3
+      Data: 2900
+    - Name: 
+      Entry: 3
+      Data: 5100
+    - Name: 
+      Entry: 3
+      Data: 8000
+    - Name: 
+      Entry: 3
+      Data: 18000
+    - Name: 
+      Entry: 3
+      Data: 34000
+    - Name: 
+      Entry: 3
+      Data: 59000
+    - Name: 
+      Entry: 3
+      Data: 97000
+    - Name: 
+      Entry: 3
+      Data: 290000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: towerGameUpgrades
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[TowerGameUpgrades, !CoreAssembly]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 7
+      Data: 14|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 1
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 0
+    - Name: Costs
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 3
+      Data: 22
+    - Name: 
+      Entry: 3
+      Data: 43
+    - Name: 
+      Entry: 3
+      Data: 90
+    - Name: 
+      Entry: 3
+      Data: 39
+    - Name: 
+      Entry: 3
+      Data: 49
+    - Name: 
+      Entry: 3
+      Data: 59
+    - Name: 
+      Entry: 3
+      Data: 73
+    - Name: 
+      Entry: 3
+      Data: 277
+    - Name: 
+      Entry: 3
+      Data: 88
+    - Name: 
+      Entry: 3
+      Data: 101
+    - Name: 
+      Entry: 3
+      Data: 113
+    - Name: 
+      Entry: 3
+      Data: 127
+    - Name: 
+      Entry: 3
+      Data: 765
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 1.95
+    - Name: 
+      Entry: 4
+      Data: 2.05
+    - Name: 
+      Entry: 4
+      Data: 1.97
+    - Name: 
+      Entry: 4
+      Data: 2.01
+    - Name: 
+      Entry: 4
+      Data: 1.19
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 2
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 1
+    - Name: Costs
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 41
+    - Name: 
+      Entry: 3
+      Data: 84
+    - Name: 
+      Entry: 3
+      Data: 170
+    - Name: 
+      Entry: 3
+      Data: 345
+    - Name: 
+      Entry: 3
+      Data: 148
+    - Name: 
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 3
+      Data: 219
+    - Name: 
+      Entry: 3
+      Data: 266
+    - Name: 
+      Entry: 3
+      Data: 425
+    - Name: 
+      Entry: 3
+      Data: 214
+    - Name: 
+      Entry: 3
+      Data: 238
+    - Name: 
+      Entry: 3
+      Data: 263
+    - Name: 
+      Entry: 3
+      Data: 291
+    - Name: 
+      Entry: 3
+      Data: 864
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 1.99
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 4
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 2
+    - Name: Costs
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 26
+    - Name: 
+      Entry: 3
+      Data: 53
+    - Name: 
+      Entry: 3
+      Data: 106
+    - Name: 
+      Entry: 3
+      Data: 215
+    - Name: 
+      Entry: 3
+      Data: 91
+    - Name: 
+      Entry: 3
+      Data: 110
+    - Name: 
+      Entry: 3
+      Data: 134
+    - Name: 
+      Entry: 3
+      Data: 161
+    - Name: 
+      Entry: 3
+      Data: 196
+    - Name: 
+      Entry: 3
+      Data: 124
+    - Name: 
+      Entry: 3
+      Data: 137
+    - Name: 
+      Entry: 3
+      Data: 151
+    - Name: 
+      Entry: 3
+      Data: 168
+    - Name: 
+      Entry: 3
+      Data: 1127
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 2.01
+    - Name: 
+      Entry: 4
+      Data: 2.01
+    - Name: 
+      Entry: 4
+      Data: 1.99
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 8
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 3
+    - Name: Costs
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 79
+    - Name: 
+      Entry: 3
+      Data: 163
+    - Name: 
+      Entry: 3
+      Data: 335
+    - Name: 
+      Entry: 3
+      Data: 689
+    - Name: 
+      Entry: 3
+      Data: 313
+    - Name: 
+      Entry: 3
+      Data: 385
+    - Name: 
+      Entry: 3
+      Data: 472
+    - Name: 
+      Entry: 3
+      Data: 580
+    - Name: 
+      Entry: 3
+      Data: 977
+    - Name: 
+      Entry: 3
+      Data: 517
+    - Name: 
+      Entry: 3
+      Data: 580
+    - Name: 
+      Entry: 3
+      Data: 650
+    - Name: 
+      Entry: 3
+      Data: 727
+    - Name: 
+      Entry: 3
+      Data: 1632
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 1.99
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.28
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 16
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 4
+    - Name: Costs
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 3
+      Data: 63
+    - Name: 
+      Entry: 3
+      Data: 127
+    - Name: 
+      Entry: 3
+      Data: 54
+    - Name: 
+      Entry: 3
+      Data: 67
+    - Name: 
+      Entry: 3
+      Data: 82
+    - Name: 
+      Entry: 3
+      Data: 98
+    - Name: 
+      Entry: 3
+      Data: 487
+    - Name: 
+      Entry: 3
+      Data: 129
+    - Name: 
+      Entry: 3
+      Data: 145
+    - Name: 
+      Entry: 3
+      Data: 161
+    - Name: 
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 3
+      Data: 510
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 1.96
+    - Name: 
+      Entry: 4
+      Data: 1.96
+    - Name: 
+      Entry: 4
+      Data: 2.01
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 32
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 0
+    - Name: Costs
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 82
+    - Name: 
+      Entry: 3
+      Data: 167
+    - Name: 
+      Entry: 3
+      Data: 338
+    - Name: 
+      Entry: 3
+      Data: 685
+    - Name: 
+      Entry: 3
+      Data: 291
+    - Name: 
+      Entry: 3
+      Data: 351
+    - Name: 
+      Entry: 3
+      Data: 425
+    - Name: 
+      Entry: 3
+      Data: 515
+    - Name: 
+      Entry: 3
+      Data: 2935
+    - Name: 
+      Entry: 3
+      Data: 696
+    - Name: 
+      Entry: 3
+      Data: 774
+    - Name: 
+      Entry: 3
+      Data: 861
+    - Name: 
+      Entry: 3
+      Data: 957
+    - Name: 
+      Entry: 3
+      Data: 3148
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 64
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 0
+    - Name: Costs
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 106
+    - Name: 
+      Entry: 3
+      Data: 218
+    - Name: 
+      Entry: 3
+      Data: 447
+    - Name: 
+      Entry: 3
+      Data: 918
+    - Name: 
+      Entry: 3
+      Data: 415
+    - Name: 
+      Entry: 3
+      Data: 510
+    - Name: 
+      Entry: 3
+      Data: 626
+    - Name: 
+      Entry: 3
+      Data: 768
+    - Name: 
+      Entry: 3
+      Data: 2640
+    - Name: 
+      Entry: 3
+      Data: 915
+    - Name: 
+      Entry: 3
+      Data: 1034
+    - Name: 
+      Entry: 3
+      Data: 1168
+    - Name: 
+      Entry: 3
+      Data: 1319
+    - Name: 
+      Entry: 3
+      Data: 3216
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 34|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 2048
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 0
+    - Name: Costs
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 61
+    - Name: 
+      Entry: 3
+      Data: 120
+    - Name: 
+      Entry: 3
+      Data: 242
+    - Name: 
+      Entry: 3
+      Data: 482
+    - Name: 
+      Entry: 3
+      Data: 193
+    - Name: 
+      Entry: 3
+      Data: 232
+    - Name: 
+      Entry: 3
+      Data: 278
+    - Name: 
+      Entry: 3
+      Data: 334
+    - Name: 
+      Entry: 3
+      Data: 2253
+    - Name: 
+      Entry: 3
+      Data: 451
+    - Name: 
+      Entry: 3
+      Data: 498
+    - Name: 
+      Entry: 3
+      Data: 549
+    - Name: 
+      Entry: 3
+      Data: 606
+    - Name: 
+      Entry: 3
+      Data: 4181
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 2.02
+    - Name: 
+      Entry: 4
+      Data: 1.99
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 1024
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 5
+    - Name: Costs
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 85
+    - Name: 
+      Entry: 3
+      Data: 171
+    - Name: 
+      Entry: 3
+      Data: 344
+    - Name: 
+      Entry: 3
+      Data: 691
+    - Name: 
+      Entry: 3
+      Data: 281
+    - Name: 
+      Entry: 3
+      Data: 337
+    - Name: 
+      Entry: 3
+      Data: 407
+    - Name: 
+      Entry: 3
+      Data: 489
+    - Name: 
+      Entry: 3
+      Data: 4744
+    - Name: 
+      Entry: 3
+      Data: 787
+    - Name: 
+      Entry: 3
+      Data: 866
+    - Name: 
+      Entry: 3
+      Data: 953
+    - Name: 
+      Entry: 3
+      Data: 1051
+    - Name: 
+      Entry: 3
+      Data: 4269
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 40|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 1.99
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 2.63
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 512
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 6
+    - Name: Costs
+      Entry: 7
+      Data: 42|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 65
+    - Name: 
+      Entry: 3
+      Data: 131
+    - Name: 
+      Entry: 3
+      Data: 262
+    - Name: 
+      Entry: 3
+      Data: 524
+    - Name: 
+      Entry: 3
+      Data: 211
+    - Name: 
+      Entry: 3
+      Data: 253
+    - Name: 
+      Entry: 3
+      Data: 305
+    - Name: 
+      Entry: 3
+      Data: 365
+    - Name: 
+      Entry: 3
+      Data: 3745
+    - Name: 
+      Entry: 3
+      Data: 600
+    - Name: 
+      Entry: 3
+      Data: 659
+    - Name: 
+      Entry: 3
+      Data: 726
+    - Name: 
+      Entry: 3
+      Data: 799
+    - Name: 
+      Entry: 3
+      Data: 1944
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 2.71
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 1.1
+    - Name: 
+      Entry: 4
+      Data: 0.92
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|TowerGameUpgrades, !CoreAssembly
+    - Name: TowerId
+      Entry: 3
+      Data: 256
+    - Name: Level10Upgrade
+      Entry: 10
+      Data: 0
+    - Name: Costs
+      Entry: 7
+      Data: 45|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 3
+      Data: 9
+    - Name: 
+      Entry: 3
+      Data: 38
+    - Name: 
+      Entry: 3
+      Data: 21
+    - Name: 
+      Entry: 3
+      Data: 26
+    - Name: 
+      Entry: 3
+      Data: 32
+    - Name: 
+      Entry: 3
+      Data: 39
+    - Name: 
+      Entry: 3
+      Data: 176
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AmmoCostMult
+      Entry: 7
+      Data: 46|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 4
+      Data: 1.27
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.22
+    - Name: 
+      Entry: 4
+      Data: 1.17
+    - Name: 
+      Entry: 4
+      Data: 1.18
+    - Name: 
+      Entry: 4
+      Data: 1.21
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.18
+    - Name: 
+      Entry: 4
+      Data: 1.21
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: everyLevelUpgrades
+      Entry: 7
+      Data: 47|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SimpleUpgrade,
+        !CoreAssembly]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 48|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: towerIndexes
+      Entry: 7
+      Data: 49|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[AllEnums+TowerId,
+        !CoreAssembly]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 50|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 3
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 64
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 3
+      Data: 32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 3
+      Data: 512
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 2048
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 3
+      Data: 1024
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  baseMenuUpgrade: {fileID: 11400000, guid: 0db4be7701480134093e06dee0be139f, type: 2}
+  infinityMenuUpgrade: {fileID: 11400000, guid: 3caa36d42af68d7498cf7056dad1e963,
+    type: 2}
+  infinityUpgradeCostIncrease: 20000
+  Level5Upgrade: {fileID: 11400000, guid: e88491d779d83f643a4e850f58eb283c, type: 2}
+  parseArea: "12\t15\t12\t40\t160\t250\t530\t890\t890\t2900\r\n15\t24\t15\t90\t250\t510\t780\t2400\t2600\t4800\r\n24\t30\t30\t110\t510\t780\t2400\t4500\t4800\t7500\r\n30\t60\t40\t180\t670\t2200\t4200\t7000\t7000\t17000\r\n60\t110\t60\t450\t2000\t4200\t6500\t15000\t16000\t32000\r\n90\t180\t110\t670\t3900\t6000\t14000\t28000\t30000\t56000\r\n160\t340\t180\t2000\t6000\t13000\t26000\t50000\t53000\t90000\r\n340\t600\t450\t3500\t12000\t24000\t47000\t80000\t85000\t270000\r\n530\t1100\t600\t5700\t22000\t44000\t75000\t240000\t250000\t480000\r\n1100\t3200\t1800\t9500\t42000\t72000\t230000\t440000\t460000\t\r\n2900\t5400\t3500\t21000\t69000\t220000\t420000\t\t\t\r\n5100\t8000\t5400\t40000\t210000\t400000\t\t\t\t\r\n8000\t19000\t8500\t66000\t380000\t\t\t\t\t\r\n18000\t36000\t20000\t200000\t\t\t\t\t\t\r\n34000\t60000\t38000\t350000\t\t\t\t\t\t\r\n59000\t110000\t63000\t\t\t\t\t\t\t\r\n97000\t310000\t190000\t\t\t\t\t\t\t\r\n290000\t\t330000\t\t\t\t\t\t\t\r"

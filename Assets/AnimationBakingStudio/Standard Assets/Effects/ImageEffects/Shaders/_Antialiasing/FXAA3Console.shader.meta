@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c547503fff0e8482ea5793727057041c
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader
+  uploadId: 602711

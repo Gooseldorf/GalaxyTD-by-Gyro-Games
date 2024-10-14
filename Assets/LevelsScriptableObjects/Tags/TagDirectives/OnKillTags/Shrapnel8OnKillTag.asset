@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beeb8070053147cab5c0d8a633abe075, type: 3}
+  m_Name: Shrapnel8OnKillTag
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: attackerComponent
+      Entry: 7
+      Data: ECSTest.Components.AttackerComponent, !CoreAssembly
+    - Name: TowerType
+      Entry: 3
+      Data: 1
+    - Name: AttackPattern
+      Entry: 3
+      Data: 0
+    - Name: CurrentDeviation
+      Entry: 4
+      Data: 0
+    - Name: AttackDelay
+      Entry: 4
+      Data: 0
+    - Name: BurstTimer
+      Entry: 4
+      Data: 0
+    - Name: ReloadTimer
+      Entry: 4
+      Data: 0
+    - Name: WindUpTimer
+      Entry: 4
+      Data: 0
+    - Name: ShootTimer
+      Entry: 4
+      Data: 0
+    - Name: IdleTimer
+      Entry: 4
+      Data: 0
+    - Name: IdleRandomizer
+      Entry: 4
+      Data: 0
+    - Name: StartOffset
+      Entry: 4
+      Data: 0
+    - Name: Bullets
+      Entry: 3
+      Data: 0
+    - Name: BulletLeftInCurrentBurst
+      Entry: 3
+      Data: 0
+    - Name: Level
+      Entry: 3
+      Data: 0
+    - Name: Target
+      Entry: 7
+      Data: Unity.Entities.Entity, Unity.Entities
+    - Name: Index
+      Entry: 3
+      Data: 0
+    - Name: Version
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AttackStats
+      Entry: 7
+      Data: ECSTest.Structs.AttackStatsStruct, !CoreAssembly
+    - Name: ReloadStats
+      Entry: 7
+      Data: ECSTest.Structs.ReloadStatsStruct, !CoreAssembly
+    - Name: RawMagazineSize
+      Entry: 4
+      Data: 0
+    - Name: BulletCost
+      Entry: 4
+      Data: 0
+    - Name: ReloadTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AimingStats
+      Entry: 7
+      Data: ECSTest.Structs.AimingStatsStruct, !CoreAssembly
+    - Name: Range
+      Entry: 4
+      Data: 0
+    - Name: RotationSpeed
+      Entry: 4
+      Data: 0
+    - Name: AttackAngle
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ShootingStats
+      Entry: 7
+      Data: ECSTest.Structs.ShootingStatsStruct, !CoreAssembly
+    - Name: ShotsPerBurst
+      Entry: 3
+      Data: 0
+    - Name: ProjectilesPerShot
+      Entry: 3
+      Data: 0
+    - Name: ShotDelay
+      Entry: 4
+      Data: 0
+    - Name: WindUpTime
+      Entry: 4
+      Data: 0
+    - Name: AvailableAttackPatterns
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 10
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 38.7211075
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AutoReload
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: gunStatsComponent
+      Entry: 7
+      Data: GunStatsComponent, !CoreAssembly
+    - Name: RicochetCount
+      Entry: 3
+      Data: 0
+    - Name: PenetrationCount
+      Entry: 3
+      Data: 0
+    - Name: RicochetDeviation
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerPenetration
+      Entry: 4
+      Data: 0
+    - Name: DamageMultPerRicochet
+      Entry: 4
+      Data: 0
+    - Name: Deviation
+      Entry: 4
+      Data: 0
+    - Name: Control
+      Entry: 4
+      Data: 0
+    - Name: Recoil
+      Entry: 4
+      Data: 0
+    - Name: DamageFallof
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+  shrapnelAmount: 8
+  overkillPercent: 1

@@ -1,0 +1,5 @@
+C:/UnityWorkspaces/GunzTD/.utmp/Debug/17114p3m/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/UnityWorkspaces/GunzTD/.utmp/Debug/17114p3m/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/UnityWorkspaces/GunzTD/.utmp/Debug/17114p3m/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+C:/UnityWorkspaces/GunzTD/.utmp/Debug/17114p3m/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+C:/UnityWorkspaces/GunzTD/.utmp/Debug/17114p3m/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir

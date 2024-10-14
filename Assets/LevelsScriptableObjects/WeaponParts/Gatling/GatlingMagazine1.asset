@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402096c320dc4995bf173f266beb467e, type: 3}
+  m_Name: GatlingMagazine1
+  m_EditorClassIdentifier: 
+  Bonuses:
+  - {fileID: 11400000, guid: 624fe413863bc8e42867a3edd34128b4, type: 2}
+  - {fileID: 11400000, guid: ef8377eff6e2ab14986663bdf89084fd, type: 2}
+  <PartType>k__BackingField: 2
+  <TowerId>k__BackingField: 32
+  SoftCost: 0
+  HardCost: 0
+  ScrapCost: 0
+  TowerCostIncrease: 0
+  BulletCostIncrease: 0.1
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 47c89df7e183cc24890441fe7426f5e0,
+    type: 3}

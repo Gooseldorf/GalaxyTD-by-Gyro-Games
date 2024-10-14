@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e3b9eabe8142dcb52d56a53f7629df, type: 3}
+  m_Name: Bug1
+  m_EditorClassIdentifier: 
+  CreepType: 0
+  CashReward: 10
+  Mass: 0.8
+  CollisionRange: 0.21
+  ObstacleType: 2
+  MaxHP: 100
+  Speed: 5
+  MaxForce: 10
+  NeighborRange: 1
+  ArmorType: 1
+  FleshType: 1
+  RenderStats: {fileID: 11400000, guid: 298c3f27ad0b2c74e83436cb61a579eb, type: 2}

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e241718b6aa7d6a4588a4ba7ad279747, type: 3}
+  m_Name: PortalBrush
+  m_EditorClassIdentifier: 
+  m_Cells:
+  - m_Tile: {fileID: 0}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Pivot: {x: 0, y: 0, z: 0}
+  m_CanChangeZPosition: 0
+  m_FloodFillContiguousOnly: 1
+  m_LastPickedLayout: 0
+  m_LastPickedCellSwizzle: 0
+  m_LastPickedCellSize: {x: 1, y: 1, z: 0}
+  m_LastPickedCellGap: {x: 0, y: 0, z: 0}
+  DrawTiles: 0
+  TileSet:
+  - {fileID: 11400000, guid: c2c94e7c1cd84dd44b4fa1e8d812a403, type: 2}
+  - {fileID: 11400000, guid: c9548a7df4e09194abd7649f39d90ff7, type: 2}
+  - {fileID: 11400000, guid: 6312fc96212cd3f4c895cf04df233367, type: 2}
+  - {fileID: 11400000, guid: 0834ca184482a1848b52c287913728ef, type: 2}
+  portalVisualPrefab: {fileID: 5579505288511577801, guid: a27c3dd02db3fbe40901a1f566640854,
+    type: 3}
+  EnterTileSet:
+  - {fileID: 11400000, guid: c2c94e7c1cd84dd44b4fa1e8d812a403, type: 2}
+  - {fileID: 11400000, guid: c9548a7df4e09194abd7649f39d90ff7, type: 2}
+  - {fileID: 11400000, guid: 6312fc96212cd3f4c895cf04df233367, type: 2}
+  - {fileID: 11400000, guid: 0834ca184482a1848b52c287913728ef, type: 2}
+  ExitTileSet:
+  - {fileID: 11400000, guid: b25306ae5c19f884c9bc38760eba872a, type: 2}
+  - {fileID: 11400000, guid: c286ea41decab3343a6b66bbbab73385, type: 2}
+  - {fileID: 11400000, guid: b0bc104b7de06274f8d973d555712d6d, type: 2}
+  - {fileID: 11400000, guid: a56ef5adbc4d2d3499377465f200f427, type: 2}
+  IsDrawExit: 0

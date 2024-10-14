@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.BuildTowerWidget name="BuildTowerWidget" class="English" style="flex-grow: 0; flex-direction: column; background-image: none; flex-shrink: 0; justify-content: flex-start; align-items: stretch; visibility: visible; display: flex; overflow: hidden; opacity: 1; width: auto; height: auto;">
+        <ui:VisualElement name="ActiveWidget" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 172px; height: 230px; align-self: flex-start; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/BuildTowerWidgetBg.png?fileID=21300000&amp;guid=7f19f290793c7c74ea83d98cbfdc5852&amp;type=3#BuildTowerWidgetBg&apos;); visibility: visible; display: flex; opacity: 1;">
+            <ui:VisualElement name="TowerIconContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-top: 13px; margin-right: 13px; margin-left: 13px; margin-bottom: 12px; overflow: hidden;">
+                <ui:VisualElement name="TowerIcon" style="flex-grow: 1; -unity-background-scale-mode: scale-and-crop; margin-top: 10px; margin-bottom: 5px; background-image: url(&apos;project://database/Assets/Visuals/Textures/TowerSprites_ByParts_source/Cannon/Cannon.png?fileID=2800000&amp;guid=716d48dc3e04116468343d6c99afbd09&amp;type=3#Cannon&apos;); overflow: visible; flex-shrink: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PriceContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.71); align-self: center; flex-direction: row; justify-content: center; position: absolute; right: 0; bottom: 0; left: 0; margin-bottom: 13px; align-items: center; margin-right: 13px; margin-left: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px;">
+                <ui:Label tabindex="-1" text="100" display-tooltip-when-elided="true" name="BuildPrice" selectable="true" class="English" style="flex-direction: row; -unity-text-align: middle-center; font-size: 50px; color: rgb(255, 255, 255); align-self: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                <ui:VisualElement name="CashIcon" style="width: 42px; height: 51px; align-self: center; background-image: url(&apos;project://database/Assets/Visuals/UI/GameScene/CashIcon_new.png?fileID=2800000&amp;guid=4841c5832fc51474285ce0ba90d4c1eb&amp;type=3#CashIcon_new&apos;); margin-left: 5px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </UI.BuildTowerWidget>
+</ui:UXML>

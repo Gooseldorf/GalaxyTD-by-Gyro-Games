@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3cefa073247811545b415c7727cc0dd1
+timeCreated: 1551498800
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Demo/Prefab/SpritePrefabBuilder.prefab
+  uploadId: 602711

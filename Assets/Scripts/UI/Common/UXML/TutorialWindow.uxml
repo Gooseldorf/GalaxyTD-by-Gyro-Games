@@ -1,0 +1,117 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="CommonButton" src="project://database/Assets/Scripts/UI/Common/UXML/CommonButton.uxml?fileID=9197481963319205126&amp;guid=c6c4b67a6e44f8049a94d9a664326025&amp;type=3#CommonButton" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=922c565bde1a81a4aa00028be1469568&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/Scripts/UI/USS/ScrollRect.uss?fileID=7433441132597879392&amp;guid=e192f6ac1ada00a458d540e1c29b0b7d&amp;type=3#ScrollRect" />
+    <Style src="project://database/Assets/Scripts/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=e96e21e98dc02fb4eb644025bc937bcc&amp;type=3#Fonts" />
+    <UI.TutorialWindow picking-mode="Ignore" class="English" style="flex-grow: 1; display: none;">
+        <ui:VisualElement name="WindowContainer" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none;">
+            <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); align-self: auto; justify-content: center;">
+                <UI.ConfirmWindow name="ConfirmWindow" style="width: 1000px; justify-content: space-between; align-items: flex-start; align-self: center;">
+                    <ui:VisualElement name="Mask" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); overflow: hidden; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-top-left-radius: 60px; border-bottom-left-radius: 60px; border-top-right-radius: 60px; border-bottom-right-radius: 60px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+                        <ui:VisualElement name="HolograficEffect" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/HolograficEffect.png?fileID=21300000&amp;guid=9b4f744b67d0afe42ae3c10a65667797&amp;type=3#HolograficEffect&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.1); -unity-background-scale-mode: scale-and-crop; flex-direction: column; overflow: visible; -unity-slice-left: 1; -unity-slice-top: 1; -unity-slice-right: 1; -unity-slice-bottom: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+                            <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowBg.png?fileID=21300000&amp;guid=71e6e5e938f4580409ba0e80c1b24750&amp;type=3#WindowBg&apos;); -unity-background-image-tint-color: rgba(31, 178, 222, 0.2); align-items: stretch; overflow: visible;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="BlackBackground" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.95); position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Frame" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowFrame.png?fileID=21300000&amp;guid=133593c02abd35d46ac56a7d80df1560&amp;type=3#WindowFrame&apos;); overflow: visible; -unity-slice-scale: 1px; position: absolute; top: -2px; left: 0; right: 0; bottom: 0;" />
+                    <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="Desc" parse-escape-sequences="true" style="align-self: stretch; white-space: normal; font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: middle-center; margin-top: 40px; margin-right: 20px; margin-left: 20px;" />
+                    <ui:VisualElement name="IconContainer" style="flex-grow: 0; width: 760px; height: 420px; flex-shrink: 0; align-self: center; margin-top: 20px;">
+                        <ui:VisualElement name="BlackBackground" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.95); position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;" />
+                        <ui:VisualElement name="Icon" style="flex-grow: 1; align-self: center; -unity-background-scale-mode: scale-to-fit; margin-top: 30px; margin-bottom: 30px; margin-right: 30px; margin-left: 30px; width: 700px; height: 362px; flex-shrink: 0;" />
+                        <ui:VisualElement name="Frame" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowFrame.png?fileID=21300000&amp;guid=133593c02abd35d46ac56a7d80df1560&amp;type=3#WindowFrame&apos;); overflow: visible; -unity-slice-scale: 1px; position: absolute; top: -2px; left: 0; right: 0; bottom: 0; align-self: center;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ButtonsContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-self: center; flex-shrink: 0; justify-content: center; margin-bottom: 25px; margin-left: 0; margin-right: 0; padding-left: 15px; padding-right: 15px; width: 400px; margin-top: 20px;">
+                        <ui:Instance template="CommonButton" name="CancelButton" style="height: 90px; flex-grow: 1; display: none; flex-shrink: 0;" />
+                        <ui:Instance template="CommonButton" name="ConfirmButton" style="height: 90px; flex-grow: 1; display: flex; flex-shrink: 0;" />
+                    </ui:VisualElement>
+                </UI.ConfirmWindow>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="DialogContainer" picking-mode="Ignore" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none;">
+            <UI.UIHighlighter picking-mode="Ignore" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+                <ui:VisualElement name="TopContainer" picking-mode="Ignore" style="flex-grow: 1;">
+                    <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); flex-shrink: 1;" />
+                    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                        <ui:VisualElement name="Left" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); width: 0; flex-shrink: 0;" />
+                        <ui:VisualElement name="Highlight" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                        <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; flex-shrink: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Bottom" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; height: 0; flex-shrink: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                    <ui:VisualElement name="LeftContainer" picking-mode="Ignore" style="flex-grow: 0; width: 0; flex-shrink: 0;">
+                        <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); flex-shrink: 1;" />
+                        <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                            <ui:VisualElement name="Left" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); width: 0; flex-shrink: 0;" />
+                            <ui:VisualElement name="Highlight" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                            <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; flex-shrink: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Bottom" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; height: 0; flex-shrink: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="MainHighlight" picking-mode="Ignore" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                    <ui:VisualElement name="RightContainer" picking-mode="Ignore" style="flex-grow: 1; flex-shrink: 1;">
+                        <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); flex-shrink: 1;" />
+                        <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                            <ui:VisualElement name="Left" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); width: 0; flex-shrink: 0;" />
+                            <ui:VisualElement name="Highlight" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                            <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; flex-shrink: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Bottom" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; height: 0; flex-shrink: 0;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="BottomContainer" picking-mode="Ignore" style="flex-grow: 0; height: 0; flex-shrink: 0;">
+                    <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); flex-shrink: 1;" />
+                    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+                        <ui:VisualElement name="Left" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); width: 0; flex-shrink: 0;" />
+                        <ui:VisualElement name="Highlight" style="flex-grow: 0; width: 0; height: 0; overflow: visible; flex-shrink: 0;" />
+                        <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; flex-shrink: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Bottom" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.9); overflow: hidden; height: 0; flex-shrink: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Glow" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 0; height: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/WindowTutorialImages/Tutorial_glow.png?fileID=21300000&amp;guid=4bec7b780fd69a143b54223983bf016a&amp;type=3#Tutorial_glow&apos;); bottom: 0; left: 0;" />
+                <ui:VisualElement name="AdditionalGlow" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 0; height: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/WindowTutorialImages/Tutorial_glow.png?fileID=21300000&amp;guid=4bec7b780fd69a143b54223983bf016a&amp;type=3#Tutorial_glow&apos;); left: 0; bottom: 0;" />
+            </UI.UIHighlighter>
+            <UI.DialogWindow name="DialogWindow" picking-mode="Ignore" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex;">
+                <ui:VisualElement name="Images" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; position: absolute; top: 4px; left: 23px; right: -21px; bottom: -2px;">
+                    <ui:VisualElement name="CharacterOne" picking-mode="Ignore" style="flex-grow: 1; background-image: none; -unity-background-scale-mode: scale-to-fit; flex-direction: column-reverse;">
+                        <ui:VisualElement name="CharacterIcon1" picking-mode="Ignore" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/Dialogues/Tauri.png?fileID=21300000&amp;guid=34b1abc136b9a694a889d84e35f90d7a&amp;type=3#Tauri&apos;); scale: 1 1; translate: 0 0; flex-shrink: 0; width: 800px; height: 800px; left: -120px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="CharacterTwo" picking-mode="Ignore" style="flex-grow: 1; background-image: none; -unity-background-scale-mode: scale-to-fit; flex-shrink: 0; flex-direction: column-reverse; flex-wrap: wrap-reverse; align-self: auto;">
+                        <ui:VisualElement name="CharacterIcon2" picking-mode="Ignore" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Visuals/UI/Dialogues/ShipsNavigator.png?fileID=21300000&amp;guid=726c83499651d2f459cb0b90ea57ad2a&amp;type=3#ShipsNavigator&apos;); flex-shrink: 0; scale: -1 1; translate: 0 0; width: 800px; height: 800px; right: 120px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Text" picking-mode="Ignore" style="flex-grow: 1; display: flex; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; align-items: stretch;">
+                    <ui:VisualElement name="Separator" picking-mode="Ignore" style="flex-grow: 1;">
+                        <ui:Label tabindex="-1" text="&lt;u&gt;Skip dialog&lt;/u&gt;" display-tooltip-when-elided="true" name="SkipLabel" style="display: none; color: rgb(255, 255, 255); font-size: 46px; -unity-text-align: upper-right; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 20px; margin-right: 20px; margin-bottom: 0; margin-left: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TextContainer" picking-mode="Ignore" style="height: 400px; left: auto; right: auto; width: 1000px; align-self: center;">
+                        <ui:VisualElement name="Mask" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); overflow: hidden; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-top-left-radius: 60px; border-bottom-left-radius: 60px; border-top-right-radius: 60px; border-bottom-right-radius: 60px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+                            <ui:VisualElement name="HolograficEffect" picking-mode="Ignore" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/HolograficEffect.png?fileID=21300000&amp;guid=9b4f744b67d0afe42ae3c10a65667797&amp;type=3#HolograficEffect&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.1); -unity-background-scale-mode: scale-and-crop; flex-direction: column; overflow: visible; -unity-slice-left: 1; -unity-slice-top: 1; -unity-slice-right: 1; -unity-slice-bottom: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+                                <ui:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowBg.png?fileID=21300000&amp;guid=71e6e5e938f4580409ba0e80c1b24750&amp;type=3#WindowBg&apos;); -unity-background-image-tint-color: rgba(31, 178, 222, 0.2); align-items: stretch; overflow: visible;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="BlackBackground" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.95); position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Frame" picking-mode="Ignore" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/UI/Windows/WindowFrame.png?fileID=21300000&amp;guid=133593c02abd35d46ac56a7d80df1560&amp;type=3#WindowFrame&apos;); overflow: visible; -unity-slice-scale: 1px; position: absolute; top: -2px; left: 0; right: 0; bottom: 0;" />
+                        <ui:VisualElement name="Text" picking-mode="Ignore" style="flex-grow: 1; padding-top: 30px; padding-right: 60px; padding-bottom: -33px; padding-left: 60px;">
+                            <ui:Label text="Mr. Frodo" name="CharacterName" picking-mode="Ignore" style="font-size: 60px; color: rgb(0, 179, 225); -unity-text-align: middle-left; padding-left: 20px; -unity-font-style: bold; flex-shrink: 0; text-overflow: ellipsis;" />
+                            <ui:VisualElement name="SeparatorLine" picking-mode="Ignore" style="flex-grow: 0; background-color: rgb(0, 179, 225); height: 2px;" />
+                            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="LineScroll" horizontal-scroller-visibility="Hidden" picking-mode="Ignore" style="background-image: none; flex-grow: 1; padding-top: 0; padding-bottom: 50px; margin-top: 20px;">
+                                <ui:Label name="Line" picking-mode="Ignore" style="font-size: 46px; color: rgb(255, 255, 255); white-space: normal; -unity-text-align: upper-left; margin-top: 0; padding-left: 10px; flex-shrink: 1;" />
+                            </ui:ScrollView>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="ClickArea" style="flex-grow: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+            </UI.DialogWindow>
+            <ui:VisualElement name="UIPointer" picking-mode="Ignore" style="position: absolute; width: 200px; height: 200px; background-image: url(&apos;project://database/Assets/Visuals/UI/WindowTutorialImages/Tutorial_glow.png?fileID=21300000&amp;guid=4bec7b780fd69a143b54223983bf016a&amp;type=3#Tutorial_glow&apos;); opacity: 1; display: flex; visibility: hidden; overflow: visible; transform-origin: left top; scale: 1 1; bottom: 0; left: 0;" />
+            <ui:VisualElement name="EnvPointer" picking-mode="Ignore" style="position: absolute; width: 150px; height: 150px; opacity: 0.7; display: flex; visibility: hidden; transform-origin: left top; top: 50%; left: 50%; right: auto; bottom: auto; translate: -22.5px -127.5px;">
+                <ui:VisualElement name="Outer" picking-mode="Ignore" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Visuals/Textures/Targeting/targeting_1.png?fileID=21300000&amp;guid=db19a1ec6a9c14740aeb3d6ccf8b7197&amp;type=3#targeting_1&apos;); position: absolute; top: -2px; left: 0; right: 0; bottom: 3px; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(255, 239, 0);" />
+                <ui:VisualElement name="Inner1" picking-mode="Ignore" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&apos;project://database/Assets/Visuals/Textures/Targeting/targeting_2.png?fileID=21300000&amp;guid=7124be858bf5b1a45b009d22046b89e5&amp;type=3#targeting_2&apos;); scale: 0.9 0.9; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(255, 239, 0);" />
+                <ui:VisualElement name="Inner2" picking-mode="Ignore" style="flex-grow: 1; position: absolute; background-image: url(&apos;project://database/Assets/Visuals/Textures/Targeting/targeting_3.png?fileID=21300000&amp;guid=a0765f9ecb917234c9b7deba0fb507b1&amp;type=3#targeting_3&apos;); top: 0; left: 0; right: 0; bottom: 0; scale: 0.7 0.7; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(255, 239, 0);" />
+                <ui:VisualElement name="Line" picking-mode="Ignore" style="flex-grow: 1; position: absolute; top: auto; left: 72px; right: auto; bottom: 71px; background-image: url(&apos;project://database/Assets/Visuals/Textures/Targeting/targeting_4.png?fileID=21300000&amp;guid=913cb4a8703c60b4d948d781c0d9adfa&amp;type=3#targeting_4&apos;); width: 149px; height: 66px; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(255, 239, 0);">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Label" picking-mode="Ignore" class="English" style="position: absolute; font-size: 23px; top: -31px; left: 73px; width: 60px; -unity-text-align: upper-left; color: rgb(255, 239, 0);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </UI.TutorialWindow>
+</ui:UXML>

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1e8432cc6f482bb9ab278e2ec03c30, type: 3}
+  m_Name: RocketGameUpgrade_late
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: minorBonuses
+      Entry: 7
+      Data: 0|AttackStats[], !CoreAssembly
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|RocketStats, !CoreAssembly
+    - Name: ProjectileSpeed
+      Entry: 4
+      Data: 0
+    - Name: DamagePerBullet
+      Entry: 4
+      Data: 0.05
+    - Name: KnockBackPerBullet
+      Entry: 4
+      Data: 0
+    - Name: ReloadStats
+      Entry: 6
+      Data: 
+    - Name: AimingStats
+      Entry: 6
+      Data: 
+    - Name: ShootingStats
+      Entry: 6
+      Data: 
+    - Name: AOE
+      Entry: 4
+      Data: 0
+    - Name: TargetsCount
+      Entry: 3
+      Data: 0
+    - Name: ScatterDistance
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  description: 
+  LifeTime: 0
+  <OneCopyOnly>k__BackingField: 0
+  DegradesInto: {fileID: 0}
+  numberOfBonusesToApply: 4

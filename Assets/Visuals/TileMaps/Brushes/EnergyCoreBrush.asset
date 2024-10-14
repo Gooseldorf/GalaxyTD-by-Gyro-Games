@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96664d07f7461ed4fafc505d456b9229, type: 3}
+  m_Name: EnergyCoreBrush
+  m_EditorClassIdentifier: 
+  m_Cells:
+  - m_Tile: {fileID: 0}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Pivot: {x: 0, y: 0, z: 0}
+  m_CanChangeZPosition: 0
+  m_FloodFillContiguousOnly: 1
+  m_LastPickedLayout: 0
+  m_LastPickedCellSwizzle: 0
+  m_LastPickedCellSize: {x: 1, y: 1, z: 0}
+  m_LastPickedCellGap: {x: 0, y: 0, z: 0}
+  DrawTiles: 0
+  TileSet:
+  - {fileID: 11400000, guid: f7350e15c5176e443b240270cc67cba0, type: 2}
+  - {fileID: 11400000, guid: 1410c368c8ac7b54aa7bcf81ad1c0942, type: 2}
+  - {fileID: 11400000, guid: d6b7370e2e49188448bb9214c4c9f129, type: 2}
+  - {fileID: 11400000, guid: 27e9d2b6964fbc642be47d2893f8da8b, type: 2}
+  energyCoreVisualPrefab: {fileID: 4432983803944548228, guid: ff3adc255bb7f2a4d9aa303ca87824bb,
+    type: 3}

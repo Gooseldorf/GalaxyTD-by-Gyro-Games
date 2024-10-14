@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c87e11763b1f01346b081a620babfdb8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/NormalMap/NormalMap.mat
+  uploadId: 602711

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b811953a3419dd459d02bf677e7e335
+timeCreated: 1518235745
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31247
+  packageName: Animation Baking Studio (3D to 2D)
+  packageVersion: 4.0.1
+  assetPath: Assets/AnimationBakingStudio/Shadow/DynamicShadow.mat
+  uploadId: 602711
